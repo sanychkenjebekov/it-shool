@@ -1,0 +1,139 @@
+#karty{
+
+  .karty{
+    display: flex;
+
+    &--saydBar{
+      padding-top: 30px;
+      width: 350px;
+      height: 527px;
+      background: #FFFFFF;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      img{
+        width: 92px;
+        height: 92px;
+      }
+      &__btn{
+        color: #FFFFFF;
+        background: #0272CE;
+        border-radius: 10px;
+        padding: 10px 22px;
+        width: 170px;
+        margin: 25px 0;
+      }
+      &__link{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+        a{
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          border-bottom: 0.5px solid #9A9A9A ;
+          color: #000;
+        }
+
+      }
+    }
+
+    &--visul{
+      &__mouse{
+        h1{
+          font-weight: 700;
+          font-size: 36px;
+          color: #FFFFFF;
+          padding: 10px 30px;
+        }
+      }
+      &__visa{
+        display: flex;
+        align-items: flex-start;
+
+
+        &--block{
+          width: 345px;
+          height: 215px;
+          background: rgba(10, 17, 40, 0.1);
+          border: 1px solid #0272CE;
+          backdrop-filter: blur(10px);
+          border-radius: 10px;
+          margin-left: 30px;
+          padding: 15px 20px;
+          h1{
+            font-weight: 700;
+            font-size: 24px;
+            color: #FFFFFF;
+            padding: 15px 0;
+
+          }
+          &__card{
+            margin-left: 10px;
+          }
+          p{
+            font-weight: 700;
+            font-size: 24px;
+            padding: 15px 0;
+            color: #FFFFFF;
+          }
+          span{
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+          }
+          &__img{
+            margin-left: 85%;
+          }
+        }
+
+      }
+
+      &__add{
+        margin: 15% 30px;
+        width: 93%;
+        height: 350px;
+        background: rgba(10, 17, 40, 0.1);
+        border: 1px solid #0272CE;
+        backdrop-filter: blur(7px);
+        border-radius: 10px;
+
+        &--text{
+          padding: 20px 20px;
+          h1{
+            font-weight: 500;
+            font-size: 36px;
+            color: #FFFFFF;
+
+          }
+          p{
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+            padding: 10px 0;
+          }
+
+          &__for{
+            padding-top: 18%;
+            button{
+              padding: 10px 20px;
+              background: #0272CE;
+              border-radius: 8px;
+              font-size: 16px;
+              color: #FFFFFF;
+            }
+            p{
+              font-weight: 400;
+              font-size: 16px;
+              color: #FFFFFF;
+              padding: 10px 0;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
