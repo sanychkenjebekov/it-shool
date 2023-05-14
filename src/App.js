@@ -14,6 +14,7 @@ import Podpisatsa from "./pages/Podpisatsia";
 import Voity from "./components/Voity/Voity";
 import Dashboard from "./pages/person/dashboard/Dashboard";
 import OurSchool from "./components/About-School/Our-school";
+import Cards from "./pages/person/Cards/Cards";
 
 
 
@@ -37,6 +38,7 @@ function App() {
           <Route path={'/войти'} element={<Voity/>}/>
           <Route path={'/профиль'} element={<Dashboard/>}/>
           <Route path={'/оШколе'} element={<OurSchool/>}/>
+          <Route path={'/cards'} element={<Cards/>}/>
         </Routes>
         <Footer/>
       </div>

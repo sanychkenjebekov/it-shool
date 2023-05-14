@@ -8,6 +8,7 @@ import Kyz from "../../img/Kyz.svg"
 import {Pagination} from "swiper";
 
 
+
 function ReviewsSchool() {
     return (
         <div id="swiper">
