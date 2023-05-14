@@ -1,0 +1,182 @@
+#follows{
+  .follows{
+    &--text{
+      padding: 25px 0;
+      a{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #e7e4e4;
+      }
+      &__color{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #767676;
+      }
+    }
+    &--every{
+      display: flex;
+
+      //justify-content: space-between;
+      &__right{
+        padding: 0 40px;
+      }
+      &__one{
+        h1{
+          font-weight: 700;
+          font-size: 36px;
+          color: #FFFFFF;
+          padding-bottom: 30px;
+        }
+      }
+      &__status{
+        display: flex;
+        align-items: center;
+        width: 600px;
+        //justify-content: space-between;
+        &--card{
+          h2{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+            color: rgba(255, 255, 255, 0.8);
+            padding: 15px 60px;
+          }
+        }
+      }
+    }
+    &--saydBar{
+      padding-top: 30px;
+      width: 350px;
+      height: 527px;
+      background: #FFFFFF;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      img{
+        width: 92px;
+        height: 92px;
+      }
+      &__btn{
+        color: #FFFFFF;
+        background: #0272CE;
+        border-radius: 10px;
+        padding: 10px 22px;
+        width: 170px;
+        margin: 25px 0;
+      }
+      &__link{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+        a{
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          border-bottom: 0.5px solid #9A9A9A ;
+          color: #000;
+        }
+
+      }
+    }
+    &--big{
+      //display: flex;
+      //justify-content: end;
+      &__about{
+        &--plus{
+          h3{
+            text-align: center;
+            font-weight: 500;
+            font-size: 36px;
+            color: #FFFFFF;
+            padding: 20px 0;
+          }
+        }
+        display: flex;
+        justify-content: end;
+        &--cards{
+          margin: 0 20px;
+          background: #FFFFFF;
+          border-radius: 10px;
+          width: 300px;
+          height: 370px;
+          padding: 40px 0 40px 30px;
+          h6{
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+          }
+          h1{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            color: #000000;
+            text-align: start;
+            padding: 15px 0;
+          }
+          p{
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            color: #000000;
+            border: 1px solid #11416F;
+            backdrop-filter: blur(4.90909px);
+            border-radius: 3.27273px;
+            width: 100px;
+            padding: 10px 0 10px 25px;
+            margin: 0 0 10px 0;
+          }
+          h4{
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            .like{
+              margin: 0 10px 0 0;
+            }
+          }
+          .cardBtn1{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            background: linear-gradient(94.1deg, #043C6F 2.34%, #154574 99.76%);
+            backdrop-filter: blur(4.90909px);
+            border-radius: 3.27273px;
+            padding: 10px 15px;
+            transform: translate(25%, 425%);
+          }
+          .cardBtn2{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            background: linear-gradient(94.1deg, #043C6F 2.34%, #154574 99.76%);
+            backdrop-filter: blur(4.90909px);
+            border-radius: 3.27273px;
+            padding: 10px 15px;
+            transform: translate(25%, 325%);
+          }
+          .cardBtn3{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            background: linear-gradient(94.1deg, #043C6F 2.34%, #154574 99.76%);
+
+            backdrop-filter: blur(4.90909px);
+            border-radius: 3.27273px;
+            padding: 10px 15px;
+            transform: translate(25%, 55%);
+          }
+        }
+      }
+    }
+  }
+}

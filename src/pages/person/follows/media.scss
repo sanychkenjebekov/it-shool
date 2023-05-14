@@ -1,0 +1,39 @@
+@media (max-width: 1140px) {
+  .container{
+    width: 90%;
+  }
+}
+@media (max-width: 992px) {
+  #follows .follows--every{
+    flex-direction: column;
+    align-items: center;
+  }
+  #follows .follows--every__one h1{
+    text-align: center;
+    padding: 15px 0;
+  }
+}
+@media (max-width: 768px) {
+  #follows .follows--big__about--cards{
+    padding: 40px 32px 40px 30px;
+  }
+}
+@media (max-width: 644px) {
+  #follows .follows--big__about{
+    flex-direction: column;
+    align-items: center;
+  }
+  #follows .follows--big__about--cards{
+    margin: 20px 0;
+  }
+}
+@media (max-width: 540px) {
+  #follows .follows--every__status{
+    width: 465px;
+  }
+}
+@media (max-width: 480px) {
+  #follows .follows--every{
+    align-items: stretch;
+  }
+}
