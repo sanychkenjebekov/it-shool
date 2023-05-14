@@ -103,10 +103,10 @@ const FrBuy = () => {
                         <h4>Учитесь, применяйте полученные на курсе знания и будьте счастливы!</h4>
                         <div className="skils--result__btn">
                             <button className='btn1'>Купить курс</button>
-                            <button className='btn2'>Смотреть программу</button>
+                            <a href="#skils--programma"><button className='btn2'>Смотреть программу</button></a>
                         </div>
                     </div>
-                    <div className="skils--programma">
+                    <div id='skils--programma' className="skils--programma">
                         <h1>ПРОГРАММА КУРСА</h1>
                         <div className="skils--programma__modulAll">
                             <div className="skils--programma__modulAll--main">
