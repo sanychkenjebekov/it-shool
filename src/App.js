@@ -14,6 +14,7 @@ import Podpisatsa from "./pages/Podpisatsia";
 import Voity from "./components/Voity/Voity";
 import Dashboard from "./pages/person/dashboard/Dashboard";
 import OurSchool from "./components/About-School/Our-school";
+import Follows from "./pages/person/follows/Follows";
 
 
 
@@ -25,6 +26,7 @@ function App() {
   return (
       <div className="App">
         <Header/>
+          <Follows/>
         <Routes>
           <Route path={'/'} element={<Home/>}/>
           <Route path={'/подпискаГод'} element={<God/>}/>
