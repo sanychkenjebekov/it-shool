@@ -19,6 +19,7 @@ import Follows from "./pages/person/follows/Follows";
 
 
 
+
 function App() {
   const {pathname} = useLocation()
   useEffect(()=>{
