@@ -3,6 +3,13 @@
     width: 90%;
   }
 }
+
+@media (max-width: 1024px) {
+  #follows .follows--saydBar{
+    width: 350px;
+    height: 480px;
+  }
+}
 @media (max-width: 992px) {
   #follows .follows--every{
     flex-direction: column;
@@ -31,9 +38,24 @@
   #follows .follows--every__status{
     width: 465px;
   }
+  #follows .follows--every__status--card h2{
+    padding: 15px 20px;
+  }
+  #follows .follows--every{
+    align-items: center;
+  }
 }
 @media (max-width: 480px) {
   #follows .follows--every{
-    align-items: stretch;
+    align-items: center;
+  }
+  #follows .follows--saydBar{
+    width: 264px;
+  }
+  #follows .follows--every__status{
+    width: 240px;
+  }
+  #follows .follows--big__about--cards{
+    width: 190px;
   }
 }
