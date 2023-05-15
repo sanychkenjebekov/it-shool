@@ -39,11 +39,12 @@ const Dashboard = () => {
             <div className="dashboard--saydBar">
                 <img className='users' src={user} alt=""/>
                 <button className='dashboard--saydBar__btn'>Добавить фото</button>
-                <div className="dashboard--saydBar__link"><Link to={'/личныеДанные'}><AiOutlineUser/>Личные
-                    данные</Link>
-                    <Link to={'/'}><BsWallet2/>Платежные карты</Link> <Link to={'/'}><BsCreditCard2Back/>Подписки</Link>
-                    <Link to={'/'}><FaRegComment/>Комментарии</Link> <Link to={'/'}><BsBasket2/>Мои
-                        покупки</Link>
+                <div className="dashboard--saydBar__link">
+                    <Link style={{color:'rgb(0 58 250)'}} to={'/личныеДанные'}><AiOutlineUser/>Личные данные</Link>
+                    <Link to={'/cards'}><BsWallet2/>Платежные карты</Link>
+                    <Link to={'/follows'}><BsCreditCard2Back/>Подписки</Link>
+                    <Link to={'#'}><FaRegComment/>Комментарии</Link>
+                    <Link to={'#'}><BsBasket2/>Мои покупки</Link>
                     <Link to={'#'} onClick={vyhod}><AiOutlineExport/>Выйти</Link></div>
             </div>
 

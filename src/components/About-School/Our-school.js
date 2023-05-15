@@ -14,7 +14,7 @@ function OurSchool() {
                 <div className="container">
                     <div className="ourSchool">
                         <div className="school1">
-                            <rem>Главная / О школе</rem>
+                            <rem>Главная / <span style={{color:'white'}}>О школе</span></rem>
                             <h1>О нашей школе:</h1>
                             <p>Наша платформа — это интенсивная программа <br/>
                                 обучения для тех, кто хочет освоить востребованную <br/>
