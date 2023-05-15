@@ -1,6 +1,9 @@
 #swiper{
   background: rgb(10, 17, 40);
   .container{
+    .nySwiper{
+      width: 100%;
+    }
     .swiper{
 
       .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
@@ -8,6 +11,7 @@
       }
 
       padding-top: 50px;
+      width: 100%;
       img{
         margin-left: 42%;
         padding-top: 30px;

@@ -49,6 +49,12 @@
   #podpisatsa .podpisatsa--about__cards--card .cardBtn3 {
     transform: translate(18%, 15%)!important;
   }
+  #courses .container .courses {
+    flex-wrap: wrap;
+  }
+  #courses .container .courses .courses3 {
+    margin: 20px 0;
+  }
 }
 @media (max-width: 1024px) {
   #podpisatsa .podpisatsa--zayavka__input input {
@@ -512,6 +518,23 @@ text-align: center !important;
   #footer .footer--menu__seti .icons {
     font-size: 23px;
   }
+  #ourSchool .container .ourSchool {
+    flex-wrap: wrap;
+    margin-left: 91px;
+  }
+  #courses .container .courses {
+    flex-wrap: wrap;
+    margin-left: 163px;
+  }
+  #courses .container .courses .courses2 {
+    margin: 20px 0 0 0;
+  }
+  #submitSchool .container .submit2 input {
+    padding: 20px 350px 20px 20px;
+  }
+  #allMaps .container .allMaps {
+    margin-left: 164px;
+  }
 }
 @media (max-width: 640px) {
   #god .oplata {
@@ -537,6 +560,21 @@ text-align: center !important;
   }
   #uvedomlenie .uvedomlenie--card h4 {
     font-size: 15px;
+  }
+  #ourSchool .container .ourSchool {
+    margin-left: 42px;
+  }
+  #courses .container .courses {
+    margin-left: 102px;
+  }
+  #submitSchool .container .submit2 input {
+    padding: 19px 170px 20px 20px;
+  }
+  #allMaps .container .allMaps {
+    margin-left: 119px;
+  }
+  #allMaps .container .allMaps {
+    margin-left: 72px;
   }
 }
 @media (max-width: 540px) {
@@ -607,6 +645,18 @@ text-align: center !important;
   #god .god--about__input--chekbox h5{
     font-size: 16px;
     width: 366px;
+  }
+  #submitSchool .container .submitSchool {
+    flex-wrap: wrap;
+  }
+  #ourSchool .container .ourSchool {
+    margin-left: -10px;
+  }
+  #courses .container .courses {
+    margin-left: 57px;
+  }
+  #masterclasses .container .masterclasses--bloc {
+    margin-left: 10%;
   }
 }
 @media (max-width: 480px) {
@@ -837,5 +887,14 @@ text-align: center !important;
     width: 33px;}
   #header .spans .p3 {
     width: 33px;}
+  #ourSchool .container .school2 img {
+    width: 448px;
+  }
+  #courses .container .courses {
+    margin-left: 44px;
+  }
+  #allMaps .container .allMaps {
+    margin-left: 39px;
+  }
 }
 @media (max-width: 320px) {}
