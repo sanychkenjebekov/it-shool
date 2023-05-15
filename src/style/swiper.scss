@@ -1,0 +1,53 @@
+#submitSchool {
+  background: rgb(10, 17, 40);
+  .container {
+    .submitSchool {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 100px;
+      .submit1{
+        h1{
+          font-size: 36px;
+          line-height: 44px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          margin: 29px 0;
+        }
+        p{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #FFFFFF;
+        }
+      }
+    }
+    .submit2{
+      input{
+        padding: 20px 380px 20px 20px;
+        background: rgba(27, 41, 89, 0.4);
+        border-radius: 10px;
+        border: none;
+        color: white;
+      }
+      p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #B5B5B5;
+        margin: 10px 0;
+      }
+      button{
+        padding: 20px 70px;
+        background: #043C71;
+        border-radius: 15px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: white;
+        margin: 20px 0;
+        cursor: pointer;
+      }
+    }
+  }
+}

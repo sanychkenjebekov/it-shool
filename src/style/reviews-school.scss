@@ -1,0 +1,44 @@
+#swiper{
+  background: rgb(10, 17, 40);
+  .container{
+    .swiper{
+      padding-top: 50px;
+      img{
+        margin-left: 42%;
+        padding-top: 30px;
+        position: absolute;
+      }
+      &--swiper1{
+        margin-top: 70px;
+        background: #102146;
+        border-radius: 10px;
+        width: 100%;
+        padding: 40px 0;
+      }
+      h1{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        text-align: center;
+        margin: 20px 0;
+      }
+      p{
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 10px 0;
+      }
+      h5{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-left: 50%;
+      }
+    }
+  }
+}

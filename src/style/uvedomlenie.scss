@@ -1,0 +1,43 @@
+#uvedomlenie{
+  font-family: 'Montserrat',sans-serif;
+  padding: 80px 0;
+  .uvedomlenie{
+    p{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #A5A5A5;
+      span{
+        color: #FFFFFF;
+      }
+    }
+    h1{
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      color: #FFFFFF;
+      padding: 50px 0 30px 0;
+    }
+    &--card{
+      margin: 60px 0 80px 0;
+      color: #FFFFFF;
+      background: rgba(27, 41, 89, 0.4);
+      border-radius: 10px;
+      padding: 30px 0;
+
+      .cart{
+        margin: 0 20px 0 0;
+        font-size: 20px;
+      }
+      h4{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      }
+    }
+  }
+}

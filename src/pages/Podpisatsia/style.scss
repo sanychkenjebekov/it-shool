@@ -1,0 +1,163 @@
+#podpisatsa{
+  font-family: 'Montserrat',sans-serif;
+  padding: 80px 0;
+  .podpisatsa{
+    p{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #A5A5A5;
+      span{
+        color: #FFFFFF;
+      }
+    }
+    &--about{
+      .h1{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 70px 0;
+      }
+      &__cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0 60px 0;
+        gap: 50px;
+        &--card{
+          background: #FFFFFF;
+          border-radius: 10px;
+          width: 300px;
+          height: 370px;
+          padding: 40px 0 40px 30px;
+          h6{
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+          }
+          h1{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            color: #000000;
+            text-align: start;
+            padding: 15px 0;
+          }
+          p{
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            color: #000000;
+            border: 1px solid #11416F;
+            backdrop-filter: blur(4.90909px);
+            border-radius: 3.27273px;
+            width: 100px;
+            padding: 10px 0 10px 25px;
+            margin: 0 0 10px 0;
+          }
+          h4{
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            .like{
+              margin: 0 10px 0 0;
+            }
+          }
+          .cardBtn1{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            background: linear-gradient(94.1deg, #043C6F 2.34%, #154574 99.76%);
+            backdrop-filter: blur(4.90909px);
+            border-radius: 3.27273px;
+            padding: 10px 15px;
+            transform: translate(25%, 425%);
+          }
+          .cardBtn2{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            background: linear-gradient(94.1deg, #043C6F 2.34%, #154574 99.76%);
+            backdrop-filter: blur(4.90909px);
+            border-radius: 3.27273px;
+            padding: 10px 15px;
+            transform: translate(25%, 325%);
+          }
+          .cardBtn3{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            background: linear-gradient(94.1deg, #043C6F 2.34%, #154574 99.76%);
+            backdrop-filter: blur(4.90909px);
+            border-radius: 3.27273px;
+            padding: 10px 15px;
+            transform: translate(25%, 55%);
+          }
+        }
+      }
+    }
+    .p{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    &--zayavka{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin: 180px 0 80px 0;
+      &__title{
+        h1{
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 44px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          margin: 0 0 15px 0;
+        }
+        p{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #FFFFFF;
+          width: 380px;
+        }
+      }
+      &__input{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        input{
+          background: rgba(27, 41, 89, 0.4);
+          border-radius: 10px;
+          outline: none;
+          border: none;
+          padding: 15px 450px 15px 30px;
+          color: #FFFFFF;
+        }
+        button{
+          background: #044076;
+          border-radius: 10px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          color: #FFFFFF;
+          width: 270px;
+          padding: 15px 0;
+        }
+      }
+    }
+  }
+}
+

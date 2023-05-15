@@ -1,0 +1,65 @@
+#Home{
+  //background: url("../img/boy.png") no-repeat center/cover;
+  //min-height: 235vh;
+  //color: rgb(10, 17, 40);
+  background: rgb(10, 17, 40);
+  padding: 80px 0;
+  .home{
+    display: flex;
+    &--text{
+      h1{
+        padding: 90px 0 0 0;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 55px;
+        color: #FFFFFF;
+        width: 600px;
+      }
+      p{
+        padding: 8px 0;
+        width: 400px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+      }
+    }
+    &--image{
+      position: relative;
+      //margin-left: -85px;
+      &__men{
+        //position: absolute;
+        //top: 23%;
+        //right: 12%;
+        //left: 20px;
+      }
+      &__tool{
+        position: absolute;
+        top: 68%;
+        //right: 20%;
+        left: 254px;
+      }
+      &__tool2{
+        position: absolute;
+        //top: 36%;
+        //right: 52%;
+        top: 127px;
+        left: 38px;
+      }
+      &__tool3{
+        position: absolute;
+        //top: 20%;
+        //right: 35%;
+        top: -7px;
+        left: 203px;
+      }
+      &__tool4{
+        position: absolute;
+        //top: 45%;
+        //right: 0;
+        top: 156px;
+        left: 466px;
+      }
+    }
+  }
+}

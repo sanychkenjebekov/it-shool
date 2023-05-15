@@ -1,0 +1,37 @@
+#ourSchool{
+  background: rgb(10, 17, 40);
+  padding-top: 50px;
+  .container{
+    .ourSchool{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .school1{
+        rem{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #A5A5A5;
+        }
+        h1{
+          padding: 20px 0;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 44px;
+          color: #FFFFFF;
+        }
+        p{
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          color: #FFFFFF;
+        }
+      }
+    }
+    .school2{
+      img{
+        width: 500px;
+      }
+    }
+  }
+}

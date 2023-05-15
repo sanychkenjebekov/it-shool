@@ -1,0 +1,837 @@
+@media (max-width: 1140px) {
+  .container{
+    width: 90%;
+  }
+  #dashboard{
+    .vyhod{
+      left: 5% !important;
+      top: 86% !important;
+      padding: 30px 52px !important;
+    }
+  }
+  #dashboard .dashboard--saydBar {
+    width: 300px !important;
+  }
+  #dashboard .personaldata h1 {
+    font-size: 34px !important;
+  }
+  #dashboard .personaldata--form {
+    width: 270px !important;
+  }
+  #podpisatsa .podpisatsa--zayavka__input input {
+    padding: 15px 320px 15px 30px !important;
+  }
+  #dashboard .personaldata--data {
+    width: 270px !important;
+  }
+  #dashboard .personaldata--data select {
+    width: 270px !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn1 {
+    transform: translate(18%, 425%)!important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn2 {
+    transform: translate(18%, 325%)!important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn3 {
+    transform: translate(18%, 5%)!important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn1 {
+    transform: translate(17%, 425%)!important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn2 {
+    transform: translate(18%, 325%) !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn3 {
+    transform: translate(18%, 15%)!important;
+  }
+}
+@media (max-width: 1024px) {
+  #podpisatsa .podpisatsa--zayavka__input input {
+    padding: 15px 290px 15px 30px !important;
+  }
+  #dashboard .personaldata .wrapper {
+    gap: 23px !important;
+  }
+  #Home {
+    padding: 30px 0 !important;
+  }
+  #Article .article--btn button {
+    margin-top: 50px;
+  }
+  #god .god--about h1 {
+    transform: translateX(-28%);
+  }
+  #frBuy .skils--obuchenie__all {
+    flex-wrap: wrap;
+    gap: 70px;
+  }
+}
+@media (max-width: 1024px) {
+  #god .oplata{
+    left: 35% !important;
+  }
+  #podpisatsa .podpisatsa--about .h1 {
+    font-size: 34px;
+  }
+  #podpisatsa .podpisatsa--about__cards {
+    gap: 25px;
+  }
+  #podpisatsa .podpisatsa--zayavka__title h1 {
+    font-size: 34px;
+  }
+  #podpisatsa .podpisatsa--zayavka__input button {
+    width: 260px;
+    font-size: 15px;
+  }
+  #god .god--about h1 {
+    transform: translateX(-29%);
+  }
+  #god .god--about__input--radio__one h2 {
+    font-size: 15px;
+  }
+  #header .header--logo__menu a {
+    font-size: 16px;}
+  #header .header--podpis a {
+    font-size: 16px;}
+  #header .header--podpis button {
+    font-size: 14px;}
+  #footer .footer--menu h3 {
+    font-size: 17px;}
+  #footer .footer--menu a {
+    font-size: 15px;}
+  #footer .footer--menu__ru p {
+    font-size: 11px;}
+}
+@media (max-width: 992px) {
+  #podpisatsa .podpisatsa p {
+    font-size: 15px !important;
+  }
+  #dashboard{
+    .file{
+      margin: 154px 0 0 238px !important;
+    }
+  }
+  #dashboard .vyhod {
+    left: 30% !important;}
+  #dashboard .dashboard {
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+  #dashboard .personaldata .wrapper {
+    gap: 40px !important;
+  }
+  #dashboard .personaldata h1 {
+    font-size: 28px !important;
+    padding: 0 0 20px 0 !important;
+  }
+  #uvedomlenie .uvedomlenie h1 {
+    font-size: 32px !important;
+  }
+  #uvedomlenie .uvedomlenie p {
+    font-size: 15px !important;
+  }
+  #god .oplata {
+    left: 31% !important;
+  }
+  #podpisatsa .podpisatsa--about .h1 {
+    font-size: 30px !important;
+  }
+  #podpisatsa .podpisatsa--about__cards {
+    gap: 50px !important;
+    flex-direction: column !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn1 {
+    transform: translate(33%, 400%) !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn2 {
+    transform: translate(33%, 300%) !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn3 {
+    transform: translate(33%, 10%) !important;
+  }
+  #podpisatsa .podpisatsa--zayavka__title h1 {
+    font-size: 30px !important;
+  }
+  #podpisatsa .podpisatsa--zayavka__input input {
+    padding: 13px 105px 13px 20px !important;
+  }
+  #podpisatsa .podpisatsa--zayavka__input button {
+    font-size: 14px !important;
+    padding: 11px 0 !important;
+    width: 160px !important;
+  }
+  #frBuy .frBuy h4 {
+    font-size: 14px ;
+  }
+  #frBuy .frBuy--about h1 {
+    font-size: 30px;
+  }
+  #frBuy .frBuy--about__title .titleP {
+    font-size: 17px;
+    width: 400px;
+  }
+  #frBuy .frBuy--about__title--dostup p {
+    font-size: 16px;
+  }
+  #frBuy .frBuy--about__title--dostup h3 {
+    font-size: 16px;
+    width: 112px;
+  }
+  #frBuy .frBuy--about button {
+    font-size: 14px;
+    padding: 13px 20px;
+  }
+  #frBuy .oKurse h4 {
+    font-size: 14px;
+  }
+  #frBuy .oKurse--about h1 {
+    font-size: 30px;
+  }
+  #frBuy .oKurse--about__title--p p {
+    font-size: 17px;
+    width: 500px;
+  }
+  #frBuy .oKurse--about__title--dostup p {
+    font-size: 16px;
+  }
+  #frBuy .oKurse--about__title--dostup h3 {
+    font-size: 16px;
+    width: 112px;
+  }
+  #frBuy .skils h2 {
+    font-size: 17px;
+  }
+  #frBuy .skils ul li {
+    font-size: 16px;
+  }
+  #frBuy .skils--result h3 {
+    font-size: 18px;
+  }
+  #frBuy .skils--result__about p {
+    font-size: 15px;
+  }
+  #frBuy .skils--result h4 {
+    font-size: 16px;
+    margin: 35px 0 70px 0;
+  }
+  #frBuy .skils--result__btn .btn1 {
+    font-size: 13px;
+  }
+  #frBuy .skils--result__btn .btn2 {
+    font-size: 13px;
+  }
+  #frBuy .skils--programma h1 {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+  }
+  #frBuy .skils--programma {
+    text-align: center;
+  }
+  #frBuy .skils--programma__modulAll img {
+   margin: 30px 0;
+  }
+  #frBuy .skils--programma button {
+    font-size: 14px;
+  }
+  #frBuy .skils--ekskluziv__about {
+    flex-direction: column;
+    gap: 50px;
+  }
+  #frBuy .skils--programma__modulAll--main__modal h4 {
+    font-size: 16px;
+  }
+  #frBuy .skils--programma__modulAll--main__modal p {
+    font-size: 14px;
+  }
+  #frBuy .skils--programma__modulAll {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #frBuy .skils--ekskluziv__about--card h3 {
+    font-size: 17px;
+    padding: 15px 0;
+  }
+  #frBuy .skils--ekskluziv__about--card p {
+    font-size: 16px;
+    width: 230px;
+  }
+  #frBuy .skils--ekskluziv__img p {
+    font-size: 16px;
+  }
+  #frBuy .skils--ekskluziv__img h1 {
+    font-size: 24px;
+  }
+  #frBuy .skils--ekskluziv__img h4 {
+    font-size: 18px;
+  }
+  #frBuy .skils--obuchenie h1 {
+    font-size: 26px;
+  }
+  #frBuy .skils--obuchenie__all {
+    gap: 72px;
+    justify-content: center;
+  }
+  #frBuy .skils--otzyv h1 {
+    font-size: 26px;
+  }
+#header .header--logo img{
+  width: 60px;
+  height: 43px;
+}
+  #god .god--about h1 {
+    transform: translateX(-39%);
+    font-size: 30px;
+  }
+  #header .header--logo__menu a {
+    font-size: 14px;
+  }
+  #header .header--logo__menu {
+    margin-left: 50px;
+  }
+  #header .header--podpis a {
+    font-size: 14px;
+  }
+  #header .header--podpis button {
+    font-size: 13px;
+    padding:8px;
+  }
+  #footer .footer--menu img{
+    width: 60px;
+  }
+  #footer .footer--menu h3 {
+    font-size: 15px;
+  }
+  #footer .footer--menu a {
+    font-size: 13px;
+  }
+  #footer .footer--menu__seti {
+    width: 129px;
+  }
+  #footer .footer--menu .id {
+    width: 0;
+  }
+  #footer .footer--menu__seti .icons {
+    font-size: 21px;
+    padding: 10px 10px;
+  }
+
+}
+@media (max-width: 768px) {
+  #header .header--voitiAll{
+    display: none !important;
+  }
+  #dashboard .file {
+    margin: 154px 0 0 181px !important;
+  }
+  #dashboard .vyhod {
+    left: 26% !important;
+    padding: 30px 53px !important;
+  }
+  #Home {
+    padding: 10px 0 !important;
+  }
+  #god .oplata {
+    left: 28% !important;
+  }
+  #podpisatsa .podpisatsa--about .h1 {
+    font-size: 27px !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn3 {
+    transform: translate(33%, 40%) !important;
+  }
+  #podpisatsa .podpisatsa--zayavka__title h1 {
+    font-size: 27px !important;
+  }
+  #podpisatsa .podpisatsa--zayavka {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin: 160px 0 50px 0 !important;
+  }
+  #podpisatsa .podpisatsa p {
+    margin: 0 0 30px 0 !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card {
+    width: 280px !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn1 {
+    transform: translate(25%, 360%) !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn2 {
+    transform: translate(25%, 280%) !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn3 {
+    transform: translate(25%, 40%) !important;
+  }
+  #podpisatsa .podpisatsa--about .h1 {
+    font-size: 25px !important;
+    padding: 60px 0 !important;
+  }
+  #frBuy .frBuy--about h1 {
+    font-size: 26px;
+  }
+  #frBuy .frBuy--about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+text-align: center;
+  }
+
+  #frBuy .frBuy--about__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  #frBuy .frBuy--about__title--dostup{
+    margin-top: 50px;
+  }
+  #frBuy .frBuy--about__title--dostup h3{
+    width: 100%;
+  }
+  #frBuy .skils--about {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  #frBuy .skils--about__title h3 {
+    font-size: 18px;
+  }
+  #frBuy .skils--programma h1 {
+    font-size: 20px;
+  }
+  #frBuy .skils--programma__modulAll--main__modal h4 {
+    font-size: 14px;
+  }
+  #frBuy .skils--programma__modulAll--main__modal p {
+    font-size: 13px;
+  }
+  #frBuy .skils--ekskluziv__about {
+    align-items: flex-start;
+  }
+  #frBuy .skils--ekskluziv__img img{
+    width: 266px;
+    height: 326px;
+  }
+  #frBuy .skils--ekskluziv__img p {
+    font-size: 15px;
+  }
+  #frBuy .skils--ekskluziv__img h1 {
+    font-size: 22px;
+  }
+  #frBuy .skils--ekskluziv__img h4 {
+    font-size: 17px;
+  }
+  #frBuy .skils--obuchenie h1 {
+    font-size: 24px;
+  }
+  #frBuy .skils--obuchenie__all {
+    justify-content: flex-start;
+    gap: 65px;
+  }
+  #frBuy .skils--obuchenie__all--card:nth-child(2n+2){
+    transform: translateX(93%);
+  }
+  #frBuy .skils--ekskluziv__about--card:nth-child(2){
+    transform: translateX(120%);
+  }
+  #frBuy .skils--ekskluziv__about--card p {
+    font-size: 15px;
+    width: 230px;
+  }
+  #frBuy .oKurse--about h1 {
+    font-size: 26px;
+  }
+  #frBuy .oKurse--about__title {
+    flex-direction: column;
+  }
+  #frBuy .oKurse--about{
+    text-align: center;
+  }
+  #frBuy .oKurse--about__title--dostup{
+    margin-top: 50px;
+  }
+  #frBuy .oKurse--about__title--dostup h3 {
+    width: 100%;
+  }
+  #god .god--about__input--chekbox input {
+    width: 21px;
+    height: 21px;
+  }
+  #god .god--about h1 {
+    transform: translateX(-44%);
+    font-size: 28px;
+  }
+  #god .god--about__input button {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  #god .god--about__input--radio input {
+    width: 17px;
+    height: 17px;
+  }
+  #god .god--about__input {
+    width: 480px;
+  }
+  #god .god--title p {
+    width: 512px;
+  }
+  #footer .footer{
+    flex-direction: column;
+    align-items: center;
+  }
+  #footer .footer--menu{
+    align-items: center;
+    margin: 15px 0;
+  }
+  #footer .footer--menu .id {
+    width: 286px;
+  }
+  #header .header--logo__menu {
+   display: none;
+  }
+  #header .header--podpis{
+    display: none;
+  }
+  #header .spans{
+    display: block;
+  }
+  #footer .footer--menu h3 {
+    font-size: 17px;
+  }
+  #footer .footer--menu a {
+    font-size: 16px;
+      margin: 0 0 10px 0;
+  }
+  #footer .footer--menu__seti .icons {
+    font-size: 23px;
+  }
+}
+@media (max-width: 640px) {
+  #god .oplata {
+    left: 23% !important;
+  }
+  #dashboard .file {
+    margin: 154px 0 0 135px !important;
+  }
+  #dashboard .vyhod {
+    left: 22% !important;
+  }
+  #dashboard .personaldata .wrapper {
+    flex-direction: column !important;
+  }
+  #uvedomlenie .uvedomlenie h1 {
+    font-size: 24px;
+  }
+  #uvedomlenie .uvedomlenie p {
+    font-size: 14px;
+  }
+  #uvedomlenie {
+    padding: 60px 0;
+  }
+  #uvedomlenie .uvedomlenie--card h4 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 540px) {
+  #podpisatsa .podpisatsa--about .h1 {
+    font-size: 25px !important;
+    padding: 40px 0 30px 0 !important;
+  }
+  #dashboard .file {
+    margin: 154px 0 0 109px !important;
+  }
+  #dashboard .vyhod {
+    left: 18% !important;
+  }
+  #god .oplata {
+    left: 20% !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card h6 {
+    font-size: 15px !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card h1 {
+    font-size: 33px !important;
+  }
+  #podpisatsa .podpisatsa p {
+    font-size: 14px !important;
+    margin: 0 0 20px 0 !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card {
+    width: 275px !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn1 {
+    transform: translate(24%, 360%) !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn2 {
+    transform: translate(24%, 280%) !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn3 {
+    transform: translate(24%, 40%) !important;
+  }
+  #podpisatsa .podpisatsa--zayavka__title h1 {
+    font-size: 25px !important;
+  }
+  #frBuy .oKurse--about__title--p p {
+    width: 438px;
+    font-size: 16px;
+  }
+  #frBuy .skils--ekskluziv__about--card:nth-child(2) {
+    transform: translateX(97%);
+  }
+  #frBuy .skils--obuchenie__all--card:nth-child(2n+2) {
+    transform: translateX(73%);
+  }
+  #god .god--about__input {
+    width: 433px;
+  }
+  #god .god--about__input--chekbox h5 {
+    width: 389px;
+  }
+  #god .god--title p {
+    width: 475px;
+  }
+  #god .god--about__input input {
+    padding: 15px 15px 15px 20px;
+  }
+  #god .god--about__input--chekbox input {
+    width: 19px;
+    height: 19px;
+  }
+  #god .god--about__input--chekbox h5{
+    font-size: 16px;
+    width: 366px;
+  }
+}
+@media (max-width: 480px) {
+  #podpisatsa .podpisatsa p {
+    font-size: 13px !important;
+  }
+  #dashboard .file {
+    margin: 154px 0 0 37px !important;
+  }
+  #dashboard .vyhod {
+    left: 3% !important;
+    padding: 30px 51px !important;
+  }
+  #uvedomlenie .uvedomlenie p {
+    font-size: 13px !important;
+  }
+  #god .oplata {
+    left: 4% !important;
+    font-size: 14px !important;
+    width: 290px !important;
+    padding: 20px 0 !important;
+  }
+  #uvedomlenie .uvedomlenie--card h4 {
+    font-size: 14px;
+  }
+  #uvedomlenie .uvedomlenie--card {
+    margin: 40px 0 30px 0;
+    color: #FFFFFF;
+    background: rgba(27, 41, 89, 0.4);
+    border-radius: 10px;
+    padding: 30px 0;
+  }
+
+  #podpisatsa {
+    padding: 30px 0 !important;
+  }
+  #podpisatsa .podpisatsa--about .h1 {
+    font-size: 18px !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card h6 {
+    font-size: 14px !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card h1 {
+    font-size: 28px !important;
+  }
+  #podpisatsa .podpisatsa p {
+    font-size: 12px !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card h4 {
+    font-size: 14px !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card {
+    width: 255px !important;
+    height: 340px !important;
+    padding: 35px 0 65px 25px !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn2 {
+    transform: translate(21%, 280%) !important;
+  }
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn1 {
+    transform: translate(21%, 360%) !important;
+  }
+  #podpisatsa .podpisatsa .p {
+    font-size: 14px !important;
+  }
+  #podpisatsa .podpisatsa--zayavka__title h1 {
+    font-size: 20px !important;
+  }
+  #podpisatsa .podpisatsa--zayavka__title p {
+    width: 290px !important;
+    font-size: 14px !important;
+  }
+
+  #podpisatsa .podpisatsa--about__cards--card .cardBtn3 {
+    transform: translate(21%, 30%) !important;
+  }
+  #frBuy .frBuy h4 {
+    font-size: 13px;
+  }
+  #frBuy .frBuy--about h1 {
+    font-size: 22px;
+  }
+  #frBuy .frBuy--about__title .titleP {
+    font-size: 16px;
+    width: 300px;
+  }
+  #frBuy .frBuy--about__title--dostup h3 {
+    font-size: 15px;
+  }
+  #frBuy .oKurse--about h1 {
+    font-size: 22px;
+  }
+  #frBuy .oKurse--about__title--p p {
+    width: 300px;
+    font-size: 15px;
+  }
+  #frBuy .oKurse--about__title--dostup h3 {
+    font-size: 15px;
+  }
+  #frBuy .skils--about__title h3 {
+    font-size: 16px;
+  }
+  #frBuy .skils--result h3 {
+    font-size: 16px;
+  }
+  #frBuy .skils--result h4 {
+    font-size: 15px;
+  }
+  #frBuy .skils--programma h1 {
+    font-size: 18px;
+  }
+  #frBuy .skils--programma__modulAll img {
+    width: 300px;
+  }
+  #frBuy .skils--ekskluziv__about {
+    align-items: center;
+  }
+  #frBuy .skils--ekskluziv__about--card:nth-child(2) {
+    transform: translateX(0);
+  }
+  #frBuy .skils--ekskluziv__about--card h3 {
+    font-size: 16px;
+  }
+  #frBuy .skils--ekskluziv__about {
+    gap: 55px;
+  }
+  #frBuy .skils--ekskluziv__img p {
+    font-size: 14px;
+  }
+  #frBuy .skils--ekskluziv__img h1 {
+    font-size: 18px;
+  }
+  #frBuy .skils--ekskluziv__img h4 {
+    font-size: 16px;
+  }
+  #frBuy .skils--obuchenie h1 {
+    font-size: 20px;
+  }
+  #frBuy .skils--obuchenie__all--card:nth-child(2n+2) {
+    transform: translateX(0);
+  }
+  #frBuy .skils--obuchenie__all {
+    justify-content: center;
+    gap: 60px;
+  }
+  #frBuy .skils--otzyv h1 {
+    font-size: 20px;
+  }
+  #frBuy .skils--obuchenie {
+    text-align: center;
+  }
+  #frBuy .skils--otzyv__all--card h3 {
+    font-size: 16px;
+  }
+  #frBuy .skils--otzyv__all--card {
+    width: 100%;
+    height: 368px;
+  }
+  #frBuy .skils--otzyv__all {
+    height: 395px;
+  }
+  #frBuy .skils--otzyv__all--card p {
+    padding: 15px;
+  }
+  #frBuy .skils--otzyv__all--card h4 {
+    font-size: 14px;
+    margin-left: 150px;
+  }
+  #frBuy .skils--otzyv__all--card p {
+    font-size: 13px;
+    width: 245px;
+  }
+  #header .spans {
+    left: 86%;
+  }
+  #god {
+    padding: 50px 0;
+  }
+  #god .god h4 {;
+    font-size: 14px;
+    padding: 0 0 45px 0;
+  }
+  #god .god--about h1 {
+    transform: translateX(-43%);
+    font-size: 24px;
+  }
+  #god .god--about__input {
+    width: 287px;
+  }
+  #god .god--about__input input {
+    padding: 10px 15px 12px 20px;
+  }
+  #god .god--about__input p {
+    font-size: 15px;
+  }
+  #god .god--about__input--radio input {
+    width: 15px;
+    height: 15px;
+  }
+  #god .god--about__input--radio__one h2 {
+    font-size: 14px;
+  }
+  #god .god--about__input--radio__one {
+    padding: 15px 20px;
+  }
+  #god .god--about__input--cvc {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  #god .god--about__input--chekbox h5 {
+    font-size: 15px;
+    width: 230px;
+  }
+  #god .god--about__input button {
+    font-size: 15px;
+  }
+  #god .god--title p {
+    width: 300px;
+    font-size: 15px;
+  }
+  #god .god--title h3 {
+    font-size: 16px;
+  }
+  #header .spans .p1 {
+    width: 33px;}
+  #header .spans .p2 {
+    width: 33px;}
+  #header .spans .p3 {
+    width: 33px;}
+}
+@media (max-width: 320px) {}

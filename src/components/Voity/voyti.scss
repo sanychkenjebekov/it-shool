@@ -1,0 +1,195 @@
+#voyti {
+  background: rgb(10, 17, 40);
+  height: 100vh;
+
+  .voyti {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 169px;
+      height: 106px;
+      padding: 90px 0;
+    }
+    .icon {
+      position: absolute;
+      //transform: translateY(-50%);
+      left: 475px;
+      bottom: 125px;
+      color: #FFFFFF;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .spanicon {
+      font-size: 20px;
+      position: relative;
+    }
+
+    &--form {
+      display: flex;
+      background: rgb(10, 17, 40);
+      flex-direction: column;
+      gap: 48px;
+      position: relative;
+
+      &__input {
+        input {
+          max-width: 500px;
+          //width: 100%;
+          position: relative;
+          padding: 0 300px 0 10px;
+          height: 55px;
+          border: 1px solid #FFFFFF;
+          background: rgb(10, 17, 40);
+          outline: none;
+          color: #FFFFFF;
+          font-weight: 500;
+          font-size: 16px;
+          padding-left: 20px;
+          border-radius: 8px;
+
+          &:-webkit-autofill,
+          &:-webkit-autofill:hover,
+          &:-webkit-autofill:focus,
+          &:-webkit-autofill:active {
+            -webkit-box-shadow: inset 0 0 0 50px rgb(10, 17, 40) !important;
+            -webkit-text-fill-color: #FFFFFF !important;
+          }
+          &:focus {
+            outline: none;
+            border-color: #47a5f4;
+            box-shadow: 0px 0px 3px 0px #47a5f4;
+          }
+        }
+
+        input:valid ~ span,
+        input:focus ~ span {
+          color: #FFFFFF;
+          transform: translate(15px) translateY(-13px);
+          font-size: 14px;
+          padding: 0 3px;
+          background: rgb(10, 17, 40);
+        }
+
+        span {
+          position: absolute;
+          left: 0;
+          padding: 15px;
+          pointer-events: none;
+          color: #FFFFFF;
+          font-size: 18px;
+          transition: 0.5s;
+        }
+      }
+
+      &__btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        button {
+          width: 273px;
+          height: 54px;
+          background: #034078;
+          border-radius: 10px;
+          outline: none;
+          color: #FFFFFF;
+          font-weight: 500;
+          font-size: 16px;
+          cursor: pointer;
+          &:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+          }
+        }
+
+        span {
+          font-weight: 500;
+          font-size: 16px;
+          text-decoration-line: underline;
+          color: #FFFFFF;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 657px) {
+  #voyti .voyti {
+    img {
+      width: 128px;
+      height: 75px;
+      padding: 60px 0;
+    }
+    .icon {
+      position: absolute;
+      left: 340px;
+      bottom: 185px;
+      font-size: 20px;
+    }
+    &--form {
+      &__input {
+        input {
+          max-width: none;
+          padding: 0 200px 0 10px;
+          font-size: 14px;
+        }
+        span {
+          padding: 10px;
+          font-size: 14px;
+        }
+      }
+      &__btn {
+        flex-direction: column;
+        align-items: center;
+        button {
+          margin-bottom: 20px;
+        }
+        span {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 427px) {
+  #voyti .voyti {
+    img {
+      width: 128px;
+      height: 75px;
+      padding: 60px 0;
+    }
+    .icon {
+      position: absolute;
+      left: 240px;
+      bottom: 185px;
+      font-size: 20px;
+    }
+    &--form {
+      &__input {
+        input {
+          max-width: none;
+          padding: 0 100px 0 10px;
+          font-size: 14px;
+        }
+        span {
+          padding: 10px;
+          font-size: 14px;
+        }
+      }
+      &__btn {
+        flex-direction: column;
+        align-items: center;
+        button {
+          margin-bottom: 20px;
+        }
+        span {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

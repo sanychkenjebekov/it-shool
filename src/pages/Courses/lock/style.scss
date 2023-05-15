@@ -1,0 +1,132 @@
+#lock {
+  .lock {
+    padding-top: 90px;
+
+    &--comments {
+      h1 {
+        font-weight: 700;
+        font-size: 36px;
+        color: #FFFFFF;
+        padding: 5% 0;
+      }
+    }
+
+    &--block {
+      background: #FFFFFF;
+      border-radius: 8px;
+      display: flex;
+      padding: 20px 0;
+      justify-content: space-around;
+      align-items: flex-start;
+
+      img {
+        margin: -14px 20px;
+      }
+
+      button {
+        width: 280px;
+        height: 42px;
+        background: #034078;
+        color: #FFFFFF;
+        border-radius: 5px;
+        transition: .4s;
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1.1);
+          background: transparent;
+          color: #034078;
+          border: 1px solid #000;
+        }
+      }
+
+      &__title {
+        margin-left: -16%;
+        h1{
+          font-weight: 700;
+          font-size: 28px;
+          color: #000000;
+        }
+
+        &--text {
+          padding-top: 5px;
+          display: flex;
+          align-items: center;
+
+          p {
+            font-weight: 500;
+            font-size: 16px;
+            color: #8D8D8D;
+          }
+
+          h5 {
+            font-weight: 500;
+            font-size: 16px;
+            color: #000000;
+          }
+        }
+      }
+    }
+
+    &--block1 {
+      background: #FFFFFF;
+      border-radius: 8px;
+      display: flex;
+      padding: 20px 0;
+      justify-content: space-around;
+      align-items: flex-start;
+
+      img {
+        margin: -10px 2%;
+      }
+
+      button {
+        width: 280px;
+        height: 42px;
+        background: #034078;
+        color: #FFFFFF;
+        border-radius: 5px;
+        transition: .4s;
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1.1);
+          background: transparent;
+          color: #034078;
+          border: 1px solid #000;
+        }
+      }
+
+      &__title {
+        margin-left: -15%;
+        h1{
+          font-weight: 700;
+          font-size: 28px;
+          color: #000000;
+
+        }
+        &--text {
+          display: flex;
+          align-items: center;
+
+          h1 {
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 34px;
+            color: #000000;
+          }
+
+          p {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            padding: 10px 0;
+            color: #8D8D8D;
+          }
+
+        }
+      }
+    }
+
+  }
+}

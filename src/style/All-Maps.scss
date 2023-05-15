@@ -1,0 +1,84 @@
+#allMaps{
+  background: rgb(10, 17, 40);
+  .container{
+    h2{
+      text-align: center;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 35px;
+      color: #FFFFFF;
+      padding: 40px 0;
+    }
+    button{
+      margin: 45px 0;
+      background: #043C71;
+      backdrop-filter: blur(7.5px);
+      border-radius: 5px;
+      color: #FFFFFF;
+      padding: 15px 55px;
+      cursor: pointer;
+    }
+    .allMaps{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      h1{
+        margin-left: 15px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        padding: 15px 0;
+      }
+      p{
+        padding: 10px 0;
+        margin-left: 15px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+      }
+      a{
+        margin-left: 20px;
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        border-bottom: 2px solid black;
+        width: 30%;
+      }
+      .courses1{
+        background: #FFFFFF;
+        width: 370px;
+        height: 283.5px;
+        left: 135px;
+        top: 911px;
+        border-radius: 15px;
+        margin: 20px 0;
+      }
+      .courses2{
+        background: #FFFFFF;
+        width: 370px;
+        height: 283.5px;
+        left: 135px;
+        top: 911px;
+        border-radius: 15px;
+        margin: 20px 0;
+      }
+      .courses3{
+        background: #FFFFFF;
+        width: 370px;
+        height: 283.5px;
+        left: 135px;
+        top: 911px;
+        border-radius: 15px;
+        margin: 20px 0;
+      }
+    }
+  }
+}

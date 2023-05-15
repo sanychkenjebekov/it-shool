@@ -1,0 +1,313 @@
+@media (max-width: 1140px) {
+
+  .container{
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  #page{
+    .page{
+      &--center{
+       &__image{
+         img{
+           width: 100%;
+         }
+       }
+      }
+    }
+  }
+  #lock{
+    .lock{
+      &--block{
+        &__title{
+          margin-left: -14% !important;
+          h1{
+            font-size: 24px !important;
+          }
+        }
+      }
+      &--block1{
+        &__title{
+          margin-left: -10% !important;
+          h1{
+            font-size: 24px !important;
+          }
+          &--text{
+            p{
+              font-size: 13px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+@media (max-width: 992px) {
+  #page{
+    .page{
+      &--center{
+        h1{
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #lock{
+    .lock{
+      &--block{
+        button{
+          width: 185px !important;
+        }
+        &__title{
+          margin-left: -14% !important;
+          h1{
+            font-size: 20px !important;
+          }
+        }
+      }
+      &--block1{
+        button{
+          width: 185px !important;
+        }
+        &__title{
+          margin-left: -10% !important;
+          h1     {
+            font-size: 20px !important;
+          }
+          &--text{
+            p{
+              font-size: 13px !important;
+              width: 280px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #latest{
+    .latest{
+      &--title{
+        &__text{
+          width: 33% !important;
+          height: 209px !important;
+          h1{
+            width: 91% !important;
+            font-size: 16px !important;
+          }
+          &--icon{
+            width: 98% !important;
+            button{
+              padding-left: 14px !important;
+            }
+            h4{
+              font-size: 14px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+@media (max-width: 540px)   {
+ #lock{
+   .lock{
+     &--comments{
+       h1{
+         font-size: 34px !important;
+       }
+     }
+     &--block{
+       flex-wrap: wrap !important;
+       button{
+         margin-left:  5% !important;
+         margin-top: 10px !important;
+       }
+     }
+     &--block1{
+       flex-wrap: wrap !important;
+     }
+   }
+ }
+  #latest{
+    .latest{
+      &--title{
+        &__text{
+          height: 190px!important;
+          h5{
+            font-size: 14px !important;
+          }
+          h1{
+            font-size: 14px !important;
+          }
+          &--icon{
+           button{
+             font-size: 14px !important;
+           }
+            h4{
+              font-size: 13px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  #page{
+    .page{
+      &--dot{
+        ul{
+          font-size: 17px !important;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  #latest {
+    .latest {
+        &--title{
+          &__text{
+            width: 98% !important;
+            height: 215px !important;
+            h1{
+              font-size: 19px!important;
+            }
+            &--icon{
+              button{
+                font-size: 16px !important;
+              }
+              h4{
+                font-size: 16px !important;
+              }
+            }
+        }
+      }
+    }
+  }
+  #lock {
+    .lock {
+      button{
+        width: 215px !important;
+      }
+      &--block {
+        img {
+          display: none !important;
+        }
+        button{
+          margin-left: -2% !important;
+        }
+        &__title{
+          margin-left: 1% !important;
+        }
+
+
+        }
+      &--block1 {
+        img {
+          display: none !important;
+        }
+        &__title{
+          margin-left: 1% !important;
+        }
+
+
+      }
+
+      }
+    }
+  #page{
+    .page{
+      &--center{
+        h1{
+          font-size: 26px !important;
+        }
+        P{
+          font-size: 17px !important;
+        }
+      }
+      &--frame{
+        h1{
+          font-size: 18px !important;
+        }
+      }
+    }
+  }
+  }
+@media (max-width: 320px) {
+  #lock{
+    .lock{
+      &--comments{
+        h1{
+          font-size: 30px!important;
+        }
+      }
+      &--block{
+        &__title{
+          h1{
+            font-size: 17px !important;
+          }
+          &--text{
+            p{
+              font-size: 14px!important;
+            }
+            h5{
+              font-size: 14px!important;
+            }
+          }
+        }
+      }
+      &--block1{
+        &__title{
+          h1{
+            font-size: 17px !important;
+          }
+          &--text{
+            p{
+              font-size: 12px!important;
+              width: 250px !important;
+            }
+          }
+        }
+      }
+
+    }
+  }
+  #latest{
+    .latest{
+      &--titl {
+        &__text{
+          width: 98% !important;
+          height: 185px !important;
+          h1{
+            font-size: 16px!important;
+          }
+          &--icon{
+            button{
+              font-size: 16px !important;
+            }
+            h4{
+              font-size: 16px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  #page{
+    .page{
+      &--frame{
+        h1{
+          font-size: 16px !important;
+        }
+      }
+      &--dot{
+      ul{
+        font-size: 15px !important;
+      }
+    }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+#packages{
+  background: rgb(10, 17, 40);
+  .container{
+    .packages{
+      padding-top: 100px;
+      &--packages1{
+        h1{
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 44px;
+          color: #FFFFFF;
+          text-align: center;
+        }
+        p{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          text-align: center;
+          color: #FFFFFF;
+        }
+      }
+      &--packagesTop{
+        padding-top: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__packagesTop1{
+          background: #0A1128;
+          box-shadow: 6px 6px 14px -117px #132049, -4px -3px 24px #040B23;
+          border-radius: 10px;
+          width: 30%;
+          &--top{
+            margin-left: 40px;
+          h3{
+            padding: 20px 0;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FFFFFF;
+          }
+          p{
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 18px;
+            color: #FFFFFF;
+            margin: 10px 0;
+          }
+          h1{
+            padding: 10px 0;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 59px;
+            color: #FFFFFF;
+          }
+
+          a{
+            .btns{
+              padding: 10px 20px;
+              background: #043C71;
+              border-radius: 3.27273px;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 15px;
+              text-align: center;
+              color: white;
+              margin: 40px 0;
+              cursor: pointer;
+            }
+            button{
+              margin: 0 20px;
+              padding: 10px 20px;
+              border-radius: 3.27273px;
+              background: none;
+              border: 2px solid #043C71;
+              cursor: pointer;
+              color: white;
+            }
+          }
+          }
+        }
+        &__packagesTop2{
+          background: #0A1128;
+          box-shadow: 6px 6px 14px -117px #132049, -4px -3px 24px #040B23;
+          border-radius: 10px;
+          width: 30%;
+          &--top{
+            margin-left: 40px;
+            h3{
+              padding: 20px 0;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 20px;
+              color: #FFFFFF;
+            }
+            p{
+              font-weight: 400;
+              font-size: 15px;
+              line-height: 18px;
+              color: #FFFFFF;
+              margin: 10px 0;
+            }
+            h1{
+              padding: 10px 0;
+              font-weight: 700;
+              font-size: 48px;
+              line-height: 59px;
+              color: #FFFFFF;
+            }
+            button{
+
+            }
+            a{
+              .btns{
+                padding: 10px 20px;
+                background: #043C71;
+                border-radius: 3.27273px;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                text-align: center;
+                color: white;
+                margin: 40px 0;
+                cursor: pointer;
+              }
+              button{
+                margin: 0 20px;
+                padding: 10px 20px;
+                border-radius: 3.27273px;
+                background: none;
+                border: 2px solid #043C71;
+                color: white;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+        &__packagesTop3{
+          background: #0A1128;
+          box-shadow: 6px 6px 14px -117px #132049, -4px -3px 24px #040B23;
+          border-radius: 10px;
+          width: 30%;
+          &--top{
+            margin-left: 40px;
+            h3{
+              padding: 20px 0;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 20px;
+              color: #FFFFFF;
+            }
+            p{
+              font-weight: 400;
+              font-size: 15px;
+              line-height: 18px;
+              color: #FFFFFF;
+              margin: 10px 0;
+            }
+            h1{
+              padding: 10px 0;
+              font-weight: 700;
+              font-size: 48px;
+              line-height: 59px;
+              color: #FFFFFF;
+            }
+
+            a{
+              .btns{
+                padding: 10px 20px;
+                background: #043C71;
+                border-radius: 3.27273px;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                text-align: center;
+                color: white;
+                margin: 40px 0;
+              }
+              button{
+                margin: 0 20px;
+                padding: 10px 20px;
+                border-radius: 3.27273px;
+                background: none;
+                border: 2px solid #043C71;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

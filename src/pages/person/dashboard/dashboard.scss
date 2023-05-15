@@ -1,0 +1,148 @@
+#dashboard {
+  padding: 80px 0;
+  .dashboard {
+    display: flex;
+    justify-content: space-between;
+    &--saydBar {
+      padding-top: 30px;
+      width: 350px;
+      height: 480px;
+      background: #FFFFFF;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      img {
+        width: 92px;
+        height: 92px;
+        border-radius: 50%;
+      }
+
+      &__btn {
+        color: #FFFFFF;
+        background: #0272CE;
+        border-radius: 10px;
+        padding: 10px 22px;
+        width: 170px;
+        margin: 25px 0;
+      }
+
+      &__link {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+
+        a {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          border-bottom: 0.5px solid #9A9A9A;
+          color: #000;
+        }
+
+      }
+    }
+  }
+
+
+  .personaldata {
+    .wrapper {
+      display: flex;
+      gap: 40px;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      color: #ffffff;
+    }
+
+    &--form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 315px;
+
+      label {
+        display: block;
+        //margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #a4a4a4;
+        //padding: 10px 0 8px 0;
+      }
+
+      &__input {
+        background: rgba(27, 41, 89, 0.4);
+        border-radius: 10px;
+        padding: 10px 0;
+        border: none;
+        outline: none;
+        color: #ffffff;
+        padding-left: 20px;
+        font-size: 14px;
+      }
+
+      &__check {
+        display: flex;
+        gap: 20px;
+
+        label {
+          display: flex;
+          background: rgba(27, 41, 89, 0.4);
+          border-radius: 10px;
+          padding: 10px;
+          width: 150px;
+          gap: 12px;
+          padding-left: 20px;
+
+          input[value="male"] {
+          }
+        }
+      }
+    }
+
+    &--data {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      select {
+        width: 300px;
+        background: rgba(27, 41, 89, 0.4);
+        border-radius: 10px;
+        padding: 10px 0px;
+        border: none;
+        outline: none;
+        color: #ffffff;
+      }
+
+      label {
+        font-weight: 400;
+        font-size: 14px;
+        color: #a4a4a4;
+      }
+
+      &__select {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+
+        select {
+          //margin-left: 5px;
+          width: 90px;
+          padding: 10px 5px;
+        }
+      }
+
+      h2 {
+        font-weight: 400;
+        font-size: 14px;
+        color: #a4a4a4;
+      }
+    }
+  }
+}

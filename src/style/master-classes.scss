@@ -1,0 +1,67 @@
+#masterclasses{
+  background: rgb(10, 17, 40);
+  .container{
+    .masterclasses{
+      padding-top: 40px;
+      h2{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #043F75;
+        margin-left: 50px;
+        padding-bottom: 20px;
+      }
+      p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        margin-left: 50px;
+      }
+      button{
+        margin: 45px 0;
+        background: #043C71;
+        backdrop-filter: blur(7.5px);
+        border-radius: 5px;
+        color: #FFFFFF;
+        padding: 15px 55px;
+        cursor: pointer;
+      }
+      h1{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 35px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 90px 0;
+      }
+      &--bloc{
+        margin-left: 15%;
+        width: 80%;
+      }
+      .masterclasses1{
+        width: 80%;
+        padding: 50px 50px;
+        background: #FFFFFF;
+        box-shadow: -5px -3px 10px rgba(16, 23, 47, 0.45), 9px 9px 9px rgba(10, 15, 33, 0.45);
+        border-radius: 10px;
+      }
+      .masterclasses2{
+        margin: 30px 0;
+        width: 80%;
+        padding: 50px 50px;
+        background: #FFFFFF;
+        box-shadow: -5px -3px 10px rgba(16, 23, 47, 0.45), 9px 9px 9px rgba(10, 15, 33, 0.45);
+        border-radius: 10px;
+      }
+      .masterclasses3{
+        margin: 30px 0;
+        width: 80%;
+        padding: 50px 50px;
+        background: #FFFFFF;
+        box-shadow: -5px -3px 10px rgba(16, 23, 47, 0.45), 9px 9px 9px rgba(10, 15, 33, 0.45);
+        border-radius: 10px;
+      }
+    }
+  }
+}

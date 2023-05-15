@@ -1,0 +1,263 @@
+@media (max-width: 1140px) {
+  .container {
+    width: 90% !important
+  }
+  #page {
+    .page {
+      &--center {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #latest {
+    .latest {
+      &--title {
+        &__text {
+          width: 32%;
+
+          h1 {
+            width: 76%;
+          }
+        }
+      }
+    }
+  }
+  #page {
+    .page {
+      &--desc {
+        p {
+          width: 87% !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #latest {
+    .latest {
+      &--title {
+        &__text {
+          width: 32%;
+
+          h1 {
+            width: 90%;
+            font-size: 18px;
+          }
+          &--icon{
+            width: 93%;
+            button{
+              margin-left: -10px;
+              font-size: 18px;
+            }
+            h4{
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #page {
+    .page {
+      &--desc {
+        p {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+  #toDoList{
+    .toDoList{
+      textarea{
+        width: 60%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #toDoList{
+    .toDoList{
+      textarea{
+        width: 80%;
+      }
+    }
+  }
+  #latest {
+    .latest {
+      &--title {
+        flex-direction: column;
+        &__text {
+          width: 60% !important;
+          height: 210px !important;
+
+          h1 {
+            font-size: 20px !important;
+          }
+          &--icon{
+            width: 90%;
+            button{
+              margin-left: 5px !important;
+              font-size: 20px !important;
+            }
+            h4{
+              font-size: 20px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  #page{
+    .page{
+      &--center{
+        h1{
+          font-size: 30px !important;
+        }
+        p{
+          font-size: 17px !important;
+        }
+      }
+      &--desc{
+        p{
+          font-size: 18px !important;
+        }
+        h2{
+          font-size: 17px !important;
+        }
+      }
+      &--dot{
+        ul{
+          font-size: 17px !important;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 540px) {
+#latest{
+  .latest{
+    &--title{
+      &__text{
+        width: 81% !important;
+      }
+    }
+  }
+}
+  #page{
+    .page{
+      &--center{
+        h1{
+          font-size: 26px !important;
+        }
+      }
+      &--desc{
+        p{
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+  #toDoList{
+    .toDoList{
+      textarea{
+        width: 87%;
+      }
+    }
+  }
+
+}
+
+
+@media (max-width: 400px) {
+#latest{
+  .latest{
+    &--stat{
+      h1{
+        font-size: 31px !important;
+      }
+    }
+    &--title{
+      &__text{
+        width: 96% !important;
+      }
+    }
+  }
+}
+  #toDoList{
+    .toDoList{
+      textarea{
+        width: 91% !important;
+      }
+      &--ul{
+        button{
+          margin-left: 10px!important;
+        }
+      }
+    }
+  }
+  #page{
+    .page{
+      &--center{
+        p{
+          font-size: 14px !important;
+        }
+        h1{
+          font-size: 21px !important;
+          line-height: 1.3 !important;
+        }
+      }
+      &--desc{
+        p{
+          font-size: 14px !important;
+        }
+      }
+      &--dot{
+        ul{
+          font-size: 15px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+#latest{
+  .latest{
+    &--title{
+      &__text{
+        &--icon{
+          width: 91% !important;
+          h4{
+            font-size: 18px !important;
+          }
+          button{
+            font-size: 18px !important;
+          }
+        }
+      }
+    }
+  }
+}
+  #toDoList{
+    .toDoList{
+      textarea{
+        width: 91% !important;
+      }
+      &--ul{
+        button{
+          margin-left: 8px!important;
+        }
+      }
+    }
+  }
+}
+
