@@ -18,6 +18,7 @@ import Cards from "./pages/person/Cards/Cards";
 import Follows from "./pages/person/follows/Follows";
 import FrBuy from "./pages/FrBuy";
 import AllMaps from "./components/About-School/ All-Maps/All-Maps";
+import More from "./HomePage/More";
 
 
 
@@ -47,6 +48,7 @@ function App() {
           <Route path={'/follows'} element={<Follows/>}/>
           <Route path={'/frCurse'} element={<FrBuy/>}/>
           <Route path={'/allCard'} element={<AllMaps/>}/>
+            <Route path={'/more'} element={<More/>}/>
         </Routes>
         <Footer/>
       </div>
