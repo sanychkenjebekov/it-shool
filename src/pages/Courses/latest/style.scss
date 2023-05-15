@@ -13,6 +13,53 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    &__block{
+      margin: 25px 0;
+      border-radius: 20px;
+      background: #FFFFFF;
+      .read{
+        width: 350px;
+      }
+      p{
+        font-weight: 500;
+        font-size: 14px;
+        color: #898989;
+      }
+      h1{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        width: 300px;
+        padding: 6px 0;
+      }
+      &--one{
+        padding: 15px;
+        &__tx{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          &--not{
+            display: flex;
+            align-items: center;
+          }
+          svg{
+            color: #044176;
+          }
+          a{
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            color: #044176;
+          }
+          p{
+            font-weight: 500;
+            font-size: 15px;
+            color: #044176;
+          }
+        }
+      }
+    }
     &__text{
       width: 30%;
       height: 220px;

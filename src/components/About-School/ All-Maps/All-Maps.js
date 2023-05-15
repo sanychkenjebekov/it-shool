@@ -1,5 +1,6 @@
 import React from 'react';
 import {AiOutlineArrowRight} from "react-icons/ai";
+import {Link} from "react-router-dom";
 
 function AllMaps() {
     return (
@@ -15,7 +16,7 @@ function AllMaps() {
                             делать их красивыми, интерактивными, <br/>
                             с большим функционалом. Профессия отлично <br/>
                             подойдет тем, кто хочет фрилансить и постоянно разрабатывать новые проекты</p>
-                        <a href="">Подробнее<AiOutlineArrowRight/></a>
+                        <Link to={'/frCurse'}>Подробнее<AiOutlineArrowRight/></Link>
                     </div>
                     <div className="courses2">
                         <h1>Backend-разработчик</h1>

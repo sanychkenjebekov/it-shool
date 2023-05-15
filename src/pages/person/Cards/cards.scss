@@ -1,11 +1,12 @@
 #karty{
-
+padding: 80px 0;
   .karty{
     display: flex;
 
     &--saydBar{
       padding-top: 30px;
       width: 350px;
+      width: 300px;
       height: 480px;
       background: #FFFFFF;
       border-radius: 10px;
@@ -52,10 +53,8 @@
       &__visa{
         display: flex;
         align-items: flex-start;
-
-
         &--block{
-          width: 345px;
+          width: 290px;
           height: 215px;
           background: rgba(10, 17, 40, 0.1);
           border: 1px solid #0272CE;

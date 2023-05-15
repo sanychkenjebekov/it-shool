@@ -2,17 +2,20 @@
   .container{
     width: 90%;
   }
-  #karty{
-    .karty{
-      &--visul{
-        &__visa{
-          &--block{
-            width: 260px;
-          }
-        }
-      }
-    }
+
+}
+@media (max-width: 1024px) {
+  #karty .karty--saydBar{
+    width: 350px;
+    height: 480px;
   }
+  #karty .karty--visul__visa{
+    flex-direction: column;
+  }
+  #karty .karty--visul__visa--block{
+    margin: 10px 30px;
+  }
+
 }
 
 @media (max-width: 992px) {
@@ -30,6 +33,14 @@
       }
     }
   }
+  #karty .karty--visul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+#karty .karty--saydBar{
+  margin-left: 20%;
+}
 }
 @media (max-width: 768px) {
   #karty{

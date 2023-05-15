@@ -19,7 +19,7 @@ const Lock = () => {
                                     <h5>Авторизуйтесь</h5>
                                 </div>
                             </div>
-                           <Link to={"/"}>
+                           <Link to={"/подпискаГод"}>
                                <button>Получить доступ за 225,00$</button>
                            </Link>
                     </div>

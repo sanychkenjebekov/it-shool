@@ -15,7 +15,7 @@ function Courses() {
                             делать их красивыми, интерактивными, <br/>
                             с большим функционалом. Профессия отлично <br/>
                             подойдет тем, кто хочет фрилансить и постоянно разрабатывать новые проекты</p>
-                        <Link to={'/'}>Подробнее<AiOutlineArrowRight/></Link>
+                        <Link to={'/frCurse'}>Подробнее<AiOutlineArrowRight/></Link>
                     </div>
                     <div className="courses2">
                         <h1>Backend-разработчик</h1>

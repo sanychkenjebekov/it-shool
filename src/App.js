@@ -16,6 +16,8 @@ import Dashboard from "./pages/person/dashboard/Dashboard";
 import OurSchool from "./components/About-School/Our-school";
 import Cards from "./pages/person/Cards/Cards";
 import Follows from "./pages/person/follows/Follows";
+import FrBuy from "./pages/FrBuy";
+import AllMaps from "./components/About-School/ All-Maps/All-Maps";
 
 
 
@@ -41,6 +43,10 @@ function App() {
           <Route path={'/профиль'} element={<Dashboard/>}/>
           <Route path={'/оШколе'} element={<OurSchool/>}/>
           <Route path={'/cards'} element={<Cards/>}/>
+          <Route path={'/личныеДанные'} element={<Dashboard/>}/>
+          <Route path={'/follows'} element={<Follows/>}/>
+          <Route path={'/frCurse'} element={<FrBuy/>}/>
+          <Route path={'/allCard'} element={<AllMaps/>}/>
         </Routes>
         <Footer/>
       </div>
