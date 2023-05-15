@@ -29,8 +29,6 @@
           box-shadow: 6px 6px 14px -117px #132049, -4px -3px 24px #040B23;
           border-radius: 10px;
           width: 30%;
-          &--top{
-            margin-left: 40px;
           h3{
             padding: 20px 0;
             font-weight: 700;
@@ -76,15 +74,12 @@
               color: white;
             }
           }
-          }
         }
         &__packagesTop2{
           background: #0A1128;
           box-shadow: 6px 6px 14px -117px #132049, -4px -3px 24px #040B23;
           border-radius: 10px;
           width: 30%;
-          &--top{
-            margin-left: 40px;
             h3{
               padding: 20px 0;
               font-weight: 700;
@@ -132,16 +127,13 @@
                 cursor: pointer;
               }
             }
-          }
         }
         &__packagesTop3{
           background: #0A1128;
           box-shadow: 6px 6px 14px -117px #132049, -4px -3px 24px #040B23;
           border-radius: 10px;
           width: 30%;
-          &--top{
-            margin-left: 40px;
-            h3{
+          h3{
               padding: 20px 0;
               font-weight: 700;
               font-size: 16px;
@@ -188,5 +180,4 @@
         }
       }
     }
-  }
 }
