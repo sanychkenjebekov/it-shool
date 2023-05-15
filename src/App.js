@@ -28,7 +28,6 @@ function App() {
   return (
       <div className="App">
         <Header/>
-          <Follows/>
         <Routes>
           <Route path={'/'} element={<Home/>}/>
           <Route path={'/подпискаГод'} element={<God/>}/>
