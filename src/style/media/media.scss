@@ -2,6 +2,10 @@
   .container{
     width: 90%;
   }
+  #frBuy .skils--obuchenie__all {
+    flex-wrap: wrap !important;
+    gap: 45px !important;
+  }
   #dashboard{
     .vyhod{
       left: 5% !important;
@@ -63,8 +67,8 @@
     transform: translateX(-28%);
   }
   #frBuy .skils--obuchenie__all {
-    flex-wrap: wrap;
-    gap: 70px;
+    flex-wrap: wrap !important;
+    gap: 70px !important;
   }
 }
 @media (max-width: 1024px) {
@@ -163,119 +167,119 @@
     width: 160px !important;
   }
   #frBuy .frBuy h4 {
-    font-size: 14px ;
+    font-size: 14px  !important;
   }
   #frBuy .frBuy--about h1 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
   #frBuy .frBuy--about__title .titleP {
-    font-size: 17px;
-    width: 400px;
+    font-size: 17px !important;
+    width: 400px !important;
   }
   #frBuy .frBuy--about__title--dostup p {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   #frBuy .frBuy--about__title--dostup h3 {
-    font-size: 16px;
-    width: 112px;
+    font-size: 16px !important;
+    width: 112px !important;
   }
   #frBuy .frBuy--about button {
-    font-size: 14px;
-    padding: 13px 20px;
+    font-size: 14px !important;
+    padding: 13px 20px !important;
   }
   #frBuy .oKurse h4 {
-    font-size: 14px;
+    font-size: 14px !important;
   }
   #frBuy .oKurse--about h1 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
   #frBuy .oKurse--about__title--p p {
-    font-size: 17px;
-    width: 500px;
+    font-size: 17px !important;
+    width: 500px !important;
   }
   #frBuy .oKurse--about__title--dostup p {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   #frBuy .oKurse--about__title--dostup h3 {
-    font-size: 16px;
-    width: 112px;
+    font-size: 16px !important;
+    width: 112px !important;
   }
   #frBuy .skils h2 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
   #frBuy .skils ul li {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   #frBuy .skils--result h3 {
-    font-size: 18px;
+    font-size: 18px !important;
   }
   #frBuy .skils--result__about p {
-    font-size: 15px;
+    font-size: 15px !important;
   }
   #frBuy .skils--result h4 {
-    font-size: 16px;
-    margin: 35px 0 70px 0;
+    font-size: 16px !important;
+    margin: 35px 0 70px 0 !important;
   }
   #frBuy .skils--result__btn .btn1 {
-    font-size: 13px;
+    font-size: 13px !important;
   }
   #frBuy .skils--result__btn .btn2 {
-    font-size: 13px;
+    font-size: 13px !important;
   }
   #frBuy .skils--programma h1 {
-    font-weight: 600;
-    font-size: 24px;
-    text-align: center;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    text-align: center !important;
   }
   #frBuy .skils--programma {
-    text-align: center;
+    text-align: center !important;
   }
   #frBuy .skils--programma__modulAll img {
-   margin: 30px 0;
+   margin: 30px 0 !important;
   }
   #frBuy .skils--programma button {
-    font-size: 14px;
+    font-size: 14px !important;
   }
   #frBuy .skils--ekskluziv__about {
-    flex-direction: column;
-    gap: 50px;
+    flex-direction: column !important;
+    gap: 50px !important;
   }
   #frBuy .skils--programma__modulAll--main__modal h4 {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   #frBuy .skils--programma__modulAll--main__modal p {
-    font-size: 14px;
+    font-size: 14px !important;
   }
   #frBuy .skils--programma__modulAll {
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
   }
   #frBuy .skils--ekskluziv__about--card h3 {
-    font-size: 17px;
-    padding: 15px 0;
+    font-size: 17px !important;
+    padding: 15px 0 !important;
   }
   #frBuy .skils--ekskluziv__about--card p {
-    font-size: 16px;
-    width: 230px;
+    font-size: 16px !important;
+    width: 230px !important;
   }
   #frBuy .skils--ekskluziv__img p {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   #frBuy .skils--ekskluziv__img h1 {
-    font-size: 24px;
+    font-size: 24px !important;
   }
   #frBuy .skils--ekskluziv__img h4 {
-    font-size: 18px;
+    font-size: 18px !important;
   }
   #frBuy .skils--obuchenie h1 {
-    font-size: 26px;
+    font-size: 26px !important;
   }
   #frBuy .skils--obuchenie__all {
-    gap: 72px;
-    justify-content: center;
+    gap: 72px !important;
+    justify-content: center !important;
   }
   #frBuy .skils--otzyv h1 {
-    font-size: 26px;
+    font-size: 26px !important;
   }
 #header .header--logo img{
   width: 60px;
@@ -371,90 +375,90 @@
     padding: 60px 0 !important;
   }
   #frBuy .frBuy--about h1 {
-    font-size: 26px;
+    font-size: 26px !important;
   }
   #frBuy .frBuy--about{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-text-align: center;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+text-align: center !important;
   }
 
   #frBuy .frBuy--about__title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-top: 30px !important;
   }
   #frBuy .frBuy--about__title--dostup{
-    margin-top: 50px;
+    margin-top: 50px !important;
   }
   #frBuy .frBuy--about__title--dostup h3{
-    width: 100%;
+    width: 100% !important;
   }
   #frBuy .skils--about {
-    flex-direction: column;
-    align-items: baseline;
+    flex-direction: column !important;
+    align-items: baseline !important;
   }
   #frBuy .skils--about__title h3 {
-    font-size: 18px;
+    font-size: 18px !important;
   }
   #frBuy .skils--programma h1 {
-    font-size: 20px;
+    font-size: 20px !important;
   }
   #frBuy .skils--programma__modulAll--main__modal h4 {
-    font-size: 14px;
+    font-size: 14px !important;
   }
   #frBuy .skils--programma__modulAll--main__modal p {
-    font-size: 13px;
+    font-size: 13px !important;
   }
   #frBuy .skils--ekskluziv__about {
-    align-items: flex-start;
+    align-items: flex-start !important;
   }
   #frBuy .skils--ekskluziv__img img{
-    width: 266px;
-    height: 326px;
+    width: 266px !important;
+    height: 326px !important;
   }
   #frBuy .skils--ekskluziv__img p {
-    font-size: 15px;
+    font-size: 15px !important;
   }
   #frBuy .skils--ekskluziv__img h1 {
-    font-size: 22px;
+    font-size: 22px !important;
   }
   #frBuy .skils--ekskluziv__img h4 {
-    font-size: 17px;
+    font-size: 17px !important;
   }
   #frBuy .skils--obuchenie h1 {
-    font-size: 24px;
+    font-size: 24px !important;
   }
   #frBuy .skils--obuchenie__all {
-    justify-content: flex-start;
-    gap: 65px;
+    justify-content: flex-start !important;
+    gap: 65px !important;
   }
   #frBuy .skils--obuchenie__all--card:nth-child(2n+2){
-    transform: translateX(93%);
+    transform: translateX(93%) !important;
   }
   #frBuy .skils--ekskluziv__about--card:nth-child(2){
-    transform: translateX(120%);
+    transform: translateX(120%) !important;
   }
   #frBuy .skils--ekskluziv__about--card p {
-    font-size: 15px;
-    width: 230px;
+    font-size: 15px !important;
+    width: 230px !important;
   }
   #frBuy .oKurse--about h1 {
-    font-size: 26px;
+    font-size: 26px !important;
   }
   #frBuy .oKurse--about__title {
-    flex-direction: column;
+    flex-direction: column !important;
   }
   #frBuy .oKurse--about{
-    text-align: center;
+    text-align: center !important;
   }
   #frBuy .oKurse--about__title--dostup{
-    margin-top: 50px;
+    margin-top: 50px !important;
   }
   #frBuy .oKurse--about__title--dostup h3 {
-    width: 100%;
+    width: 100% !important;
   }
   #god .god--about__input--chekbox input {
     width: 21px;
@@ -575,14 +579,14 @@ text-align: center;
     font-size: 25px !important;
   }
   #frBuy .oKurse--about__title--p p {
-    width: 438px;
-    font-size: 16px;
+    width: 438px !important;
+    font-size: 16px !important;
   }
   #frBuy .skils--ekskluziv__about--card:nth-child(2) {
-    transform: translateX(97%);
+    transform: translateX(97%) !important;
   }
   #frBuy .skils--obuchenie__all--card:nth-child(2n+2) {
-    transform: translateX(73%);
+    transform: translateX(73%) !important;
   }
   #god .god--about__input {
     width: 433px;
@@ -680,100 +684,100 @@ text-align: center;
     transform: translate(21%, 30%) !important;
   }
   #frBuy .frBuy h4 {
-    font-size: 13px;
+    font-size: 13px !important;
   }
   #frBuy .frBuy--about h1 {
-    font-size: 22px;
+    font-size: 22px !important;
   }
   #frBuy .frBuy--about__title .titleP {
-    font-size: 16px;
-    width: 300px;
+    font-size: 16px !important;
+    width: 300px !important;
   }
   #frBuy .frBuy--about__title--dostup h3 {
-    font-size: 15px;
+    font-size: 15px !important;
   }
   #frBuy .oKurse--about h1 {
-    font-size: 22px;
+    font-size: 22px !important;
   }
   #frBuy .oKurse--about__title--p p {
-    width: 300px;
-    font-size: 15px;
+    width: 300px !important;
+    font-size: 15px !important;
   }
   #frBuy .oKurse--about__title--dostup h3 {
-    font-size: 15px;
+    font-size: 15px !important;
   }
   #frBuy .skils--about__title h3 {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   #frBuy .skils--result h3 {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   #frBuy .skils--result h4 {
-    font-size: 15px;
+    font-size: 15px !important;
   }
   #frBuy .skils--programma h1 {
-    font-size: 18px;
+    font-size: 18px !important;
   }
   #frBuy .skils--programma__modulAll img {
-    width: 300px;
+    width: 300px !important;
   }
   #frBuy .skils--ekskluziv__about {
-    align-items: center;
+    align-items: center !important;
   }
   #frBuy .skils--ekskluziv__about--card:nth-child(2) {
-    transform: translateX(0);
+    transform: translateX(0) !important;
   }
   #frBuy .skils--ekskluziv__about--card h3 {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   #frBuy .skils--ekskluziv__about {
-    gap: 55px;
+    gap: 55px !important;
   }
   #frBuy .skils--ekskluziv__img p {
-    font-size: 14px;
+    font-size: 14px !important;
   }
   #frBuy .skils--ekskluziv__img h1 {
-    font-size: 18px;
+    font-size: 18px !important;
   }
   #frBuy .skils--ekskluziv__img h4 {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   #frBuy .skils--obuchenie h1 {
-    font-size: 20px;
+    font-size: 20px !important;
   }
   #frBuy .skils--obuchenie__all--card:nth-child(2n+2) {
-    transform: translateX(0);
+    transform: translateX(0) !important;
   }
   #frBuy .skils--obuchenie__all {
-    justify-content: center;
-    gap: 60px;
+    justify-content: center !important;
+    gap: 60px !important;
   }
   #frBuy .skils--otzyv h1 {
-    font-size: 20px;
+    font-size: 20px !important;
   }
   #frBuy .skils--obuchenie {
-    text-align: center;
+    text-align: center !important;
   }
   #frBuy .skils--otzyv__all--card h3 {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   #frBuy .skils--otzyv__all--card {
-    width: 100%;
-    height: 368px;
+    width: 100% !important;
+    height: 368px !important;
   }
   #frBuy .skils--otzyv__all {
-    height: 395px;
+    height: 395px !important;
   }
   #frBuy .skils--otzyv__all--card p {
-    padding: 15px;
+    padding: 15px !important;
   }
   #frBuy .skils--otzyv__all--card h4 {
-    font-size: 14px;
-    margin-left: 150px;
+    font-size: 14px !important;
+    margin-left: 150px !important;
   }
   #frBuy .skils--otzyv__all--card p {
-    font-size: 13px;
-    width: 245px;
+    font-size: 13px !important;
+    width: 245px !important;
   }
   #header .spans {
     left: 86%;
@@ -786,7 +790,7 @@ text-align: center;
     padding: 0 0 45px 0;
   }
   #god .god--about h1 {
-    transform: translateX(-43%);
+    transform: translateX(-39%);
     font-size: 24px;
   }
   #god .god--about__input {

@@ -17,6 +17,7 @@ import OurSchool from "./components/About-School/Our-school";
 
 
 
+
 function App() {
   const {pathname} = useLocation()
   useEffect(()=>{
