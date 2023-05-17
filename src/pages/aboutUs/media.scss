@@ -1,0 +1,297 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+    padding: 0 10px;
+  }
+  #about{
+    .about{
+      &__text{
+        h1{
+
+        }
+        p{
+
+        }
+      }
+      &__img{
+        img{
+          width: 490px;
+          height: 300px;
+        }
+
+      }
+
+    }
+
+  }
+}
+@media (max-width: 1064px){
+#about{
+  .about{
+    &__text{
+      h1{
+
+      }
+      p{
+
+      }
+    }
+    &__img{
+      img{
+        width: 440px;
+        height: 300px;
+      }
+
+    }
+
+  }
+
+}
+}
+@media (max-width: 992px){
+  #about{
+    .about{
+      &__img{
+        img{
+          width: 400px;
+          height: 260px;
+        }
+      }
+      &__sertificate{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+          width: 500px;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 902px){
+  #about{
+    .about{
+      &__text{
+        h1{
+          font-size: 24px;
+        }
+        p{
+          max-width: 654px;
+        }
+      }
+      &__img{
+        img{
+          width: 350px;
+          height: 260px;
+        }
+      }
+      &__sertificate{
+        img{
+          width: 500px;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 768px){
+  #about{
+    .about{
+      &__text{
+        h1{
+          font-size: 24px;
+        }
+        p{
+          max-width: 554px;
+        }
+      }
+      &__img{
+        img{
+          width: 270px;
+          height: 220px;
+        }
+      }
+      &__sertificate{
+        img{
+          width: 500px;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 650px){
+  #about{
+    .about{
+      &__text{
+        h1{
+          font-size: 24px;
+        }
+        p{
+          max-width: 454px;
+        }
+      }
+      &__img{
+        img{
+          width: 250px;
+          height: 210px;
+        }
+      }
+      &__sertificate{
+        h1{
+          font-size: 24px;
+        }
+        img{
+          width: 350px;
+          height: 220px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 590px){
+  #about{
+    .about{
+      &__text{
+        h1{
+          font-size: 24px;
+        }
+        p{
+          max-width: 454px;
+        }
+      }
+      &__img{
+        display: flex;
+        flex-direction: column;
+        img{
+          width: 350px;
+          height: 240px;
+        }
+      }
+      &__sertificate{
+        h1{
+          font-size: 24px;
+        }
+        img{
+          width: 350px;
+          height: 220px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 480px){
+  #about{
+    .about{
+      &__text{
+        h1{
+          font-size: 24px;
+        }
+        p{
+          padding-top: 30px;
+          max-width: 354px;
+        }
+      }
+      &__img{
+        display: flex;
+        flex-direction: column;
+        img{
+          width: 350px;
+          height: 250px;
+        }
+      }
+      &__sertificate{
+        display: none;
+        h1{
+          font-size: 24px;
+        }
+        img{
+          width: 350px;
+          height: 220px;
+        }
+      }
+      &__sertifiadap{
+        display: block;
+        h1{
+          padding-top: 150px;
+          text-align: center;
+          font-weight: 700;
+          font-size: 26px;
+          line-height: 32px;
+          color: #FFFFFF;
+
+          font-size: 24px;
+        }
+        p{
+          font-weight: 500;
+          font-size: 16px;
+          text-align: center;
+          color: #FFFFFF;
+          width: 353px;
+          padding: 15px 0 50px 0;
+        }
+        img{
+          width: 350px;
+          height: 220px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 360px){
+  #about{
+    .about{
+      &__text{
+        h1{
+          font-size: 24px;
+        }
+        p{
+          padding-top: 30px;
+          max-width: 210px;
+        }
+      }
+      &__img{
+        display: flex;
+        flex-direction: column;
+        img{
+          width: 250px;
+          height: 170px;
+        }
+      }
+      &__sertificate{
+        h1{
+          font-size: 24px;
+        }
+        img{
+          width: 250px;
+          height: 170px;
+        }
+      }
+      &__sertifiadap{
+        display: block;
+        h1{
+          padding-top: 150px;
+          text-align: center;
+          font-weight: 700;
+          font-size: 26px;
+          line-height: 32px;
+          color: #FFFFFF;
+
+          font-size: 24px;
+        }
+        p{
+          width: 253px;
+        }
+        img{
+          width: 250px;
+          height: 170px;
+        }
+      }
+    }
+  }
+}
