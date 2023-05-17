@@ -1,115 +1,115 @@
-#god {
-  padding: 80px 0;
-  background: #0A1128;
-  font-family: 'Montserrat',sans-serif;
-  .god {
-    h4{
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 20px;
-      color: #A5A5A5;
-      span{
-        color: #FFFFFF;
-      }
-      padding: 0 0 80px 0;
-    }
-    &--about {
-      h1{
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 44px;
-        color: #FFFFFF;
-        transform: translateX(-23%);
-        margin: 0 0 20px 0;
-      }
-      &__input {
-        display: flex;
-        flex-direction: column;
-        width: 591px;
-        gap: 40px;
-        p{
-          width: 206px;
-          color: rgba(255, 255, 255, 0.89);
-          font-size: 16px;
-        }
-        input{
-          background: none;
-          border: 1px solid #FFFFFF;
-          padding: 15px 30px 15px 20px;
-          border-radius: 5px;
-          color: #FFFFFF;
-        }
-        &--radio{
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          input{
-            width: 20px;
-            height: 20px;
-          }
-          &__one{
-            display: flex;
-            align-items: center;
-            border: 1px solid white;
-            border-radius: 5px;
-            padding: 15px 25px;
-            h2{
-              color: #FFFFFF;
-              font-size: 17px;
-              font-weight: 500;
-              margin-left: 10px;
-            }
-          }
-        }
-        &--cvc{
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-        }
-        &--chekbox{
-          display: flex;
-          align-items: center;
-          input{
-            width: 23px;
-            height: 23px;
-          }
-          h5{
-            font-weight: 400;
-            font-size: 17px;
-            line-height: 24px;
-            color: rgba(255, 255, 255, 0.9);
-            margin-left: 10px;
-          }
-        }
-        button{
-          background: #04437B;
-          backdrop-filter: blur(7.5px);
-          border-radius: 10px;
-          color: #FFFFFF;
-          font-weight: 400;
-          font-size: 17px;
-          line-height: 29px;
-          padding: 12px 0;
-          margin: 0 0 30px 0;
-        }
-      }
-    }
-    &--title{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 25px;
-      p{
-        width: 600px;
-        color: rgba(255, 255, 255, 0.88);
-        font-size: 17px;
-      }
-      a{
-        color: #FFFFFF;
-      }
-      h3{
-        color: #FFFFFF;
-      }
-    }
-  }
-}
+//#god {
+//  padding: 80px 0;
+//  background: #0A1128;
+//  font-family: 'Montserrat',sans-serif;
+//  .god {
+//    h4{
+//      font-weight: 400;
+//      font-size: 16px;
+//      line-height: 20px;
+//      color: #A5A5A5;
+//      span{
+//        color: #FFFFFF;
+//      }
+//      padding: 0 0 80px 0;
+//    }
+//    &--about {
+//      h1{
+//        font-weight: 700;
+//        font-size: 36px;
+//        line-height: 44px;
+//        color: #FFFFFF;
+//        transform: translateX(-23%);
+//        margin: 0 0 20px 0;
+//      }
+//      &__input {
+//        display: flex;
+//        flex-direction: column;
+//        width: 591px;
+//        gap: 40px;
+//        p{
+//          width: 206px;
+//          color: rgba(255, 255, 255, 0.89);
+//          font-size: 16px;
+//        }
+//        input{
+//          background: none;
+//          border: 1px solid #FFFFFF;
+//          padding: 15px 30px 15px 20px;
+//          border-radius: 5px;
+//          color: #FFFFFF;
+//        }
+//        &--radio{
+//          display: flex;
+//          align-items: center;
+//          justify-content: space-between;
+//          input{
+//            width: 20px;
+//            height: 20px;
+//          }
+//          &__one{
+//            display: flex;
+//            align-items: center;
+//            border: 1px solid white;
+//            border-radius: 5px;
+//            padding: 15px 25px;
+//            h2{
+//              color: #FFFFFF;
+//              font-size: 17px;
+//              font-weight: 500;
+//              margin-left: 10px;
+//            }
+//          }
+//        }
+//        &--cvc{
+//          display: flex;
+//          align-items: center;
+//          justify-content: space-between;
+//        }
+//        &--chekbox{
+//          display: flex;
+//          align-items: center;
+//          input{
+//            width: 23px;
+//            height: 23px;
+//          }
+//          h5{
+//            font-weight: 400;
+//            font-size: 17px;
+//            line-height: 24px;
+//            color: rgba(255, 255, 255, 0.9);
+//            margin-left: 10px;
+//          }
+//        }
+//        button{
+//          background: #04437B;
+//          backdrop-filter: blur(7.5px);
+//          border-radius: 10px;
+//          color: #FFFFFF;
+//          font-weight: 400;
+//          font-size: 17px;
+//          line-height: 29px;
+//          padding: 12px 0;
+//          margin: 0 0 30px 0;
+//        }
+//      }
+//    }
+//    &--title{
+//      display: flex;
+//      flex-direction: column;
+//      align-items: center;
+//      gap: 25px;
+//      p{
+//        width: 600px;
+//        color: rgba(255, 255, 255, 0.88);
+//        font-size: 17px;
+//      }
+//      a{
+//        color: #FFFFFF;
+//      }
+//      h3{
+//        color: #FFFFFF;
+//      }
+//    }
+//  }
+//}
