@@ -19,6 +19,7 @@ import Follows from "./pages/person/follows/Follows";
 import FrBuy from "./pages/FrBuy";
 import AllMaps from "./components/About-School/ All-Maps/All-Maps";
 import More from "./HomePage/More";
+import Front from "./pages/program course/FR";
 
 
 
@@ -31,8 +32,9 @@ function App() {
   return (
       <div className="App">
         <Header/>
+        <Front/>
         <Routes>
-          <Route path={'/'} element={<Home/>}/>
+          {/*<Route path={'/'} element={<Home/>}/>*/}
           <Route path={'/подпискаГод'} element={<God/>}/>
           <Route path={'/articles/details'} element={<Page/>}/>
           <Route path={'/подпискаМесяцPlus'} element={<Month/>}/>
