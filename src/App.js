@@ -47,6 +47,11 @@ function App() {
   return (
       <div className="App">
         <Header/>
+        {/*<JavaRu/>*/}
+        {/*  <Master/>*/}
+        {/*<Example/>*/}
+        {/*  <Process/>*/}
+        {/*  <Late/>*/}
         <Abotus />
         <JavaRu/>
           <Master/>

@@ -49,6 +49,9 @@
   #program .program--vid__accordion--title{
     width: 425px;
   }
+  #program iframe{
+    width: 441px;
+  }
 }
 @media (max-width: 480px) {
   #program .program--vid__accordion--title{
@@ -84,6 +87,10 @@
   #asks .asks--text h1{
     font-size: 25px;
   }
+  #program iframe{
+    width: 290px;
+    height: 200px;
+  }
 }
 @media (max-width: 320px) {
   #asks .asks--text h1{
@@ -113,5 +120,9 @@
   }
   #program .program--fr h1{
     font-size: 24px;
+  }
+  #program iframe{
+    width: 290px;
+    height: 200px;
   }
 }
