@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import logo from '../../img/логотип.svg';
 import { Link } from 'react-router-dom';
 import { FaRegEye, FaRegEyeSlash } from 'react-icons/fa';
+import {LoginContext} from "../../Context";
 
 const Voyti = () => {
+    const {setLogin} = useContext(LoginContext)
     const [showPassword, setShowPassword] = useState(false);
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -37,6 +39,7 @@ const Voyti = () => {
     };
 
     const emailHandler = (e) => {
+        setLogin(e.target.value)
         setEmail(e.target.value);
         const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         if (!re.test(String(e.target.value).toLowerCase())) {
@@ -49,7 +52,7 @@ const Voyti = () => {
     const passwordHandler = (e) => {
         setPassword(e.target.value);
         if (e.target.value.length < 3 || e.target.value.length > 12) {
-            setPasswordError('пароль должен быть длиной от 3 до 12  символов');
+            setPasswordError('от 3 до 12  символов');
         } else {
             setPasswordError('');
         }

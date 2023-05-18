@@ -1,0 +1,97 @@
+#process{
+  padding: 5% 0;
+  .process{
+    &--learn{
+      h1{
+        font-weight: 700;
+        font-size: 36px;
+        color: #FFFFFF;
+      }
+      p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        width: 700px;
+        padding: 50px 0;
+      }
+    }
+    &--access{
+      display: flex;
+      align-items: center;
+      //justify-content: space-between;
+      &__one{
+        display: flex;
+        flex-wrap: wrap;
+        //justify-content: space-between;
+        &--red{
+          display: flex;
+        }
+        &--feel{
+          background: linear-gradient(180deg, rgba(0, 84, 160, 0.2) 0%, rgba(0, 11, 48, 0.2) 100%);
+          border: 1px solid #0272CE;
+          backdrop-filter: blur(22px);
+          /* Note: backdrop-filter has minimal browser support */
+          border-radius: 10px;
+          padding: 20px;
+          margin: 15px 15px;
+          h2{
+            text-align: center;
+            font-weight: 700;
+            font-size: 36px;
+            color: #FFFFFF;
+          }
+          h3{
+            text-align: center;
+            font-weight: 500;
+            font-size: 20px;
+            color: #FFFFFF;
+          }
+          p{
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            width: 200px;
+            color: #FFFFFF;
+          }
+        }
+      }
+      &__two{
+        background: #FFFFFF;
+        border-radius: 10px;
+        padding: 20px;
+        p{
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 20px;
+          color: #000000;
+          width: 300px;
+        }
+        h4{
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 44px;
+          color: #000000;
+          padding: 15px 0;
+        }
+        h5{
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          color: #000000;
+          padding: 10px 0;
+        }
+        button{
+          font-weight: 500;
+          font-size: 16px;
+          color: #FFFFFF;
+          background: #044076;
+          border-radius: 10px;
+          padding: 20px 60px;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}

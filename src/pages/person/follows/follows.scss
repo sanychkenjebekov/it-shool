@@ -17,8 +17,7 @@
     }
     &--every{
       display: flex;
-
-      //justify-content: space-between;
+      justify-content: space-between;
       &__right{
         padding: 0 40px;
       }
@@ -33,15 +32,15 @@
       &__status{
         display: flex;
         align-items: center;
-        width: 600px;
-        //justify-content: space-between;
+        //width: 600px;
+        justify-content: space-between;
         &--card{
           h2{
             font-weight: 700;
             font-size: 18px;
             line-height: 27px;
             color: rgba(255, 255, 255, 0.8);
-            padding: 15px 60px;
+            padding: 15px 90px;
           }
         }
       }
@@ -49,7 +48,7 @@
     &--saydBar{
       padding-top: 30px;
       width: 350px;
-      height: 527px;
+      height: 480px;
       background: #FFFFFF;
       border-radius: 10px;
       display: flex;

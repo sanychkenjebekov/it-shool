@@ -106,6 +106,7 @@ const FrBuy = () => {
                             <a href="#skils--programma"><button className='btn2'>Смотреть программу</button></a>
                         </div>
                     </div>
+
                     <div id='skils--programma' className="skils--programma">
                         <h1>ПРОГРАММА КУРСА</h1>
                         <div className="skils--programma__modulAll">
@@ -139,6 +140,8 @@ const FrBuy = () => {
                         </div>
                         <Link to={"/register"}> <button>Зарегистрироваться</button></Link>
                     </div>
+
+
                     <div className="skils--ekskluziv">
                         <div className="skils--ekskluziv__about">
                             <div className="skils--ekskluziv__about--card">

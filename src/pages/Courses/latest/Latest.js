@@ -2,6 +2,8 @@ import React from 'react';
 import {BsFillClipboardMinusFill} from "react-icons/bs";
 import './style.scss'
 import '../media.scss'
+import Rectangle from "../../../img/Rectangle.png";
+import read from "../../../img/read.svg";
 
 const Latest = () => {
     return (
@@ -14,7 +16,10 @@ const Latest = () => {
                     </div>
 
                  <div className="latest--title">
-                     <div className="latest--title__text">
+
+
+
+                         <div className="latest--title__text">
                          <h5>Статьи</h5>
                          <h1>Мы подготовили подборку  самых
                              популярных курсов  по направлению Java в IBS Training Center. </h1>

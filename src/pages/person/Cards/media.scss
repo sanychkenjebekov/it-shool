@@ -4,9 +4,31 @@
   }
 
 }
+@media (max-width: 1024px) {
+  #karty .karty--saydBar{
+    width: 350px;
+    height: 480px;
+  }
+  #karty .vyhod{
+    left: 5% !important;
+    top: 86% !important;
+    padding: 30px 50px !important;
+  }
+
+  #karty .karty--visul__visa{
+    flex-direction: column;
+  }
+  #karty .karty--visul__visa--block{
+    margin: 10px 30px;
+  }
+
+}
 
 @media (max-width: 992px) {
-
+  #karty .vyhod {
+    left: 23% !important;
+    padding: 30px 76px !important;
+  }
   #karty{
     .karty{
       flex-wrap:wrap ;
@@ -20,6 +42,14 @@
       }
     }
   }
+  #karty .karty--visul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+#karty .karty--saydBar{
+  margin-left: 20%;
+}
 }
 @media (max-width: 768px) {
   #karty{

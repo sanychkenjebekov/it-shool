@@ -1,0 +1,77 @@
+#reactComent{
+  padding: 80px 0;
+  font-family: 'Montserrat',sans-serif;
+  .reactComent{
+    h1{
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 44px;
+      color: #FFFFFF;
+      padding: 0 0 40px 0;
+    }
+    &--coment{
+      background:#050C22;
+      width: 851px;
+      height: 246px;
+      border-radius: 8px;
+      textarea{
+        width: 810px;
+        height: 136px;
+        background: rgba(27, 41, 89, 0.4);;
+        border: none;
+        outline: none;
+        padding: 10px 0 0 10px;
+        color: white;
+        margin: 15px 0 0 15px;
+        border-radius: 8px;
+      }
+      button{
+        background: rgba(27, 41, 89, 0.4);
+        border-radius: 8px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 17px;
+        color: #FFFFFF;
+        padding: 12px 55px;
+        margin: 15px 0 0 15px;
+      }
+    }
+    &--sms{
+      width: 300px;
+      ul li{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+        padding: 15px 0;
+      }
+      &__card{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        color: #FFFFFF;
+        h3{
+          color: #FFFFFF;
+          font-size: 17px;
+        }
+        p{
+          font-size: 16px;
+          color: rgba(255, 255, 255, 0.89);
+          padding: 10px 0 15px 0;
+        }
+      &--btn{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        button{
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          color: #9099A3;
+          background: none;
+        }
+      }
+      }
+    }
+  }
+}

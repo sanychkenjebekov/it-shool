@@ -117,7 +117,7 @@ const Articles = () => {
                         </div>
                     </div></Link>
                     <div className='article--btn'>
-                        <button>Показать больше</button>
+                        <Link to={'/more'}><button>Показать больше</button></Link>
                     </div>
                     <div className='article--follow'>
                         <div className='article--follow__left'>

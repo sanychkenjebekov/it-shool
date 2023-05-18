@@ -5,6 +5,11 @@
       width: 100%;
     }
     .swiper{
+
+      .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+        display: none;
+      }
+
       padding-top: 50px;
       width: 100%;
       img{

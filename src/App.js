@@ -18,7 +18,23 @@ import Cards from "./pages/person/Cards/Cards";
 import Follows from "./pages/person/follows/Follows";
 import FrBuy from "./pages/FrBuy";
 import AllMaps from "./components/About-School/ All-Maps/All-Maps";
+
 import RegisterCourse from "./components/About-School/registerCourse";
+
+import More from "./HomePage/More";
+import Abotus from "./pages/aboutUs/aboutUs";
+
+import Reactivity from "./pages/Reactivity";
+
+
+import JavaRu from "./pages/JavaIt/javaRu";
+import Master from "./pages/JavaIt/master";
+import Example from "./pages/JavaIt/exemple";
+import Process from "./pages/JavaIt/Process";
+import Late from "./pages/JavaIt/Late";
+import Front from "./pages/program course/FR";
+import Articles from "./HomePage/Articles/articles";
+
 
 
 
@@ -31,8 +47,15 @@ function App() {
   return (
       <div className="App">
         <Header/>
+        <Abotus />
+        <JavaRu/>
+          <Master/>
+        <Example/>
+          <Process/>
+          <Late/>
+        <Front/>
         <Routes>
-          <Route path={'/'} element={<Home/>}/>
+          {/*<Route path={'/'} element={<Home/>}/>*/}
           <Route path={'/подпискаГод'} element={<God/>}/>
           <Route path={'/articles/details'} element={<Page/>}/>
           <Route path={'/подпискаМесяцPlus'} element={<Month/>}/>
@@ -49,6 +72,7 @@ function App() {
           <Route path={'/frCurse'} element={<FrBuy/>}/>
           <Route path={'/allCard'} element={<AllMaps/>}/>
           <Route path={'/register'} element={<RegisterCourse/>}/>
+            <Route path={'/more'} element={<More/>}/>
         </Routes>
         <Footer/>
       </div>

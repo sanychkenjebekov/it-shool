@@ -2,6 +2,19 @@
   .container{
     width: 90%;
   }
+  #reactivity .reactivity--youtube iframe {
+    width: 510px !important;
+  }
+  #reactivity .reactivity--youtube__videoAll--video__title h3 {
+    font-size: 16px !important;
+    width: 230px !important;
+  }
+  #reactivity .reactivity--youtube__videoAll--btn .youTubeBtn2{
+    font-size: 11px !important;
+  }
+  #reactivity .reactivity--youtube__videoAll--btn .youTubeBtn1 {
+    font-size: 11px !important;
+  }
   #frBuy .skils--obuchenie__all {
     flex-wrap: wrap !important;
     gap: 45px !important;
@@ -88,6 +101,12 @@
   #god .oplata{
     left: 35% !important;
   }
+  #Accor .accorFaq span{
+    font-size: 16px !important;
+  }
+  #Accor .accorFaq h1{
+    font-size: 34px !important;
+  }
   #podpisatsa .podpisatsa--about .h1 {
     font-size: 34px;
   }
@@ -123,6 +142,71 @@
 @media (max-width: 992px) {
   #podpisatsa .podpisatsa p {
     font-size: 15px !important;
+  }
+  #Accor .accorFaq h1 {
+    font-size: 30px !important;
+  }
+  #reactivity .reactivity h5 {
+    font-size: 12px !important;
+  }
+  #reactivity .reactivity--about__title h1 {
+    font-size: 30px !important;
+  }
+  #reactivity .reactivity--about__title p {
+    font-size: 14px !important;
+    width: 360px !important;
+  }
+  #reactivity .reactivity--about__img--title h3 {
+    font-size: 12px !important;
+  }
+  #reactivity .reactivity--about__img--title span {
+    font-size: 13px !important;
+  }
+  #reactivity .reactivity--youtube__videoAll--video__title h3 {
+    font-size: 14px !important;
+    width: 220px !important;
+  }
+  #reactivity .reactivity--youtube {
+    flex-direction: column;
+    align-items: center;
+  }
+  #reactivity .reactivity--youtube {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    gap: 60px;
+  }
+  #reactivity .reactivity--youtube__videoAll--btn .youTubeBtn2 {
+    font-size: 10px !important;
+  }
+  #reactivity .reactivity--youtube__videoAll--btn .youTubeBtn1 {
+    font-size: 10px !important;
+  }
+  #reactivity .reactivity--sec2{
+    padding: 80px 0 0 0;
+  }
+  #reactivity .reactivity--sec2__about h3 {
+    font-size: 15px !important;
+  }
+  #reactivity .reactivity--sec2__about ul li {
+    font-size: 16px !important;
+  }
+  #reactComent .reactComent h1 {
+    font-size: 30px !important;
+  }
+  #reactComent .reactComent h1 {
+    font-size: 24px !important;
+  }
+  #reactComent .reactComent--coment textarea {
+    width: 680px !important;
+  }
+  #reactComent .reactComent--coment {
+    width: 720px !important;
+    height: 240px !important;
+  }
+  #reactComent .reactComent--coment button {
+    font-size: 11px !important;
+    padding: 12px 45px !important;
   }
   #dashboard{
     .file{
@@ -340,6 +424,27 @@
   #header .header--voitiAll{
     display: none !important;
   }
+  #Accor .accorFaq span {
+    font-size: 15px !important;
+  }
+  #Accor .accorFaq h1 {
+    font-size: 28px !important;
+  }
+  #reactivity .reactivity--about__title h1 {
+    font-size: 28px !important;
+  }
+  #reactivity .reactivity--about__title p {
+    width: 270px !important;
+  }
+  #reactComent .reactComent--coment textarea {
+    width: 555px !important;
+  }
+  #reactComent .reactComent--coment {
+    width: 595px !important;
+  }
+  #reactComent .reactComent--coment button {
+    padding: 10px 40px !important;
+  }
   #dashboard .file {
     margin: 154px 0 0 181px !important;
   }
@@ -553,6 +658,41 @@ text-align: center !important;
   #god .oplata {
     left: 23% !important;
   }
+  #Accor .accorFaq h1 {
+    font-size: 24px !important;
+  }
+  #reactivity {
+    padding: 40px 0 !important;
+  }
+  #reactivity .reactivity--about__title h1 {
+    font-size: 24px !important;
+  }
+  #reactivity .reactivity--about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+  }
+  #reactivity .reactivity--youtube {
+    padding-top: 70px !important;
+  }
+  #reactivity .reactivity--sec2__about {
+    width: 406px !important;
+  }
+  #reactivity .reactivity--sec2__about ul li {
+    font-size: 15px !important;
+  }
+  #reactivity .reactivity--about__title p {
+    width: 322px !important;
+  }
+  #reactComent .reactComent--coment textarea {
+    width: 465px !important;
+    height: 120px !important;
+  }
+  #reactComent .reactComent--coment {
+    width: 505px !important;
+    height: 215px !important;
+  }
   #dashboard .file {
     margin: 154px 0 0 135px !important;
   }
@@ -597,6 +737,19 @@ text-align: center !important;
   #podpisatsa .podpisatsa--about .h1 {
     font-size: 25px !important;
     padding: 40px 0 30px 0 !important;
+  }
+  #reactivity .reactivity--youtube iframe {
+    width: 440px !important;
+    height: 320px !important;
+  }
+  #reactComent .reactComent--coment textarea {
+    width: 410px !important;
+  }
+  #reactComent .reactComent--coment {
+    width: 450px !important;
+  }
+  #reactComent .reactComent--coment button {
+    padding: 10px 25px !important;
   }
   #dashboard .file {
     margin: 154px 0 0 109px !important;
@@ -678,6 +831,38 @@ text-align: center !important;
 @media (max-width: 480px) {
   #podpisatsa .podpisatsa p {
     font-size: 13px !important;
+  }
+  #Accor .accorFaq span {
+    font-size: 14px !important;
+  }
+  #reactivity .reactivity--about__title p {
+    width: 255px !important;
+  }
+  #reactivity .reactivity--youtube iframe {
+    width: 310px !important;
+    height: 220px !important;
+  }
+  #reactivity .reactivity--youtube__videoAll--video img {
+    width: 80px !important;
+    height: 50px !important;
+  }
+  #reactivity .reactivity--youtube__videoAll--video__title h3 {
+    font-size: 13px !important;
+  }
+  #reactivity .reactivity--sec2__about {
+    width: 300px !important;
+  }
+  #reactComent .reactComent--coment textarea {
+    width: 260px !important;
+    height: 100px !important;
+  }
+  #reactComent .reactComent--coment {
+    width: 298px !important;
+    height: 198px !important;
+  }
+  #reactComent .reactComent--coment button {
+    padding: 8px 15px !important;
+    font-size: 10px;
   }
   #dashboard .file {
     margin: 154px 0 0 37px !important;
