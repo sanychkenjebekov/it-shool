@@ -20,11 +20,11 @@
       justify-content: space-between;
       //padding: 25px 0;
       &__block{
-        margin: 25px 0;
+        margin: 25px -17px;
         border-radius: 20px;
         background: #FFFFFF;
         .read{
-          width: 350px;
+          //width: 350px;
         }
         p{
           font-weight: 500;
@@ -32,18 +32,22 @@
           color: #898989;
         }
         h1{
-          font-weight: 600;
-          font-size: 16px;
+          font-weight: 700;
+          font-size: 17px;
           line-height: 20px;
           color: #000000;
-          width: 300px;
+          height: 85px;
+          width: 327px;
           padding: 6px 0;
         }
         &--one{
+          width: 330px;
           padding: 10px;
           &__tx{
             display: flex;
             align-items: center;
+            //width: 93%;
+            margin-bottom: 19px;
             justify-content: space-between;
             &--not{
               display: flex;
