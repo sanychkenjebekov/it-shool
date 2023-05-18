@@ -12,6 +12,16 @@
       height: 106px;
       padding: 90px 0;
     }
+    .icon {
+      position: absolute;
+      //transform: translateY(-50%);
+      left: 475px;
+      bottom: 117px;
+      color: #FFFFFF;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
     .spanicon {
       font-size: 20px;
       position: relative;
