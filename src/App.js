@@ -19,6 +19,7 @@ import Follows from "./pages/person/follows/Follows";
 import FrBuy from "./pages/FrBuy";
 import AllMaps from "./components/About-School/ All-Maps/All-Maps";
 import More from "./HomePage/More";
+import Abotus from "./pages/aboutUs/aboutUs";
 
 import Reactivity from "./pages/Reactivity";
 
@@ -43,6 +44,7 @@ function App() {
   return (
       <div className="App">
         <Header/>
+        <Abotus />
         <JavaRu/>
           <Master/>
         <Example/>

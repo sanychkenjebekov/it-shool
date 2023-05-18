@@ -52,7 +52,7 @@ const Voyti = () => {
     const passwordHandler = (e) => {
         setPassword(e.target.value);
         if (e.target.value.length < 3 || e.target.value.length > 12) {
-            setPasswordError('пароль должен быть длиной от 3 до 12  символов');
+            setPasswordError('от 3 до 12  символов');
         } else {
             setPasswordError('');
         }
