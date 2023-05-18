@@ -19,6 +19,11 @@ import Follows from "./pages/person/follows/Follows";
 import FrBuy from "./pages/FrBuy";
 import AllMaps from "./components/About-School/ All-Maps/All-Maps";
 import More from "./HomePage/More";
+import JavaRu from "./pages/JavaIt/javaRu";
+import Master from "./pages/JavaIt/master";
+import Example from "./pages/JavaIt/exemple";
+import Process from "./pages/JavaIt/Process";
+import Late from "./pages/JavaIt/Late";
 
 
 
@@ -31,6 +36,11 @@ function App() {
   return (
       <div className="App">
         <Header/>
+        <JavaRu/>
+          <Master/>
+        <Example/>
+          <Process/>
+          <Late/>
         <Routes>
           <Route path={'/'} element={<Home/>}/>
           <Route path={'/подпискаГод'} element={<God/>}/>
