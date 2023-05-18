@@ -25,6 +25,7 @@ import Example from "./pages/JavaIt/exemple";
 import Process from "./pages/JavaIt/Process";
 import Late from "./pages/JavaIt/Late";
 import Front from "./pages/program course/FR";
+import Articles from "./HomePage/Articles/articles";
 
 
 
