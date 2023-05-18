@@ -9,6 +9,12 @@
     width: 350px;
     height: 480px;
   }
+  #karty .vyhod{
+    left: 5% !important;
+    top: 86% !important;
+    padding: 30px 50px !important;
+  }
+
   #karty .karty--visul__visa{
     flex-direction: column;
   }
@@ -19,7 +25,10 @@
 }
 
 @media (max-width: 992px) {
-
+  #karty .vyhod {
+    left: 23% !important;
+    padding: 30px 76px !important;
+  }
   #karty{
     .karty{
       flex-wrap:wrap ;
