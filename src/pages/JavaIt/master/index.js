@@ -2,10 +2,10 @@ import React from 'react';
 import "../master/style.scss"
 import Example from "../exemple";
 import "../media.scss"
+import {Link} from "react-router-dom";
 
 const Master = () => {
     return (
-        <>
             <div id='master'>
                 <div className="container">
                     <div className="master">
@@ -44,14 +44,13 @@ const Master = () => {
                             </ul>
                         </div>
                         <div className="master--but">
-                            <button className='master--but__one'>Купить мастер-класс </button>
-                            <button className='master--but__two'>Смотреть программу</button>
+                            <Link to={'/master'}><button className='master--but__one'>Купить мастер-класс </button></Link>
+                            <a href="#example"><button className='master--but__two'>Смотреть программу</button></a>
                         </div>
                     </div>
                 </div>
             </div>
-            {/*<Example/>*/}
-        </>
+
     );
 };
 

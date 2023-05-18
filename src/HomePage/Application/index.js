@@ -20,11 +20,11 @@ const Application = () => {
                         </div>
                      <div className='application--right__inputs'>
                          <h2>Номер телефон*</h2>
-                         <input type="text"/>
+                         <input type="number"/>
                      </div>
                      <div className='application--right__inputs'>
                          <h2>Email*</h2>
-                         <input type="text"/>
+                         <input type="email"/>
                      </div>
                         <div>
                             <button>Отправить</button>

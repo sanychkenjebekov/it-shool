@@ -3,6 +3,7 @@ import ".//style.scss"
 import {AiOutlineCheck} from "react-icons/ai";
 import Late from "../Late";
 import "../media.scss"
+import {Link} from "react-router-dom";
 
 const Process = () => {
     return (
@@ -57,7 +58,7 @@ const Process = () => {
                                     <h5><AiOutlineCheck/>Доступны все 5 уроков</h5>
                                     <h5><AiOutlineCheck/>Дополнительные материалы</h5>
                                 </div>
-                                <button>Купить мастер-класс</button>
+                                <Link to={'/reactiv/details'}><button>Купить мастер-класс</button></Link>
                             </div>
                         </div>
                     </div>

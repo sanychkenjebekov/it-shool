@@ -12,10 +12,7 @@ const ReactComent = () => {
 <p>${tx.value}</p>
 <div class="reactComent--sms__card--btn">
 <button class="btn-del">Удалить</button>
-<button class="btn-otvet">Ответить</button>
 </div>
-<input style="display: none" class="otvet" type="text">
-<div class="otvetP"></div>
 </div>
 `
         smsRemove(sms)

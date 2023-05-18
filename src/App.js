@@ -1,7 +1,6 @@
 import './App.scss';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Home from "./HomePage";
 import {Route, Routes, useLocation} from "react-router-dom";
 import God from "./pages/Price/God";
 import Page from "./pages/Courses/page/Page";
@@ -22,18 +21,17 @@ import AllMaps from "./components/About-School/ All-Maps/All-Maps";
 import RegisterCourse from "./components/About-School/registerCourse";
 
 import More from "./HomePage/More";
+import Home from "./HomePage";
 import Abotus from "./pages/aboutUs/aboutUs";
 
 import Reactivity from "./pages/Reactivity";
 
 
 import JavaRu from "./pages/JavaIt/javaRu";
-import Master from "./pages/JavaIt/master";
-import Example from "./pages/JavaIt/exemple";
-import Process from "./pages/JavaIt/Process";
-import Late from "./pages/JavaIt/Late";
+import Reactivity from "./pages/Reactivity";
+import Master2 from "./components/About-School/Master2";
 import Front from "./pages/program course/FR";
-import Articles from "./HomePage/Articles/articles";
+
 
 
 
@@ -47,6 +45,8 @@ function App() {
   return (
       <div className="App">
         <Header/>
+
+
         {/*<JavaRu/>*/}
         {/*  <Master/>*/}
         {/*<Example/>*/}
@@ -59,8 +59,9 @@ function App() {
           <Process/>
           <Late/>
         <Front/>
+
         <Routes>
-          {/*<Route path={'/'} element={<Home/>}/>*/}
+          <Route path={'/'} element={<Home/>}/>
           <Route path={'/подпискаГод'} element={<God/>}/>
           <Route path={'/articles/details'} element={<Page/>}/>
           <Route path={'/подпискаМесяцPlus'} element={<Month/>}/>
@@ -78,6 +79,10 @@ function App() {
           <Route path={'/allCard'} element={<AllMaps/>}/>
           <Route path={'/register'} element={<RegisterCourse/>}/>
             <Route path={'/more'} element={<More/>}/>
+            <Route path={'/reactiv'} element={<JavaRu/>}/>
+            <Route path={'/reactiv/details'} element={<Reactivity/>}/>
+            <Route path={'/master'} element={<Master2/>}/>
+            <Route path={'/frRegistration'} element={<Front/>}/>
         </Routes>
         <Footer/>
       </div>

@@ -2,6 +2,10 @@ import React from 'react';
 import ".//style.scss"
 import Master from "../master";
 import "../media.scss"
+import Example from "../exemple";
+import Late from "../Late";
+import Process from "../Process";
+import {Link} from "react-router-dom";
 
 const JavaRu = () => {
     return (
@@ -20,7 +24,7 @@ const JavaRu = () => {
                                 <p>Идея реактивного программирования появилась сравнительно недавно, лет 10 назад.
                                     Что вызвало популярность этого относительно нового подхода и почему сейчас он
                                     в тренде, рассказал на конференции </p>
-                                <button>Купить мастер-класс за 46$</button>
+                                <Link to={'/reactiv/details'}><button>Купить мастер-класс за 46$</button></Link>
                             </div>
                             <div className='java--chat__right'>
                                 <div className='java--chat__right--month'>
@@ -37,7 +41,10 @@ const JavaRu = () => {
                 </div>
 
             </div>
-            {/*<Master/>*/}
+            <Master/>
+            <Example/>
+            <Process/>
+            <Late/>
         </>
     );
 };

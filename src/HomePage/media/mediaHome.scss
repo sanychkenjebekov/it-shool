@@ -2,17 +2,18 @@
   .container{
     width: 90%;
   }
+  #Article .article--blocks {
+    justify-content: center !important;
+    gap: 115px !important;
+  }
   #Home .home--image__tool4 {
     left: 412px !important;;
   }
   #Accor .accor--photo h1 {
-    font-size: 45px;
-  }
-  #Accor .accor--photo h1 {
-    font-size: 42px;
+    font-size: 42px !important;
   }
   #Application .application--left h1 {
-    font-size: 34px;
+    font-size: 34px !important;
   }
   #Application .application--right__inputs input {
     width: 550px !important;
@@ -54,6 +55,49 @@
   }
 }
 @media (max-width: 992px) {
+  #Article .article--blocks {
+    gap: 50px !important;
+  }
+  #Accor .accor{
+    flex-direction: column;
+    align-items: center !important;
+  }
+  #Accor .accor--photo h1 {
+    font-size: 35px !important;
+  }
+  #Accor .accor--photo {
+    margin: 0 0 60px 0 !important;
+  }
+  #Application .application--left h1 {
+    font-size: 30px !important;
+  }
+  #Article .article--text h1 {
+    padding: 70px 0 50px 0 !important;
+    font-size: 30px !important;
+  }
+  #Home .home--text h1 {
+    width: 463px !important;
+  }
+  #Home .home--text h1{
+    font-size: 30px !important;
+  }
+  #Home .home--text {
+    text-align: center !important;
+  }
+  #Home .home--text p {
+    width: 460px !important;
+    font-size: 18px;
+  }
+  #Home .home--image__tool{
+    width: 150px !important;
+    top: 74% !important;
+  }
+  #Article .article--follow__left h2 {
+    font-size: 25px !important;
+  }
+  #Article .article--follow__left p {
+    font-size: 15px !important;
+  }
   #Accor .accor{
     flex-direction: column;
     align-items: center;
@@ -66,15 +110,26 @@
   #Article .article--blocks{
     justify-content: center !important;
   }
-  #Accor .accor{
-    flex-direction: column;
-    align-items: center;
-  }
   #Application .application{
     flex-direction: column;
   }
 }
 @media (max-width: 768px) {
+  #Article .article--btn button {
+    font-size: 16px !important;
+  }
+  #Article .article--follow__left p {
+    width: 376px !important;
+  }
+  Article .article--follow__right--first {
+    font-size: 15px !important;
+  }
+  #Article .article--follow__right--second {
+    font-size: 15px !important;
+  }
+  #Accor .accor--all__item--cold__title h2 {
+    font-size: 17px !important;
+  }
   #Article{
     .article{
       &--follow{
@@ -87,7 +142,40 @@
   }
 }
 @media (max-width: 640px) {
-
+  #Home .home--text h1 {
+    font-size: 26px !important;
+  }
+  #Home .home--text p {
+    font-size: 16px !important;
+  }
+  #Article .article--text h1 {
+    font-size: 26px !important;
+    padding: 20px 0 50px 0 !important;
+  }
+  #Article .article--follow__left h2 {
+    font-size: 20px !important;
+  }
+  #Article .article--follow {
+    padding: 40px 50px !important;
+  }
+  #Accor .accor--photo h1 {
+    font-size: 30px !important;
+  }
+  #Accor .accor--photo img{
+    width: 140px;
+  }
+  #Application .application--left h1 {
+    font-size: 26px !important;
+  }
+  #Application .application {
+    align-items: center !important;
+  }
+  #Application .application--left{
+    text-align: center;
+  }
+  #Accor .accor--all__item--cold__title h2 {
+    font-size: 15px !important;
+  }
   #Home{
     .home{
       &--image{
@@ -191,24 +279,45 @@
   #Accor .accor--all__item{
     width: 430px !important;
   }
-  #Home{
-    .home{
-      &--text{
-        h1{
-          width: 369px !important;
-        }
-      }
-    }
+  #Home .home--text {
+    margin: -50px 0 80px 0 !important;
+  }
+  #Home .home--text p {
+    font-size: 15px !important;
+  }
+  #Article .article--text h1 {
+    font-size: 20px !important;
+  }
+  #Article .article--blocks__block {
+    width: 300px !important;
+  }
+  #Article .read{
+    width: 300px;
+  }
+  #Accor .accor--all__item--cold {
+    padding: 0 !important;
+  }
+  #Accor .accor--all__item {
+    width: 240px !important;
+  }
+  #Article .article--blocks__block--one {
+    width: 280px !important;
   }
   #Home .home--image {
     width: 310px !important;
   }
-  #Accor .accor--all__item{
-    width: 200px !important;
+  #Accor .accor--all__item--cold__title span svg {
+    font-size: 22px !important;
+  }
+  #Article .article--blocks__block h1 {
+    font-size: 14px !important;
+  }
+  #Article .article--btn button {
+    font-size: 14px !important;
   }
   #Home .home--text h1{
     width: 268px !important;
-    font-size: 20px !important;
+    font-size: 17px !important;
   }
   #Article .article--blocks__block{
     .read{
@@ -232,8 +341,33 @@
     width: 235px !important;
   }
   #Article .article--follow__left p{
-    width: 209px !important;
+    width: 240px !important;
   }
+  #Article .article--follow__right--first {
+    font-size: 14px !important;
+  }
+  #Article .article--follow__right--second {
+    font-size: 14px !important;
+  }
+  #Accor .accor--photo h1 {
+    font-size: 24px !important;
+  }
+  #Accor .accor--photo img {
+    width: 120px;
+  }
+  #Application .application--left h1 {
+    font-size: 20px !important;
+  }
+  #Application .application--left p {
+    font-size: 14px !important;
+  }
+  #Application .application--right__inputs h2 {
+    font-size: 12px !important;
+  }
+  #Application .application--right button {
+    font-size: 14px !important;
+  }
+
 }
 @media (max-width: 320px) {
 

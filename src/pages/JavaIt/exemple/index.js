@@ -4,6 +4,7 @@ import ".//style.scss"
 import even from "../../../img/even.png"
 import Process from "../Process";
 import "../media.scss"
+import {Link} from "react-router-dom";
 
 const Example = () => {
     return (
@@ -39,7 +40,7 @@ const Example = () => {
                                         <h4>Модуль 6</h4>
                                         <p>Reactive Streams spec</p>
                                     </div>
-                                    <button>Купить мастер-класс</button>
+                                    <Link to={'/master'}><button>Купить мастер-класс</button></Link>
                                 </div>
                                 <img src={modal} alt=""/>
                             </div>
@@ -54,12 +55,11 @@ const Example = () => {
                                 <h6>Евгений Александрович</h6>
                                 <p> Frontend developer / Аратор </p>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
-            {/*<Process/>*/}
+
         </>
     );
 };
