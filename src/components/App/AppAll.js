@@ -19,6 +19,7 @@ const AppAll = () => {
                     <Route path="/comments" element={<Comments/>} />
                     <Route path="/mine" element={<Mine/>} />
                     <Route path="/exit" element={<Exit/>} />
+                    <Route path="/register" element={<Exit/>} />
                 </Routes>
             </Sidebar>
 

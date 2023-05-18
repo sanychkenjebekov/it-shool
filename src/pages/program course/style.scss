@@ -123,6 +123,11 @@
 
           &--videos{
             display: flex;
+            img{
+              width: 60px;
+              height: 45px;
+              border-radius: 10px;
+            }
             iframe{
               border-radius: 8px;
             }
