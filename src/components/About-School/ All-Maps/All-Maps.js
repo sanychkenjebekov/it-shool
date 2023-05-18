@@ -6,6 +6,7 @@ function AllMaps() {
     return (
         <div id="allMaps">
             <div className="container">
+                <p style={{color:'#ffffffb3',margin:'80px 0 50px 0',fontSize:'145x'}}>Главная /<span style={{color:'white'}}>Наши курсы</span></p>
             <h2>
                 Курсы
             </h2>

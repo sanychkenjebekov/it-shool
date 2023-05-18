@@ -5,9 +5,12 @@ import comanda from "../../../img/comanda.png"
 import comanda2 from '../../../img/comanda2.png'
 import sertificate from "../../../img/sertificate.png";
 import sertifyadap from '../../../img/sertifyadap.png'
-import {NavLink} from "react-router-dom";
+import Otzyvy from "../otzyvy";
+import Zayavka from "../zayavka";
+
 const Abotus = () => {
     return (
+        <>
       <div id='about'>
           <div className="container">
              <h3>Главная / <span>О нас</span></h3>
@@ -34,6 +37,9 @@ const Abotus = () => {
               </div>
           </div>
       </div>
+            <Otzyvy/>
+            <Zayavka/>
+        </>
     );
 };
 

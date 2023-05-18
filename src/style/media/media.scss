@@ -2,6 +2,10 @@
   .container{
     width: 90%;
   }
+  #allMaps .container .allMaps {
+    justify-content: center !important;
+    gap: 80px;
+  }
   #reactivity .reactivity--youtube iframe {
     width: 510px !important;
   }
@@ -64,6 +68,7 @@
   }
   #courses .container .courses {
     flex-wrap: wrap;
+    gap: 60px;
   }
   #courses .container .courses .courses3 {
     margin: 20px 0;
@@ -79,6 +84,12 @@
 @media (max-width: 1024px) {
   #podpisatsa .podpisatsa--zayavka__input input {
     padding: 15px 290px 15px 30px !important;
+  }
+  #ourSchool .container .ourSchool .school1 h1 {
+    font-size: 30px !important;
+  }
+  #ourSchool .container .ourSchool .school1 p {
+    font-size: 18px !important;
   }
   #dashboard .personaldata .wrapper {
     gap: 23px !important;
@@ -142,6 +153,50 @@
 @media (max-width: 992px) {
   #podpisatsa .podpisatsa p {
     font-size: 15px !important;
+  }
+  #submitSchool .container .submitSchool {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  #ourSchool .container .ourSchool {
+    flex-direction: column !important;
+    gap: 60px !important;
+  }
+  #ourSchool .container .ourSchool .school1 h1 {
+    font-size: 27px !important;
+  }
+  #courses .container .courses {
+    justify-content: center !important;
+  }
+  #packages .container .packages--packagesTop__packagesTop1 h1 {
+    font-size: 36px !important;
+  }
+  #packages .container .packages--packagesTop__packagesTop2 h1 {
+    font-size: 36px !important;
+  }
+  #packages .container .packages--packagesTop__packagesTop3 h1 {
+    font-size: 36px !important;
+  }
+  #packages .container .packages--packagesTop__packagesTop3 a button {
+  margin: 0;
+  }
+  #packages .container .packages--packagesTop__packagesTop2 a button {
+    margin: 0 ;
+  }
+  #packages .container .packages--packagesTop__packagesTop1 a button {
+    margin: 0;
+  }
+  #courses .container h2 {
+    font-size: 30px !important;
+  }
+  #masterclasses .container .masterclasses h1 {
+    font-size: 30px !important;
+  }
+  #packages .container .packages--packages1 h1 {
+    font-size: 30px !important;
+  }
+  #submitSchool .container .submitSchool .submit1 h1 {
+    font-size: 30px !important;
   }
   #Accor .accorFaq h1 {
     font-size: 30px !important;
@@ -424,6 +479,22 @@
   #header .header--voitiAll{
     display: none !important;
   }
+  #packages .container .packages--packagesTop__packagesTop1 {
+    width: 50% !important;
+  }
+  #packages .container .packages--packagesTop__packagesTop2 {
+    width: 50% !important;
+  }
+  #packages .container .packages--packagesTop__packagesTop3 {
+    width: 50% !important;
+  }
+  #packages .container .packages--packagesTop {
+    flex-direction: column !important;
+    gap: 50px !important;
+  }
+  #packages .container .packages--packagesTop__packagesTop1 h1 {
+    font-size: 30px !important;
+  }
   #Accor .accorFaq span {
     font-size: 15px !important;
   }
@@ -630,22 +701,17 @@ text-align: center !important;
   #footer .footer--menu__seti .icons {
     font-size: 23px;
   }
-  #ourSchool .container .ourSchool {
-    flex-wrap: wrap;
-    margin-left: 91px;
-  }
-  #courses .container .courses {
-    flex-wrap: wrap;
-    margin-left: 163px;
-  }
   #courses .container .courses .courses2 {
     margin: 20px 0 0 0;
   }
   #submitSchool .container .submit2 input {
     padding: 20px 350px 20px 20px;
   }
-  #allMaps .container .allMaps {
-    margin-left: 164px;
+  #submitSchool .container .submit2 p {
+    font-size: 14px !important;
+  }
+  #submitSchool .container .submit2 button {
+    padding: 15px 50px !important;
   }
   #god .container .god--banner {
     margin-left: 95px;
@@ -657,6 +723,15 @@ text-align: center !important;
 @media (max-width: 640px) {
   #god .oplata {
     left: 23% !important;
+  }
+  #packages .container .packages--packagesTop__packagesTop1 {
+    width: 60% !important;
+  }
+  #packages .container .packages--packagesTop__packagesTop2 {
+    width: 60% !important;
+  }
+  #packages .container .packages--packagesTop__packagesTop3 {
+    width: 60% !important;
   }
   #Accor .accorFaq h1 {
     font-size: 24px !important;
@@ -714,20 +789,17 @@ text-align: center !important;
   #uvedomlenie .uvedomlenie--card h4 {
     font-size: 15px;
   }
-  #ourSchool .container .ourSchool {
-    margin-left: 42px;
+  #submitSchool .container .submitSchool .submit1 h1 {
+    font-size: 27px !important;
   }
-  #courses .container .courses {
-    margin-left: 102px;
+  #ourSchool .container .school2 img {
+    width: 400px !important;
   }
   #submitSchool .container .submit2 input {
     padding: 19px 170px 20px 20px;
   }
   #allMaps .container .allMaps {
-    margin-left: 119px;
-  }
-  #allMaps .container .allMaps {
-    margin-left: 72px;
+    gap: 50px !important;
   }
   #god .container .god--banner {
     margin-left: 51px;
@@ -737,6 +809,12 @@ text-align: center !important;
   #podpisatsa .podpisatsa--about .h1 {
     font-size: 25px !important;
     padding: 40px 0 30px 0 !important;
+  }
+  #allMaps .container h2 {
+    font-size: 26px !important;
+  }
+  #allMaps p{
+    font-size: 14px;
   }
   #reactivity .reactivity--youtube iframe {
     width: 440px !important;
@@ -818,22 +896,49 @@ text-align: center !important;
   #submitSchool .container .submitSchool {
     flex-wrap: wrap;
   }
-  #ourSchool .container .ourSchool {
-    margin-left: -10px;
-  }
-  #courses .container .courses {
-    margin-left: 57px;
-  }
   #masterclasses .container .masterclasses--bloc {
     margin-left: 10%;
+  }
+  #masterclasses .container .masterclasses h1 {
+    font-size: 27px !important;
+  }
+  #packages .container .packages--packages1 h1 {
+    font-size: 27px !important;
   }
 }
 @media (max-width: 480px) {
   #podpisatsa .podpisatsa p {
     font-size: 13px !important;
   }
+  #packages .container .packages--packagesTop__packagesTop1 {
+    width: 90% !important;
+  }
+  #submitSchool .container .submit2 input {
+    padding: 9px 100px 20px 20px !important;
+  }
+  #packages .container .packages--packagesTop__packagesTop2 {
+    width: 90% !important;
+  }
+  #packages .container .packages--packagesTop__packagesTop3 {
+    width: 90% !important;
+  }
+  #ourSchool .container .school2 img {
+    width: 230px !important;
+  }
+  #ourSchool .container .ourSchool .school1 rem {
+    font-size: 14px !important;
+  }
+  #ourSchool .container .ourSchool .school1 h1 {
+    font-size: 20px !important;
+  }
+  #allMaps .container .allMaps h1 {
+    font-size: 20px !important;
+  }
   #Accor .accorFaq span {
     font-size: 14px !important;
+  }
+  #allMaps .container .allMaps {
+    margin-left: 0 !important;
   }
   #reactivity .reactivity--about__title p {
     width: 255px !important;
@@ -1091,11 +1196,14 @@ text-align: center !important;
   #ourSchool .container .school2 img {
     width: 448px;
   }
-  #courses .container .courses {
-    margin-left: 44px;
+  #courses .container .courses h1 {
+    font-size: 20px !important;
   }
-  #allMaps .container .allMaps {
-    margin-left: 39px;
+  #masterclasses .container .masterclasses--bloc {
+    margin-left: 0;
+  }
+  #masterclasses .container .masterclasses .masterclasses1 {
+    padding: 50px 100px 0 0 !important;
   }
   #god .container .god--banner {
     margin-left: 0;

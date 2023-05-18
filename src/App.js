@@ -17,20 +17,14 @@ import Cards from "./pages/person/Cards/Cards";
 import Follows from "./pages/person/follows/Follows";
 import FrBuy from "./pages/FrBuy";
 import AllMaps from "./components/About-School/ All-Maps/All-Maps";
-
 import RegisterCourse from "./components/About-School/registerCourse";
-
 import More from "./HomePage/More";
 import Home from "./HomePage";
-import Abotus from "./pages/aboutUs/aboutUs";
-
 import Reactivity from "./pages/Reactivity";
-
-
 import JavaRu from "./pages/JavaIt/javaRu";
-import Reactivity from "./pages/Reactivity";
 import Master2 from "./components/About-School/Master2";
 import Front from "./pages/program course/FR";
+import AboutUs from "./pages/aboutUs/aboutUs";
 
 
 
@@ -45,21 +39,6 @@ function App() {
   return (
       <div className="App">
         <Header/>
-
-
-        {/*<JavaRu/>*/}
-        {/*  <Master/>*/}
-        {/*<Example/>*/}
-        {/*  <Process/>*/}
-        {/*  <Late/>*/}
-        <Abotus />
-        <JavaRu/>
-          <Master/>
-        <Example/>
-          <Process/>
-          <Late/>
-        <Front/>
-
         <Routes>
           <Route path={'/'} element={<Home/>}/>
           <Route path={'/подпискаГод'} element={<God/>}/>
@@ -82,7 +61,10 @@ function App() {
             <Route path={'/reactiv'} element={<JavaRu/>}/>
             <Route path={'/reactiv/details'} element={<Reactivity/>}/>
             <Route path={'/master'} element={<Master2/>}/>
-            <Route path={'/frRegistration'} element={<Front/>}/>
+            <Route path={'/frRegistration'} element={<RegisterCourse/>}/>
+            <Route path={'/оНас'} element={<AboutUs/>}/>
+            <Route path={'/нашиКурсы'} element={<AllMaps/>}/>
+            <Route path={'/front'} element={<Front/>}/>
         </Routes>
         <Footer/>
       </div>
