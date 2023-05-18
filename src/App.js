@@ -19,6 +19,8 @@ import Follows from "./pages/person/follows/Follows";
 import FrBuy from "./pages/FrBuy";
 import AllMaps from "./components/About-School/ All-Maps/All-Maps";
 import More from "./HomePage/More";
+import Reactivity from "./pages/Reactivity";
+
 
 
 

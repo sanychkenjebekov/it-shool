@@ -102,7 +102,7 @@ const Follows = () => {
                     </div>
                 </div>
             </div>
-            <div className="vyhod" style={{position:'absolute',left:'12.5%',top:'75%',textAlign:'center',color:'white',background:'rgb(11 22 57)',padding:'30px 76px',borderRadius:'10px',display:'none'}}>
+            <div className="vyhod" style={{position:'absolute',left:'12.5%',top:'74%',textAlign:'center',color:'white',background:'rgb(11 22 57)',padding:'30px 76px',borderRadius:'10px',display:'none'}}>
                 <h3 style={{fontSize:'15px',width:'170px',padding:'0 0 17px 0',fontWeight:'500'}}>Действительно хотите выйти или нет?</h3>
                 <div className="vyhod--btn">
                     <Link onClick={home} to={'/'} ><button style={{background:'#044076',color:'white',padding:'10px 35px',borderRadius:'10px',margin:'0 20px 0 0'}}>Да</button></Link>

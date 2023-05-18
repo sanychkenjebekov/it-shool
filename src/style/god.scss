@@ -33,11 +33,21 @@
           font-size: 16px;
         }
         input{
-          background: none;
-          border: 1px solid #FFFFFF;
-          padding: 15px 30px 15px 20px;
-          border-radius: 5px;
-          color: #FFFFFF;
+          //background: none;
+          //border: 1px solid #FFFFFF;
+          //padding: 15px 30px 15px 20px;
+          //border-radius: 5px;
+          //color: #FFFFFF;
+          background: rgb(10, 17, 40);//background: none;
+          border: 1px solid #FFFFFF;padding: 15px 30px 15px 20px;
+          border-radius: 5px;color: #FFFFFF;
+          &:-webkit-autofill,&:-webkit-autofill:hover,
+          &:-webkit-autofill:focus,&:-webkit-autofill:active {
+            -webkit-box-shadow: inset 0 0 0 50px rgb(10, 17, 40) !important;
+            -webkit-text-fill-color: #FFFFFF !important;}
+          &:focus {  outline: none;
+            border-color: #47a5f4;  box-shadow: 0px 0px 3px 0px #47a5f4;
+          }
         }
         &--radio{
           display: flex;
