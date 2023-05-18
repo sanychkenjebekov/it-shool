@@ -10,10 +10,7 @@ const Abotus = () => {
     return (
       <div id='about'>
           <div className="container">
-              <div id="about__link">
-                  <NavLink exact activeClassName="active" to={'/'}>Главная /</NavLink>
-                  <NavLink activeClassName="active" to={'/aboutUs'}> О нас</NavLink>
-              </div>
+             <h3>Главная / <span>О нас</span></h3>
               <div className="about">
 
                   <div className="about__text">

@@ -187,6 +187,9 @@
 }
 @media (max-width: 480px){
   #about{
+    h3{
+      display: none;
+    }
     .about{
       &__text{
         h1{

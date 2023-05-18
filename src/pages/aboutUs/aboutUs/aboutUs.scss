@@ -1,15 +1,13 @@
 #about{
-  &__link{
+  h3{
     padding-top: 60px;
-    a{
-      font-weight: 400;
-      font-size: 16px;
-      color: #A5A5A5;
-    }
-    .active{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A5A5A5;
+    span{
       color: #ffffff;
     }
-
   }
   .about{
     display: flex;
