@@ -68,6 +68,13 @@
   #courses .container .courses .courses3 {
     margin: 20px 0;
   }
+  #god .container .god--banner {
+    flex-wrap: wrap;
+    margin-left: 217px;
+  }
+  #god .container .god--banner__action {
+    margin: 40px;
+  }
 }
 @media (max-width: 1024px) {
   #podpisatsa .podpisatsa--zayavka__input input {
@@ -640,6 +647,12 @@ text-align: center !important;
   #allMaps .container .allMaps {
     margin-left: 164px;
   }
+  #god .container .god--banner {
+    margin-left: 95px;
+  }
+  #god .container .god--banner__action {
+    margin: 30px 0;
+  }
 }
 @media (max-width: 640px) {
   #god .oplata {
@@ -715,6 +728,9 @@ text-align: center !important;
   }
   #allMaps .container .allMaps {
     margin-left: 72px;
+  }
+  #god .container .god--banner {
+    margin-left: 51px;
   }
 }
 @media (max-width: 540px) {
@@ -1080,6 +1096,9 @@ text-align: center !important;
   }
   #allMaps .container .allMaps {
     margin-left: 39px;
+  }
+  #god .container .god--banner {
+    margin-left: 0;
   }
 }
 @media (max-width: 320px) {}
