@@ -12,7 +12,7 @@ import ReactComent from "./ReactComent";
 
 const Reactivity = () => {
     const [youTube,setYouTube] = useState('TGPPPFczOj0')
-    const [id,setId] = useState(1)
+    // const [id,setId] = useState(1)
     const youFr = [
         {
         video: 'TGPPPFczOj0',

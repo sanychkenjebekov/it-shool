@@ -43,11 +43,11 @@ function App() {
   return (
       <div className="App">
         <Header/>
-        <JavaRu/>
-          <Master/>
-        <Example/>
-          <Process/>
-          <Late/>
+        {/*<JavaRu/>*/}
+        {/*  <Master/>*/}
+        {/*<Example/>*/}
+        {/*  <Process/>*/}
+        {/*  <Late/>*/}
         <Front/>
         <Routes>
           {/*<Route path={'/'} element={<Home/>}/>*/}

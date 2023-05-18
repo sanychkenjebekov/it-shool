@@ -42,10 +42,6 @@ function ToDoList() {
         }
     };
 
-    // const handleFileChange = (event) => {
-    //     const selectedFiles = Array.from(event.target.files);
-    //     setComment({ ...comment, files: selectedFiles });
-    // };
 
     return (
         <div id="toDoList">
@@ -71,11 +67,6 @@ function ToDoList() {
                            {commentsList.map((comment, commentIndex) => (
                                <li key={commentIndex}>
                                    {comment.text}
-                                   {/*{comment.files.map((file, fileIndex) => (*/}
-                                   {/*    <div key={fileIndex}>*/}
-                                   {/*        Файл: {file.name}*/}
-                                   {/*    </div>*/}
-                                   {/*))}*/}
                                       <button className="toDoList--ul__del" onClick={() => handleDeleteComment(commentIndex)}>Удалить</button>
                                       <button  className="toDoList--ul__otv" onClick={() => handleAddReply(commentIndex)}>Ответить</button>
                                    <ul>
