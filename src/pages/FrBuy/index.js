@@ -137,7 +137,7 @@ const FrBuy = () => {
                             </div>
                             <img src={modal} alt=""/>
                         </div>
-                        <button>Зарегистрироваться</button>
+                        <Link to={"/register"}> <button>Зарегистрироваться</button></Link>
                     </div>
                     <div className="skils--ekskluziv">
                         <div className="skils--ekskluziv__about">

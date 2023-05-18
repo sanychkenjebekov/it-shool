@@ -1,0 +1,60 @@
+#god {
+  .container {
+    .god {
+      h3{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;
+        margin: 0 0   70px 0
+      }
+      &--banner {
+        display: flex;
+        justify-content: space-between;
+
+        &__action {
+          background: #FFFFFF;
+          height: 250%;
+          border-radius: 10px;
+          padding: 70px 50px;
+
+          h1 {
+            font-weight: 600;
+            font-size: 26px;
+            line-height: 32px;
+            color: #000000;
+            margin: 10px 0;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+            margin: 10px 0;
+            border-bottom: 2px solid black;
+          }
+          h5{
+            border-bottom: 2px solid black;
+
+            margin: 30px 0;
+          }
+          rem{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #575757;
+            margin: 40px 0;
+          }
+
+          h5 {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+          }
+        }
+      }
+    }
+  }
+}
