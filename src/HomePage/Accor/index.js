@@ -9,7 +9,7 @@ import {TfiArrowCircleDown, TfiArrowCircleUp} from "react-icons/tfi";
  const Accor = () => {
      const [selected, setSelected] = useState(null)
 
-     const toggle = (i) =>{
+     const toggle = (i) => {
          if (selected === i) {
              return setSelected(null)
          }
@@ -17,37 +17,38 @@ import {TfiArrowCircleDown, TfiArrowCircleUp} from "react-icons/tfi";
          setSelected(i)
      }
 
-    return (
-        <div id="Accor">
-            <div className="container">
-                <div className="accor">
-                    <div className="accor--photo">
-                        <h1>ОСТАЛИСЬ <br/> ВОПРОСЫ?</h1>
-                        <img src={ask} alt=""/>
-                    </div>
-                 <div className="accor--all">
-                     <div className="accor--all__item" style={{
-                         transition: ".5s"
-                     }}>
-                         {data.map((cold, i) => (
-                             <div className='accor--all__item--cold'>
-                                 <div className='accor--all__item--cold__title' onClick={() =>toggle(i)}>
-                                     <h2>{cold.Question}</h2>
-                                     <span> {selected === i ? <TfiArrowCircleUp/> :  <TfiArrowCircleDown/>} </span>
+     return (
+         <div id="Accor">
+             <div className="container">
+                 <div className="accor">
+                     <div className="accor--photo">
+                         <h1>ОСТАЛИСЬ <br/> ВОПРОСЫ?</h1>
+                         <img src={ask} alt=""/>
+                     </div>
+                     <div className="accor--all">
+                         <div className="accor--all__item" style={{
+                             transition: ".5s"
+                         }}>
+                             {data.map((cold, i) => (
+                                 <div className='accor--all__item--cold'>
+                                     <div className='accor--all__item--cold__title'
+                                          onClick={() => toggle(i)}>
+                                         <h2>{cold.Question}</h2>
+                                         <span> {selected === i ? <TfiArrowCircleUp/> : <TfiArrowCircleDown/>} </span>
+                                     </div>
+                                     <hr/>
+                                     <div className={
+                                         selected === i ? 'accor--all__item--cold__content::shadow' : 'accor--all__item--cold__content'
+                                     }
+                                     >{cold.answer}</div>
                                  </div>
-                                 <hr/>
-                                 <div className= {
-                                     selected === i ? 'accor--all__item--cold__content::shadow' : 'accor--all__item--cold__content'
-                                 }
-                                 >{cold.answer}</div>
-                             </div>
-                         ))}
+                             ))}
+                         </div>
                      </div>
                  </div>
-                </div>
-            </div>
-        </div>
-    );
+             </div>
+         </div>
+     );
  }
 export default Accor;
 const data = [
@@ -55,18 +56,18 @@ const data = [
         Question: 'Что такое зарезервированные слова в программировании?',
         answer:
             "Зарезерви́рованное сло́во (или ключево́е сло́во) — в языках\n" +
-            "                                программирования слово, имеющее специальное значение.Идентификаторы с такими именами запрещены. В лексическом\n" +
-            "                                анализе зарезервированное слово фигурирует как одна лексема\n" +
-            "                                особого типа.",
+            " программирования слово, имеющее специальное значение.Идентификаторы с такими именами запрещены. В лексическом\n" +
+            " анализе зарезервированное слово фигурирует как одна лексема\n" +
+            " особого типа.",
     },
     {
         Question: 'Могу ли я отказаться от автопродления подписки?',
         answer:
             'Помните, что от подписки как от услуги вы можете\n' +
-            '                                отказаться в любой момент. Такое право предоставлено\n' +
-            '                                всем потребителям в соответствии со статьей 32 Закона\n' +
-            '                                о защите прав потребителей, а также в соответствии с\n' +
-            '                                пунктом 1 статьи 782 Гражданского кодекса РФ.',
+            '  отказаться в любой момент. Такое право предоставлено\n' +
+            '   всем потребителям в соответствии со статьей 32 Закона\n' +
+            ' о защите прав потребителей, а также в соответствии с\n' +
+            '   пунктом 1 статьи 782 Гражданского кодекса РФ.',
     },
     {
         Question: 'Могу ли я вернуть деньги',

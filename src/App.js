@@ -24,6 +24,7 @@ import Master from "./pages/JavaIt/master";
 import Example from "./pages/JavaIt/exemple";
 import Process from "./pages/JavaIt/Process";
 import Late from "./pages/JavaIt/Late";
+import Front from "./pages/program course/FR";
 
 
 
@@ -41,8 +42,9 @@ function App() {
         <Example/>
           <Process/>
           <Late/>
+        <Front/>
         <Routes>
-          <Route path={'/'} element={<Home/>}/>
+          {/*<Route path={'/'} element={<Home/>}/>*/}
           <Route path={'/подпискаГод'} element={<God/>}/>
           <Route path={'/articles/details'} element={<Page/>}/>
           <Route path={'/подпискаМесяцPlus'} element={<Month/>}/>
