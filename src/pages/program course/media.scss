@@ -1,0 +1,117 @@
+@media (max-width: 1140px) {
+  .container{
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  #program .program--vid__accordion--title{
+    width: 368px;
+  }
+}
+@media (max-width: 992px) {
+  #program .program--vid{
+    flex-direction: column;
+  }
+  #program .program--vid__accordion--title{
+    width: 442px;
+  }
+  #toDoList .toDoList textarea{
+    width: 65%;
+  }
+  #front .front--end__prog input{
+    width: 292px;
+  }
+  #front .front--end__dev h1{
+    font-size: 30px;
+  }
+  #front .front--end__dev p{
+    width: 77%;
+  }
+}
+@media (max-width: 768px) {
+  #front .front--end__prog{
+    padding: 15px 0;
+  }
+  #front .front--end__prog--mod{
+    width: 53%;
+  }
+  #front .front--end{
+    flex-direction: column;
+  }
+  #front .front--end__prog input{
+    width: 325px;
+  }
+  #toDoList .toDoList textarea{
+    width: 91%;
+  }
+}
+@media (max-width: 540px) {
+  #program .program--vid__accordion--title{
+    width: 425px;
+  }
+}
+@media (max-width: 480px) {
+  #program .program--vid__accordion--title{
+    width: 273px;
+  }
+  #asks .asks--text h1{
+    font-size: 29px;
+  }
+  #program .program--fr h1{
+    font-size: 28px;
+  }
+  #front .front--end__dev h1{
+    font-size: 26px;
+  }
+  #front .front--end__dev p{
+    width: 100%;
+  }
+  #front .front--fr h5 span{
+    font-size: 12px;
+  }
+  #front .front--fr h5{
+    font-size: 12px;
+  }
+  #front .front--end__prog input{
+    width: 280px;
+  }
+  #front .front--end__prog--mod{
+    width: 76%;
+  }
+  #program .program--fr h1{
+    font-size: 26px;
+  }
+  #asks .asks--text h1{
+    font-size: 25px;
+  }
+}
+@media (max-width: 320px) {
+  #asks .asks--text h1{
+    font-size: 25px;
+  }
+  #asks .asks--all__item--cold__title h2{
+    font-size: 18px;
+  }
+  #front .front--end__prog input{
+    width: 270px;
+  }
+  #front .front--end__dev p{
+    width: 100%;
+    font-size: 14px;
+  }
+  #front .front--end__dev h1{
+    font-size: 26px;
+  }
+  #front .front--end__prog--mod{
+    width: 80%;
+  }
+  #front .front--fr h5 {
+    font-size: 12px;
+  }
+  #front .front--fr h5 span{
+    font-size: 12px;
+  }
+  #program .program--fr h1{
+    font-size: 24px;
+  }
+}

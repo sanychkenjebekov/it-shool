@@ -1,0 +1,129 @@
+@media (max-width: 1140px) {
+  .container{
+    width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  #java .java--chat__left h2{
+    width: 460px;
+  }
+  #java .java--chat__left p{
+    width: 405px;
+  }
+  #master .master--about__class p{
+    width: 560px;
+  }
+  #example .example--programma__modulAll{
+    flex-direction: column;
+  }
+  #example .example--programma h1{
+    text-align: center;
+  }
+}
+
+@media (max-width: 820px) {
+  #process .process--learn h1{
+    text-align: center;
+  }
+  #process .process--learn p{
+    text-align: center;
+  }
+  #master .master--video__dote li{
+    width: 565px;
+  }
+  #java .java--chat{
+    flex-direction: column;
+  }
+  #master .master--about{
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  #process .process--learn p{
+    width: 570px;
+  }
+  #process .process--access{
+    flex-direction: column;
+  }
+}
+@media (max-width: 640px) {
+  #master .master--about__class p{
+    width: 375px;
+  }
+  #master .master--video__dote li{
+    width: 385px;
+  }
+  #process .process--learn p{
+    width: 465px;
+  }
+  #late .late--all__item{
+    width: 495px;
+  }
+  #java .java--chat__right--month{
+    padding: 10px 0;
+  }
+}
+@media (max-width: 540px) {
+  #process .process--learn p{
+    width: 410px;
+  }
+  #late .late--all__item{
+    width: 410px;
+  }
+}
+@media (max-width: 480px) {
+  #java .java--chat__left h2{
+    font-size: 27px;
+    width: 278px;
+    text-align: center;
+  }
+  #java .java--chat__left p{
+    width: 300px;
+    text-align: center;
+  }
+  #master .master--about__class h1{
+    font-size: 25px;
+  }
+  #master .master--about__class p{
+    width: 290px;
+  }
+  #master .master--video__dote li{
+    width: 280px;
+  }
+  #example .example--programma__modulAll img{
+    width: 300px;
+  }
+  #process .process--learn p{
+    display: none;
+  }
+  #process .process--access__two button{
+    padding: 15px 46px;
+  }
+  #late .late--all__board h1{
+    font-size: 28px;
+  }
+  #process .process--access__two p{
+    width: 248px;
+  }
+  #late .late--all__item{
+    width: 280px;
+  }
+  #example .example--develop img{
+    width: 240px;
+  }
+  #example .example--develop h6{
+    font-size: 24px;
+  }
+  #master .master--but{
+    display: flex;
+    flex-direction: column;
+  }
+  #master .master--but__one{
+    padding: 18px;
+    margin: 20px;
+  }
+  #example .example--programma button{
+    margin: 15px 35px;
+  }
+}
