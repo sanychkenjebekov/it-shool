@@ -107,7 +107,7 @@ const Program = () => {
                     </div>
                     <div className="program--vid">
                         <div className="program--vid__if">
-                            <iframe width="490" height="400" src={`https://www.youtube.com/embed/${youtube}`}
+                            <iframe width="490" height="4 00" src={`https://www.youtube.com/embed/${youtube}`}
                                     title="YouTube video player" frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write;
                                  encrypted-media; gyroscope; picture-in-picture; web-share"
