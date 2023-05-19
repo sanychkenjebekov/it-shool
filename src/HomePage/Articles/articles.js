@@ -126,7 +126,7 @@ const Articles = () => {
                         </div>
                         <div className='article--follow__right'>
                             <Link to={'/подпискаМесяц'}><button className='article--follow__right--first'>Оформить подписку</button></Link>
-                            <button className='article--follow__right--second'>Подробнее о пакетах </button>
+                            <Link to={'/подписаться'}><button className='article--follow__right--second'>Подробнее о пакетах </button></Link>
                         </div>
                     </div>
                 </div>

@@ -20,6 +20,7 @@
         line-height: 20px;
         color: #FFFFFF;
         width: 360px;
+        padding: 20px 0;
       }
     }
     &--right{
@@ -49,9 +50,10 @@
         padding: 10px;
         cursor: pointer;
         transition: .4s;
+        margin-top: 15px;
         &:hover{
           background: transparent;
-          color: black;
+          color: white;
           transform: scale(1.1);
         }
       }
