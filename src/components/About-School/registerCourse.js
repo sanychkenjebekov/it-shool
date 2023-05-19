@@ -87,9 +87,9 @@ function RegisterCourse() {
                                         <input className='i8' required type="checkbox"/>
                                         <h5>Я ознакомился и согласен с Условиями оказания услуг</h5>
                                     </div>
-                                    <button style={{cursor: 'pointer'}} onClick={oplata} type='submit'>Оплатить
+                                    <Link to={'/front'}><button style={{cursor: 'pointer',padding:'12px 15px'}} type='submit'>Оплатить
                                         220.00$
-                                    </button>
+                                    </button></Link>
                                 </div>
                                 <div className="oplata" style={{
                                     fontSize: '15px',

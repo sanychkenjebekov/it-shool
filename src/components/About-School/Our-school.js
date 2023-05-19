@@ -5,6 +5,7 @@ import MasterClasses from "./Master-classes";
 import Packages from "./Packages";
 import ReviewsSchool from "./Reviews-school";
 import Swiper from "./Swiper";
+import Otzyvy from "../../pages/aboutUs/otzyvy";
 
 function OurSchool() {
     return (
@@ -34,7 +35,7 @@ function OurSchool() {
             <Courses/>
             <MasterClasses/>
             <Packages/>
-            <ReviewsSchool/>
+            <Otzyvy/>
             <Swiper/>
         </>
     );
