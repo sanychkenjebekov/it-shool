@@ -50,6 +50,8 @@ padding: 80px 0;
             &--not{
               display: flex;
               align-items: center;
+              //justify-content: space-between;
+
             }
             svg{
               color: #044176;
@@ -59,6 +61,7 @@ padding: 80px 0;
               font-size: 15px;
               line-height: 18px;
               color: #044176;
+              padding: 0 5px;
             }
             p{
               font-weight: 500;
