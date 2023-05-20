@@ -7,18 +7,30 @@
     top: 84% !important;
     padding: 30px 44px !important;
   }
+  #follows .follows--saydBar{
+    width: 300px;
+  }
+  #follows .follows--every__status{
+    margin: 0 -70px;
+  }
 }
 
 @media (max-width: 1024px) {
   #follows .follows--saydBar{
-    width: 350px;
-    height: 480px;
+    width: 300px;
+    //height: 480px;
+  }
+  #follows .follows--every__right{
+    padding: 0 0;
   }
 }
 @media (max-width: 992px) {
   #follows .follows--every{
     flex-direction: column;
     align-items: center;
+  }
+  #follows .follows--every__right{
+    padding: 50px 0;
   }
   #follows .vyhod {
     left: 27% !important;
@@ -58,6 +70,15 @@
   #follows .follows--every__status{
     width: 465px;
   }
+  #follows .follows--every__one h1{
+    font-size: 24px;
+  }
+  #follows .follows--every__status--card h2{
+    font-size: 15px;
+  }
+  #follows .follows--big__about--plus h3{
+    font-size: 30px;
+  }
   #follows .vyhod {
     left: 13% !important;}
   #follows .follows--every__status--card h2{
@@ -76,7 +97,7 @@
     padding: 30px 34px !important;
   }
   #follows .follows--saydBar{
-    width: 264px;
+    width: 300px;
   }
   #follows .follows--every__status{
     width: 240px;
