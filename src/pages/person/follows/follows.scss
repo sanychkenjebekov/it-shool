@@ -16,6 +16,7 @@
       }
     }
     &--every{
+      padding: 8px 0;
       display: flex;
       justify-content: space-between;
       &__right{
@@ -30,6 +31,7 @@
         }
       }
       &__status{
+        margin: 0 -3px;
         display: flex;
         align-items: center;
         //width: 600px;

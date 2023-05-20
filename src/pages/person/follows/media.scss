@@ -7,12 +7,18 @@
     top: 84% !important;
     padding: 30px 44px !important;
   }
+  #follows .follows--saydBar{
+    width: 300px;
+  }
+  #follows .follows--every__status{
+    margin: 0 -70px;
+  }
 }
 
 @media (max-width: 1024px) {
   #follows .follows--saydBar{
-    width: 350px;
-    height: 480px;
+    width: 300px;
+    //height: 480px;
   }
 }
 @media (max-width: 992px) {
@@ -76,7 +82,7 @@
     padding: 30px 34px !important;
   }
   #follows .follows--saydBar{
-    width: 264px;
+    width: 300px;
   }
   #follows .follows--every__status{
     width: 240px;
