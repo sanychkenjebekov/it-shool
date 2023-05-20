@@ -1,19 +1,62 @@
 @media (max-width: 1140px) {
-  .container{
+  .container {
     width: 90%;
+  }
+  #program iframe {
+    width: 500px;
+  }
+  #program .program--vid__accordion {
+    margin: 10px 30px;
+  }
+  #program .ytp-cued-thumbnail-overlay-image{
+    width: 112%;
   }
 }
 @media (max-width: 1024px) {
   #program .program--vid__accordion--title{
     width: 368px;
   }
+
 }
 @media (max-width: 992px) {
   #program .program--vid{
     flex-direction: column;
+    display: flex;
+    align-items: center;
   }
-  #program .program--vid__accordion--title{
-    width: 442px;
+  #program .program--fr h1{
+    text-align: center;
+    font-size: 34px;
+  }
+  #program .ytp-cued-thumbnail-overlay-image {
+    width: 110%;
+  }
+  #reactComent .reactComent{
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  #reactComent .reactComent--coment{
+    width: 600px !important;
+  }
+  #reactComent .reactComent--coment textarea{
+    width: 560px !important;
+  }
+  #asks .asks--text h1{
+    font-size: 34px;
+  }
+  #front .front--end__prog--mod{
+    width: 85%;
+  }
+  #front .front--end__dev p{
+    font-size: 14px;
+  }
+  #front .front--end__dev h1{
+    font-size: 29px;
+  }
+
+    #program .program--vid__accordion--title{
+    width: 487px;
   }
   #toDoList .toDoList textarea{
     width: 65%;
@@ -21,36 +64,102 @@
   #front .front--end__prog input{
     width: 292px;
   }
-  #front .front--end__dev h1{
-    font-size: 30px;
-  }
-  #front .front--end__dev p{
-    width: 77%;
-  }
+
+#asks .aska{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 }
 @media (max-width: 768px) {
-  #front .front--end__prog{
-    padding: 15px 0;
+  #reactComent .reactComent--coment{
+    width: 515px !important;
   }
-  #front .front--end__prog--mod{
-    width: 53%;
+  #reactComent .reactComent--coment textarea{
+    width: 470px !important;
   }
-  #front .front--end{
+  #front .front--end {
+    display: flex;
     flex-direction: column;
+    align-items: center;
   }
-  #front .front--end__prog input{
+  #front .front--end__prog input {
     width: 325px;
+    margin: 10px 0;
   }
-  #toDoList .toDoList textarea{
+  #toDoList .toDoList textarea {
     width: 91%;
   }
+  #front .front {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #front .front--end__prog{
+    margin: 10px 77px;
+  }
+  #front .front--fr h5 {
+    font-size: 13px;
+  }
+    #front .front--fr h5 span{
+    font-size: 13px;
+  }
+  #front .front--end__dev p{
+    font-size: 14px;
+    padding: 15px 0;
+  }
+  #front .front--end__dev h1{
+    font-size: 30px;
+    padding-top: 60px;
+  }
+  #program .ytp-cued-thumbnail-overlay-image {
+    width: 111%
+  }
+  #asks .asks--text h1 {
+    font-size: 32px;
+  }
+  #asks .asks--all__item--cold__title h2 {
+    font-size: 18px;
+  }
+  #reactComent{
+    padding: 30px 0;
+  }
+  #front .front--end__dev p{
+    text-align: center;
+    width: 350px;
+  }
+  #front .front--end__prog--mod{
+    width: 100%;
+  }
+
 }
+
 @media (max-width: 540px) {
   #program .program--vid__accordion--title{
     width: 425px;
   }
   #program iframe{
     width: 441px;
+  }
+  #reactComent .reactComent--coment{
+    width: 450px !important;
+  }
+
+  #reactComent .reactComent--coment textarea{
+    width: 405px !important;
+  }
+  #front .front--end__dev h1{
+    font-size: 29px;
+  }
+
+  #front .front--end__prog--mod{
+    width: 100% !important;
+  }
+  #program .ytp-cued-thumbnail-overlay-image{
+    width: 120%;
+  }
+  #front .front--end__dev h1{
+    text-align: center;
   }
 }
 @media (max-width: 480px) {
@@ -64,10 +173,10 @@
     font-size: 28px;
   }
   #front .front--end__dev h1{
-    font-size: 26px;
+    font-size: 25px;
   }
-  #front .front--end__dev p{
-    width: 100%;
+  #front .front--end__prog{
+    margin: 10px 30px;
   }
   #front .front--fr h5 span{
     font-size: 12px;
@@ -79,17 +188,68 @@
     width: 280px;
   }
   #front .front--end__prog--mod{
-    width: 76%;
+    width: 90%;
   }
+  #reactComent .reactComent--coment{
+    width: 375px !important;
+  }
+  #reactComent .reactComent--coment textarea{
+    width: 340px !important;
+  }
+  #program iframe{
+    width: 340px !important;
+    height: 225px !important;
+  }
+  #program .program--vid__accordion--title{
+    width: 322px;
+  }
+  #program .ytp-cued-thumbnail-overlay-image{
+    width: 117%;
+  }
+
   #program .program--fr h1{
     font-size: 26px;
   }
   #asks .asks--text h1{
     font-size: 25px;
   }
+  #asks .asks--all__item--cold__title h2{
+    font-size: 14px;
+  }
   #program iframe{
     width: 290px;
     height: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  #program iframe{
+    width: 303px !important;
+  }
+  #program .program--vid__accordion--title{
+    width: 280px;
+  }
+  #reactComent .reactComent--coment{
+    width: 306px !important;
+  }
+  #reactComent .reactComent--coment textarea{
+    width: 268px !important;
+  }
+  #program .ytp-cued-thumbnail-overlay-image{
+    width: 132% !important;
+  }
+  #asks .asks--all__item--cold__title h2{
+    font-size: 10px;
+  }
+  #asks .asks--text h1{
+    font-size: 22px;
+  }
+  #front .front--end__dev p{
+    text-align: center;
+    width: 300px;
+  }
+  #program .program--fr h1{
+    font-size: 23px;
   }
 }
 @media (max-width: 320px) {
@@ -104,10 +264,11 @@
   }
   #front .front--end__dev p{
     width: 100%;
-    font-size: 14px;
+    font-size: 13px;
   }
   #front .front--end__dev h1{
-    font-size: 26px;
+    font-size: 20px;
+    text-align: center;
   }
   #front .front--end__prog--mod{
     width: 80%;
@@ -125,4 +286,20 @@
     width: 290px;
     height: 200px;
   }
-}
+  #front .front--end__dev h1{
+    font-size: 24px;
+  }
+  #front .front--end__prog--mod{
+    width: 93%;
+  }
+  #asks .asks--all__item--cold__title h2{
+    font-size: 10px;
+  }
+  #asks .asks--text h1{
+    font-size: 22px;
+  }
+  #program .ytp-cued-thumbnail-overlay-image {
+    width: 130%;
+  }
+
+  }

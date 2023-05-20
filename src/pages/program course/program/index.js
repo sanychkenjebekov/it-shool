@@ -5,12 +5,12 @@ import {TfiArrowCircleDown, TfiArrowCircleUp} from "react-icons/tfi";
 import ne from '../../../img/ne.png'
 import su from '../../../img/su.png'
 import ke from '../../../img/ke.png'
-import ve from '../../../img/ve.png'
+import ve from '../../../img/po.png'
 import tix from '../../../img/tix.png'
 import min from '../../../img/min.png'
 import fire from '../../../img/fire.png'
 import mne from '../../../img/mne.png'
-import sag from '../../../img/sag.png'
+import sag from '../../../img/an.png'
 import abs from '../../../img/abs.png'
 import alm from '../../../img/alm.png'
 import eki from '../../../img/eki.png'
@@ -38,10 +38,10 @@ const accordionData = [
         image: ve,
         image1: tix,
         image2: min,
-        video: `kSx9P6P588g`,
+        video: `j1DhaufCHmI`,
         video2: `BiBwujgYNvc`,
         video3: `XflFSWaNJxU`,
-        text: 'Вера в любовь',
+        text: 'По пятам',
         text2: 'Тихий океан',
         text3: 'Minefields',
         study: 'Урок '
@@ -53,10 +53,10 @@ const accordionData = [
         image2: sag,
         video: `vk_xq1P7vIU`,
         video2: `4oaYcw-zZC8`,
-        video3: `pEP2H6HO6c4`,
+        video3: `GFAFTXQcmew`,
         text: 'Fire on fire',
         text2: 'Мне не нужны',
-        text3: 'Сагынамын сени',
+        text3: 'Angels Like You ',
         study: 'Урок '
     },
     {
@@ -107,7 +107,7 @@ const Program = () => {
                     </div>
                     <div className="program--vid">
                         <div className="program--vid__if">
-                            <iframe width="490" height="4 00" src={`https://www.youtube.com/embed/${youtube}`}
+                            <iframe width="560" height="315" src={`https://www.youtube.com/embed/${youtube}`}
                                     title="YouTube video player" frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write;
                                  encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -118,8 +118,8 @@ const Program = () => {
                             {accordionData.map((item, index) => (
                                 <div
                                     key={index}
-                                    className={`accordion-item ${activeIndex === index ? <TfiArrowCircleUp/> :
-                                        <TfiArrowCircleDown/>}`}
+                                    className={`accordion-item ${activeIndex === index ?
+                                        <TfiArrowCircleUp/> : <TfiArrowCircleDown/>}`}
                                     onClick={() => handleClick(index)}>
 
 
