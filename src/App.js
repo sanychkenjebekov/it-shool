@@ -25,6 +25,14 @@ import JavaRu from "./pages/JavaIt/javaRu";
 import Master2 from "./components/About-School/Master2";
 import Front from "./pages/program course/FR";
 import AboutUs from "./pages/aboutUs/aboutUs";
+import BackEnd from "./pages/FrBuy/bek";
+import UxUi from "./pages/FrBuy/UxUi";
+import Devops from "./pages/FrBuy/devOps";
+import Android from "./pages/FrBuy/android";
+import DevJava from "./pages/FrBuy/devJava";
+import CDev from "./pages/FrBuy/c++";
+import Ios from "./pages/FrBuy/ios";
+import Python from "./pages/FrBuy/python";
 
 
 
@@ -54,7 +62,17 @@ function App() {
           <Route path={'/cards'} element={<Cards/>}/>
           <Route path={'/личныеДанные'} element={<Dashboard/>}/>
           <Route path={'/follows'} element={<Follows/>}/>
+
           <Route path={'/frCurse'} element={<FrBuy/>}/>
+          <Route path={'/bkCurse'} element={<BackEnd/>}/>
+          <Route path={'/uxuiCurse'} element={<UxUi/>}/>
+          <Route path={'/devopsCurse'} element={<Devops/>}/>
+          <Route path={'/androidCurse'} element={<Android/>}/>
+          <Route path={'/javaCurse'} element={<DevJava/>}/>
+          <Route path={'/c++Curse'} element={<CDev/>}/>
+          <Route path={'/iosCurse'} element={<Ios/>}/>
+          <Route path={'/pythonCurse'} element={<Python/>}/>
+
           <Route path={'/allCard'} element={<AllMaps/>}/>
           <Route path={'/register'} element={<RegisterCourse/>}/>
             <Route path={'/more'} element={<More/>}/>
