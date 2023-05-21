@@ -26,7 +26,8 @@ function AllMaps() {
                             с большим функционалом. Профессия отлично <br/>
                             подойдет тем, кто хочет фрилансить и постоянно
                             разрабатывать новые проекты</p>
-                        <a href="">Подробнее<AiOutlineArrowRight/></a>
+                        <Link to={'/bkCurse'}>Подробнее<AiOutlineArrowRight/></Link>
+
                     </div>
                     <div className="courses3">
                         <h1>UX / UI Дизайнер</h1>
@@ -35,7 +36,8 @@ function AllMaps() {
                             с большим функционалом. Профессия отлично <br/>
                             подойдет тем, кто хочет фрилансить и постоянно
                             разрабатывать новые проекты</p>
-                        <a href="">Подробнее<AiOutlineArrowRight/></a>
+                        <Link to={'/uxuiCurse'}>Подробнее<AiOutlineArrowRight/></Link>
+
                     </div>
                     <div className="courses3">
                         <h1>DevOps - инженер</h1>
@@ -44,7 +46,7 @@ function AllMaps() {
                             с большим функционалом. Профессия отлично <br/>
                             подойдет тем, кто хочет фрилансить и постоянно
                             разрабатывать новые проекты</p>
-                        <a href="">Подробнее<AiOutlineArrowRight/></a>
+                        <Link to={'/devopsCurse'}>Подробнее<AiOutlineArrowRight/></Link>
                     </div>
                     <div className="courses3">
                         <h1>Android-разработчик</h1>
@@ -53,7 +55,7 @@ function AllMaps() {
                             с большим функционалом. Профессия отлично <br/>
                             подойдет тем, кто хочет фрилансить и постоянно
                             разрабатывать новые проекты</p>
-                        <a href="">Подробнее<AiOutlineArrowRight/></a>
+                        <Link to={'/androidCurse'}>Подробнее<AiOutlineArrowRight/></Link>
                     </div>
                     <div className="courses3">
                         <h1>Java-разработчик</h1>
@@ -62,7 +64,7 @@ function AllMaps() {
                             с большим функционалом. Профессия отлично <br/>
                             подойдет тем, кто хочет фрилансить и постоянно
                             разрабатывать новые проекты</p>
-                        <a href="">Подробнее<AiOutlineArrowRight/></a>
+                        <Link to={'/javaCurse'}>Подробнее<AiOutlineArrowRight/></Link>
                     </div>
                     <div className="courses3">
                         <h1>С++ - разработчик</h1>
@@ -71,7 +73,7 @@ function AllMaps() {
                             с большим функционалом. Профессия отлично <br/>
                             подойдет тем, кто хочет фрилансить и постоянно
                             разрабатывать новые проекты</p>
-                        <a href="">Подробнее<AiOutlineArrowRight/></a>
+                        <Link to={'/c++Curse'}>Подробнее<AiOutlineArrowRight/></Link>
                     </div>
                     <div className="courses3">
                         <h1>IOS - разработчик</h1>
@@ -80,7 +82,7 @@ function AllMaps() {
                             с большим функционалом. Профессия отлично <br/>
                             подойдет тем, кто хочет фрилансить и постоянно
                             разрабатывать новые проекты</p>
-                        <a href="">Подробнее<AiOutlineArrowRight/></a>
+                        <Link to={'/iosCurse'}>Подробнее<AiOutlineArrowRight/></Link>
                     </div>
                     <div className="courses3">
                         <h1>Python - разработчик</h1>
@@ -89,7 +91,7 @@ function AllMaps() {
                             с большим функционалом. Профессия отлично <br/>
                             подойдет тем, кто хочет фрилансить и постоянно
                             разрабатывать новые проекты</p>
-                        <a href="">Подробнее<AiOutlineArrowRight/></a>
+                        <Link to={'/pythonCurse'}>Подробнее<AiOutlineArrowRight/></Link>
                     </div>
                 </div>
             </div>
