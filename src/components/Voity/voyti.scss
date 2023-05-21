@@ -28,9 +28,9 @@
         position: relative;
         .icon {
           position: absolute;
-          top: 50%;
+          top: 55%;
           transform: translateY(-50%);
-          right: 10px;
+          right: 15px;
           color: #FFFFFF;
           font-size: 20px;
           cursor: pointer;
@@ -112,6 +112,15 @@
           cursor: pointer;
         }
       }
+    &__pass{
+      .password{
+        position: absolute;
+        top: 160px;
+        bottom: 0;
+        color:#f44336 ;
+      }
+
+    }
     }
   }
 }
@@ -122,15 +131,6 @@
       width: 128px;
       height: 75px;
       padding: 60px 0;
-    }
-    .icon {
-      position: absolute;
-      top: 43%;
-      transform: translateY(-50%);
-      right: 10px;
-      color: #FFFFFF;
-      font-size: 20px;
-      cursor: pointer;
     }
     &--form {
       &__input {
@@ -166,15 +166,6 @@
     }
     &--form {
       &__input {
-        .icon {
-          position: absolute;
-          top: 43%;
-          transform: translateY(-50%);
-          right: 10px;
-          color: #FFFFFF;
-          font-size: 20px;
-          cursor: pointer;
-        }
         input {
           max-width: none;
           padding: 0 100px 0 10px;

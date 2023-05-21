@@ -52,7 +52,7 @@ const Voyti = () => {
     const passwordHandler = (e) => {
         setPassword(e.target.value);
         if (e.target.value.length < 3 || e.target.value.length > 12) {
-            setPasswordError('от 3 до 12  символов');
+            setPasswordError('Пароль должен содержать от 3 до 12 символов');
         } else {
             setPasswordError('');
         }
@@ -96,7 +96,7 @@ const Voyti = () => {
                             />
                             <span>E-mail*</span>
                             {emailDirty && emailError && (
-                                <div style={{ color: '#f44336' }}>{emailError}</div>
+                                <div style={{ color: '#f44336', position: 'absolute'}}>{emailError}</div>
                             )}
                         </div>
                         <div className='voyti--form__input'>
@@ -109,14 +109,16 @@ const Voyti = () => {
                                 required
                             />
                             <span>Пароль*</span>
-                            {passwordDirty && passwordError && (
-                                <div style={{ color: '#f44336'}}>{passwordError}</div>
-                            )}
                             <h4 className='icon' onClick={togglePasswordVisibility}>
                                 {showPassword ? <FaRegEyeSlash /> : <FaRegEye />}
                             </h4>
-                        </div>
 
+                        </div>
+                            <div className='voyti--form__pass'>
+                                {passwordDirty && passwordError && (
+                                    <div className='password'>{passwordError}</div>
+                                )}
+                            </div>
                         <div className='voyti--form__btn'>
                             <Link to='/' onClick={profile}>
                                 <button disabled={!formValid} type='submit'>
