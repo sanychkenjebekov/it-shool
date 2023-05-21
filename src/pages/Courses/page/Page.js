@@ -14,7 +14,7 @@ const Page = () => {
             <div className="container">
                 <div className="page">
                     <div className="page--block">
-                        <Link to={'/'}>Главная / Статья / Мы подготовили... </Link>
+                        <Link to={'/'}>Главная / Статья / <span style={{color:'white'}}>Мы подготовили...</span> </Link>
                         <h5>11.09.2022</h5>
                     </div>
                     <div className="page--center">

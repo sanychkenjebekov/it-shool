@@ -1,10 +1,11 @@
 @media (max-width: 1140px) {
-
   .container{
     width: 90%;
   }
-}
-@media (max-width: 1024px) {
+  #latest .latest--title__text h1 {
+    width: 80% !important;
+    margin: 20px !important;
+  }
   #page{
     .page{
       &--center{
@@ -41,14 +42,47 @@
       }
     }
   }
+}
+@media (max-width: 1024px) {
 
 }
 @media (max-width: 992px) {
+  #page .page--center p {
+    font-size: 17px !important;
+  }
+  #lock .lock--block button {
+    width: 150px !important;
+  }
+  #lock .lock--block__title h1 {
+    font-size: 20px !important;
+  }
+  #lock .lock--block1__title h1 {
+    font-size: 20px !important;
+  }
+  #lock .lock--block1 button {
+    width: 150px !important;
+  }
+  #latest .latest--title__text {
+    height: 250px !important;
+  }
+  #lock .lock--block1__title--text p {
+    width: 265px !important;
+  }
+  #lock .lock--comments h1 {
+    font-size: 30px !important;
+  }
+  #page .page--dot ul {
+    font-size: 17px !important;
+  }
+  #lock .lock--block__title--text h5 {
+    font-size: 13px !important;
+  }
   #page{
     .page{
       &--center{
         h1{
-          font-size: 35px;
+          font-size: 28px !important;
+          padding: 15px 0 !important;
         }
       }
     }
@@ -63,32 +97,78 @@
 
 }
 @media (max-width: 768px) {
+  #lock .lock--comments h1{
+    padding: 60px 0 !important;
+  }
+  #lock .lock--block {
+    align-items: center !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+  #lock .lock--block1 {
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  #lock .lock--block1 img {
+    margin:0 !important;
+  }
+  #lock .lock--comments h1 {
+    font-size: 26px !important;
+  }
+  #toDoList .comment {
+    font-size: 26px !important;
+  }
+  #toDoList .toDoList--ul ul {
+    font-size: 14px !important;
+  }
+  #toDoList .toDoList button {
+    font-size: 13px !important;
+  }
+  #latest .latest--stat h1 {
+    font-size: 27px !important;
+    text-align: center;
+  }
+  #latest .latest--title__text h5 {
+    font-size: 16px !important;
+  }
+  #lock .lock--block__title--text p {
+    font-size: 13px !important;
+  }
+  #lock .lock--block button {
+    font-size: 13px !important;
+  }
   #lock{
     .lock{
       &--block{
+        text-align: center;
+        img{
+          margin: 0 !important;
+        }
         button{
           width: 185px !important;
         }
         &__title{
-          margin-left: -14% !important;
+          margin-left: 0 !important;
           h1{
-            font-size: 20px !important;
+            font-size: 16px !important;
           }
         }
       }
       &--block1{
+        gap: 15px !important;
         button{
           width: 185px !important;
         }
         &__title{
-          margin-left: -10% !important;
+          margin: 0!important;
           h1     {
-            font-size: 20px !important;
+            font-size: 16px !important;
+            text-align: center !important;
           }
           &--text{
+            text-align: center;
             p{
               font-size: 13px !important;
-              width: 280px;
             }
           }
         }
@@ -106,7 +186,7 @@
             font-size: 16px !important;
           }
           &--icon{
-            width: 98% !important;
+            width: 95% !important;
             button{
               padding-left: 14px !important;
             }
@@ -137,14 +217,10 @@
         }
       }
       &--block{
-        flex-wrap: wrap !important;
         button{
           margin-left:  5% !important;
           margin-top: 10px !important;
         }
-      }
-      &--block1{
-        flex-wrap: wrap !important;
       }
     }
   }
@@ -152,7 +228,6 @@
     .latest{
       &--title{
         &__text{
-          height: 190px!important;
           h5{
             font-size: 14px !important;
           }
@@ -189,16 +264,81 @@
   }
 
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
+  #toDoList .comment {
+    font-size: 23px !important;
+  }
+  #lock{
+    .lock{
+      &--comments{
+        h1{
+          font-size: 23px!important;
+        }
+      }
+      &--block{
+        &__title{
+          h1{
+            font-size: 16px !important;
+          }
+          &--text{
+            p{
+              font-size: 13px!important;
+            }
+            h5{
+              font-size: 13px!important;
+            }
+          }
+        }
+      }
+      &--block1{
+        &__title{
+          h1{
+            font-size: 17px !important;
+          }
+          &--text{
+            p{
+              font-size: 12px!important;
+              width: 250px !important;
+            }
+          }
+        }
+      }
+
+    }
+  }
+  #page{
+    .page{
+      &--frame{
+        h1{
+          font-size: 16px !important;
+        }
+      }
+      &--dot{
+        ul{
+          font-size: 15px !important;
+        }
+      }
+    }
+  }
+
+  #toDoList{
+    .toDoList{
+      textarea{
+        width: 91% !important;
+      }
+      &--ul{
+        button{
+          margin-left: 8px!important;
+        }
+      }
+    }
+  }
   #latest {
     .latest {
       &--title{
         &__text{
           width: 98% !important;
           height: 215px !important;
-          h1{
-            font-size: 19px!important;
-          }
           &--icon{
             button{
               font-size: 16px !important;
@@ -211,10 +351,17 @@
       }
     }
   }
+  #lock .lock--block button {
+    font-size: 11px !important;
+  }
+  #lock .lock--block1 button{
+    width: 160px;
+    font-size: 11px;
+  }
   #lock {
     .lock {
       button{
-        width: 215px !important;
+        width: 160px !important;
       }
       &--block {
         img {
@@ -253,9 +400,7 @@
         }
       }
       &--frame{
-        h1{
-          font-size: 18px !important;
-        }
+
       }
     }
   }
@@ -275,90 +420,5 @@
 
 }
 @media (max-width: 320px) {
-  #lock{
-    .lock{
-      &--comments{
-        h1{
-          font-size: 30px!important;
-        }
-      }
-      &--block{
-        &__title{
-          h1{
-            font-size: 17px !important;
-          }
-          &--text{
-            p{
-              font-size: 14px!important;
-            }
-            h5{
-              font-size: 14px!important;
-            }
-          }
-        }
-      }
-      &--block1{
-        &__title{
-          h1{
-            font-size: 17px !important;
-          }
-          &--text{
-            p{
-              font-size: 12px!important;
-              width: 250px !important;
-            }
-          }
-        }
-      }
 
-    }
-  }
-  #latest{
-    .latest{
-      &--titl {
-        &__text{
-          width: 98% !important;
-          height: 185px !important;
-          h1{
-            font-size: 16px!important;
-          }
-          &--icon{
-            button{
-              font-size: 16px !important;
-            }
-            h4{
-              font-size: 16px !important;
-            }
-          }
-        }
-      }
-    }
-  }
-  #page{
-    .page{
-      &--frame{
-        h1{
-          font-size: 16px !important;
-        }
-      }
-      &--dot{
-        ul{
-          font-size: 15px !important;
-        }
-      }
-    }
-  }
-
-  #toDoList{
-    .toDoList{
-      textarea{
-        width: 91% !important;
-      }
-      &--ul{
-        button{
-          margin-left: 8px!important;
-        }
-      }
-    }
-  }
 }

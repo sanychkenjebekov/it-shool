@@ -10,7 +10,6 @@ import Otzyvy from "../../pages/aboutUs/otzyvy";
 function OurSchool() {
     return (
         <>
-        <div>
             <div id="ourSchool">
                 <div className="container">
                     <div className="ourSchool">
@@ -31,7 +30,6 @@ function OurSchool() {
                     </div>
                 </div>
             </div>
-        </div>
             <Courses/>
             <MasterClasses/>
             <Packages/>
