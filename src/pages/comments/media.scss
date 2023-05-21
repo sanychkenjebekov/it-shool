@@ -89,6 +89,9 @@
       }
     }
   }
+  #latest .latest--title__text--icon button{
+    margin: 0!important;
+  }
   #latest {
     .latest {
       &--title {
@@ -96,18 +99,10 @@
         &__text {
           width: 60% !important;
           height: 210px !important;
-
-          h1 {
-            font-size: 20px !important;
-          }
           &--icon{
             width: 90%;
             button{
-              margin-left: 5px !important;
-              font-size: 20px !important;
-            }
-            h4{
-              font-size: 20px !important;
+              font-size: 16px!important;
             }
           }
         }
@@ -148,6 +143,7 @@
     &--title{
       &__text{
         width: 81% !important;
+        height: 160px !important;
       }
     }
   }
@@ -177,12 +173,18 @@
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
+  #page .page--block h5 {
+    font-size: 13px !important;
+  }
+  #page .page--block a {
+    font-size: 14px !important;
+  }
 #latest{
   .latest{
     &--stat{
       h1{
-        font-size: 31px !important;
+        font-size: 23px !important;
       }
     }
     &--title{
@@ -211,7 +213,7 @@
           font-size: 14px !important;
         }
         h1{
-          font-size: 21px !important;
+          font-size: 20px !important;
           line-height: 1.3 !important;
         }
       }
@@ -222,7 +224,7 @@
       }
       &--dot{
         ul{
-          font-size: 15px !important;
+          font-size: 14px !important;
         }
       }
     }
@@ -230,34 +232,6 @@
 }
 
 @media (max-width: 320px) {
-#latest{
-  .latest{
-    &--title{
-      &__text{
-        &--icon{
-          width: 91% !important;
-          h4{
-            font-size: 18px !important;
-          }
-          button{
-            font-size: 18px !important;
-          }
-        }
-      }
-    }
-  }
-}
-  #toDoList{
-    .toDoList{
-      textarea{
-        width: 91% !important;
-      }
-      &--ul{
-        button{
-          margin-left: 8px!important;
-        }
-      }
-    }
-  }
+
 }
 

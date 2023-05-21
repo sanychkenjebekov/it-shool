@@ -31,7 +31,8 @@ const accordionData = [
         text: 'Не надо быть сильной',
         text2: 'Суротуно',
         text3: 'Керексин',
-        study: 'Урок '
+        study: 'Урок ',
+        id: 1
     },
     {
         title: 'Модуль 2',
@@ -44,7 +45,8 @@ const accordionData = [
         text: 'По пятам',
         text2: 'Тихий океан',
         text3: 'Minefields',
-        study: 'Урок '
+        study: 'Урок ',
+        id: 2
     },
     {
         title: 'Модуль 3',
@@ -57,7 +59,8 @@ const accordionData = [
         text: 'Fire on fire',
         text2: 'Мне не нужны',
         text3: 'Angels Like You ',
-        study: 'Урок '
+        study: 'Урок ',
+        id: 3
     },
     {
         title: 'Модуль 4',
@@ -70,7 +73,8 @@ const accordionData = [
         text: 'Абсалютно все',
         text2: 'Айрылып кеттин',
         text3: 'Эки журок',
-        study: 'Урок '
+        study: 'Урок ',
+        id: 4
     },
     {
         title: 'Модуль 5',
@@ -83,11 +87,15 @@ const accordionData = [
         text: 'Август',
         text2: 'Лилии',
         text3: 'Унута албайм',
-        study: 'Урок '
+        study: 'Урок ',
+        id: 5
     },
 
 
 ];
+
+
+
 
 const Program = () => {
     const [youtube, setYoutube] = useState(`OQEfujHhtNw`)
@@ -96,7 +104,6 @@ const Program = () => {
     const handleClick = (index) => {
         setActiveIndex(index === activeIndex ? null : index);
     };
-
 
     return (
         <div id="program">
@@ -123,7 +130,7 @@ const Program = () => {
                                     onClick={() => handleClick(index)}>
 
 
-                                    <div className="program--vid__accordion--title">{item.title}</div>
+                                    <div className="program--vid__accordion--title">{item.title }</div>
                                     {index === activeIndex && (
                                         <div className="program--vid__accordion--title__content">
 

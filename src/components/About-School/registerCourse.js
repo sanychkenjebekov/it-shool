@@ -13,29 +13,30 @@ function RegisterCourse() {
         const i6 = document.querySelector('.i6')
         const i7 = document.querySelector('.i7')
         const i8 = document.querySelector('.i8')
-        e.preventDefault()
+        // e.preventDefault()
         if (i1.value === '' || i2.value === '' || i3.value === '' || i4.value === '' || i5.value === '' || i6.value === '' || i7.value === '' || i8.value === '') {
             oplata.style.display = 'none'
-            i1.style.border = '1px solid red'
-            i2.style.border = '1px solid red'
-            i3.style.border = '1px solid red'
-            i4.style.border = '1px solid red'
-            i5.style.border = '1px solid red'
-            i6.style.border = '1px solid red'
-            i7.style.border = '1px solid red'
-            i8.style.border = '1px solid red'
+            // i1.style.border = '1px solid red'
+            // i2.style.border = '1px solid red'
+            // i3.style.border = '1px solid red'
+            // i4.style.border = '1px solid red'
+            // i5.style.border = '1px solid red'
+            // i6.style.border = '1px solid red'
+            // i7.style.border = '1px solid red'
+            // i8.style.border = '1px solid red'
         } else {
             oplata.style.display = 'block'
-            i1.style.border = '1px solid white'
-            i2.style.border = '1px solid white'
-            i3.style.border = '1px solid white'
-            i4.style.border = '1px solid white'
-            i5.style.border = '1px solid white'
-            i6.style.border = '1px solid white'
-            i7.style.border = '1px solid white'
-            i8.style.border = '1px solid white'
+            // i1.style.border = '1px solid white'
+            // i2.style.border = '1px solid white'
+            // i3.style.border = '1px solid white'
+            // i4.style.border = '1px solid white'
+            // i5.style.border = '1px solid white'
+            // i6.style.border = '1px solid white'
+            // i7.style.border = '1px solid white'
+            // i8.style.border = '1px solid white'
             window.setTimeout(() => {
                 oplata.style.display = 'none'
+
             }, 3000)
         }
     }
@@ -87,9 +88,9 @@ function RegisterCourse() {
                                         <input className='i8' required type="checkbox"/>
                                         <h5>Я ознакомился и согласен с Условиями оказания услуг</h5>
                                     </div>
-                                    <Link to={'/front'}><button style={{cursor: 'pointer',padding:'12px 15px'}} type='submit'>Оплатить
-                                        220.00$
-                                    </button></Link>
+                                    <button onClick={oplata} style={{cursor: 'pointer',padding:'12px 15px'}} type='submit'>Оплатить
+                                        <Link style={{color:'white',margin:'0 0 0 10px'}}  to={'/front'}>220.00$</Link>
+                                    </button>
                                 </div>
                                 <div className="oplata" style={{
                                     fontSize: '15px',

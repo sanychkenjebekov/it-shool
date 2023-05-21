@@ -2,10 +2,13 @@
   .container{
     width: 90%;
   }
-  #follows .vyhod{
+  #follows .vyhod {
     left: 5% !important;
-    top: 84% !important;
-    padding: 30px 44px !important;
+    top: 86% !important;
+    padding: 30px 51px !important;
+    h3{
+      width: 194px !important;
+    }
   }
   #follows .follows--saydBar{
     width: 300px;
@@ -33,9 +36,9 @@
     padding: 50px 0;
   }
   #follows .vyhod {
-    left: 27% !important;
-    top: 84% !important;
-    padding: 30px 77px !important;
+    left: 30% !important;
+    top: 85% !important;
+    padding: 30px 52px !important;
   }
   #follows .follows--every__one h1{
     text-align: center;
@@ -47,9 +50,9 @@
     padding: 40px 32px 40px 30px;
   }
   #follows .vyhod {
-    left: 22% !important;
-    top: 84% !important;
-    padding: 30px 79px !important;
+    left: 26% !important;
+    top: 85% !important;
+    padding: 30px 53px !important;
   }
 }
 @media (max-width: 644px) {
@@ -58,9 +61,9 @@
     align-items: center;
   }
   #follows .vyhod {
-    left: 17% !important;
-    top: 84% !important;
-    padding: 30px 77px !important;
+    left: 22% !important;
+    top: 85% !important;
+    padding: 30px 53px !important;
   }
   #follows .follows--big__about--cards{
     margin: 20px 0;
@@ -80,7 +83,7 @@
     font-size: 30px;
   }
   #follows .vyhod {
-    left: 13% !important;}
+    left: 18% !important;}
   #follows .follows--every__status--card h2{
     padding: 15px 20px;
   }
@@ -93,8 +96,8 @@
     align-items: center;
   }
   #follows .vyhod {
-    left: 8% !important;
-    padding: 30px 34px !important;
+    left: 3% !important;
+    padding: 30px 52px !important;
   }
   #follows .follows--saydBar{
     width: 300px;
