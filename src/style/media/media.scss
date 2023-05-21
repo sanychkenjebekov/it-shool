@@ -2,6 +2,15 @@
   .container{
     width: 90%;
   }
+  #karty .vyhod{
+    left: 5% !important;
+    top: 86% !important;
+    padding: 30px 51px !important;
+  }
+  #karty .vyhod {
+    top: 90% !important;
+    padding: 30px 51px !important;
+  }
   #packages .container .packages--packagesTop__packagesTop3 {
     width: 30%;
   }
@@ -171,6 +180,12 @@
 @media (max-width: 992px) {
   #packages .container .packages--packagesTop__packagesTop3 {
     width: 33%;
+  }
+  #karty .file{
+    margin: 154px 0 0 228px !important;
+  }
+  #follows .file{
+    margin: 164px 0 0 227px !important;
   }
   #packages .container .packages--packagesTop__packagesTop2 {
     width: 33%;
@@ -765,6 +780,9 @@ text-align: center !important;
     width: 90%;
     padding: 45px 50px 45px 10px;
   }
+  #karty .file {
+    margin: 154px 0 0 135px !important;
+  }
   #masterclasses .container .masterclasses .masterclasses2{
     width: 90%;
     padding: 45px 50px 45px 10px;
@@ -865,6 +883,9 @@ text-align: center !important;
   #podpisatsa .podpisatsa--about .h1 {
     font-size: 25px !important;
     padding: 40px 0 30px 0 !important;
+  }
+  #follows .file {
+    margin: 164px 0 0 108px !important;
   }
   #allMaps .container h2 {
     font-size: 26px !important;
@@ -969,6 +990,12 @@ text-align: center !important;
 @media (max-width: 480px) {
   #courses .container .courses a {
     width: 35%;
+  }
+  #karty .file {
+    margin: 154px 0 0 40px !important;
+  }
+  #follows .file {
+    margin: 164px 0 0 31px !important;
   }
   #courses .container h2 {
     font-size: 28px !important;
