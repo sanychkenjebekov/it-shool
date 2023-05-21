@@ -14,7 +14,7 @@ function Swiper() {
                         <p>ФИО*</p>
                         <input type={"text"}/>
                         <p>Номер телефон*</p>
-                        <input type={"text"}/>
+                        <input type={"number"}/>
                         <p>Email*</p>
                         <input type={"text"}/> <br/>
                         <button>Отправить</button>
