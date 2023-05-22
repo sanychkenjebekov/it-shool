@@ -27,7 +27,7 @@ const Python = () => {
                                 <h3>3 модулей 60материалов</h3>
                             </div>
                         </div>
-                        <Link to={'/frRegistration'}>
+                        <Link to={'/pythonRegistration'}>
                             <button>Купить курс за 90 $</button>
                         </Link>
                     </div>

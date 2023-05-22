@@ -33,6 +33,15 @@ import DevJava from "./pages/FrBuy/devJava";
 import CDev from "./pages/FrBuy/c++";
 import Ios from "./pages/FrBuy/ios";
 import Python from "./pages/FrBuy/python";
+import BackSend from "./components/About-School/backend";
+import UxUiSend from "./components/About-School/UxUisend";
+import DevSend from "./components/About-School/devsend";
+import AndroSend from "./components/About-School/androidsend";
+import JavaSend from "./components/About-School/javasend/imdex";
+import CSend from "./components/About-School/ All-Maps/c++send";
+import IosSend from "./components/About-School/iossend";
+import PythonSend from "./components/About-School/ All-Maps/pythonsend";
+import Program from "./pages/program course/program";
 
 
 
@@ -73,14 +82,28 @@ function App() {
           <Route path={'/iosCurse'} element={<Ios/>}/>
           <Route path={'/pythonCurse'} element={<Python/>}/>
 
+
+
           <Route path={'/allCard'} element={<AllMaps/>}/>
           <Route path={'/register'} element={<RegisterCourse/>}/>
             <Route path={'/more'} element={<More/>}/>
             <Route path={'/reactiv'} element={<JavaRu/>}/>
             <Route path={'/reactiv/details'} element={<Reactivity/>}/>
             <Route path={'/master'} element={<Master2/>}/>
+
+
             <Route path={'/frRegistration'} element={<RegisterCourse/>}/>
-            <Route path={'/оНас'} element={<AboutUs/>}/>
+          <Route path={'/bkRegistration'} element={<BackSend/>}/>
+          <Route path={'/uxuiRegistration'} element={<UxUiSend/>}/>
+          <Route path={'/devopsRegistration'} element={<DevSend/>}/>
+          <Route path={'/androidRegistration'} element={<AndroSend/>}/>
+          <Route path={'/javaRegistration'} element={<JavaSend/>}/>
+          <Route path={'/c++Registration'} element={<CSend/>}/>
+          <Route path={'/iosRegistration'} element={<IosSend/>}/>
+          <Route path={'/pythonRegistration'} element={<PythonSend/>}/>
+
+
+          <Route path={'/оНас'} element={<AboutUs/>}/>
             <Route path={'/нашиКурсы'} element={<AllMaps/>}/>
             <Route path={'/front'} element={<Front/>}/>
         </Routes>

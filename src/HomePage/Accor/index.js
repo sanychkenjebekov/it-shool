@@ -26,9 +26,7 @@ import {TfiArrowCircleDown, TfiArrowCircleUp} from "react-icons/tfi";
                          <img src={ask} alt=""/>
                      </div>
                      <div className="accor--all">
-                         <div className="accor--all__item" style={{
-                             transition: ".5s"
-                         }}>
+                         <div className="accor--all__item">
                              {data.map((cold, i) => (
                                  <div className='accor--all__item--cold'>
                                      <div className='accor--all__item--cold__title'

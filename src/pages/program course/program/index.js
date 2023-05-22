@@ -123,17 +123,19 @@ const Program = () => {
                         </div>
                         <div className="program--vid__accordion">
                             {accordionData.map((item, index) => (
-                                <div
-                                    key={index}
-                                    className={`accordion-item ${activeIndex === index ?
+                                <div key={index}
+                                    className={`accordion-item ${activeIndex === index ? 
                                         <TfiArrowCircleUp/> : <TfiArrowCircleDown/>}`}
-                                    onClick={() => handleClick(index)}>
+                                        onClick={() => handleClick(index)}>
 
 
-                                    <div className="program--vid__accordion--title">{item.title }</div>
+                                        <div className="program--vid__accordion--title">{item.title }
+                                            <span>{activeIndex === index ? <TfiArrowCircleUp/> : <TfiArrowCircleDown/>}</span>
+                                    </div>
+
+
                                     {index === activeIndex && (
                                         <div className="program--vid__accordion--title__content">
-
                                             <div onClick={()=>setYoutube(item.video)}
                                                  className="program--vid__accordion--title__content--videos">
                                                 <img src={item.image} alt=""/>
@@ -145,6 +147,7 @@ const Program = () => {
 
 
                                             </div>
+
                                             <div onClick={()=>setYoutube(item.video2)}
                                                  className="program--vid__accordion--title__content--videos">
                                                 <img src={item.image1} alt=""/>
@@ -152,7 +155,6 @@ const Program = () => {
                                                     <p>{item.text2}</p>
                                                     <span>{item.study}</span>
                                                 </div>
-
 
                                             </div>
                                             <div onClick={()=>setYoutube(item.video3)}
