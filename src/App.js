@@ -71,7 +71,6 @@ function App() {
           <Route path={'/cards'} element={<Cards/>}/>
           <Route path={'/личныеДанные'} element={<Dashboard/>}/>
           <Route path={'/follows'} element={<Follows/>}/>
-
           <Route path={'/frCurse'} element={<FrBuy/>}/>
           <Route path={'/bkCurse'} element={<BackEnd/>}/>
           <Route path={'/uxuiCurse'} element={<UxUi/>}/>
@@ -81,6 +80,9 @@ function App() {
           <Route path={'/c++Curse'} element={<CDev/>}/>
           <Route path={'/iosCurse'} element={<Ios/>}/>
           <Route path={'/pythonCurse'} element={<Python/>}/>
+
+
+
 
 
 

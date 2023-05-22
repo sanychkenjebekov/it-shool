@@ -15,7 +15,7 @@ function RegisterCourse() {
         const i8 = document.querySelector('.i8')
         // e.preventDefault()
         if (i1.value === '' || i2.value === '' || i3.value === '' || i4.value === '' || i5.value === '' || i6.value === '' || i7.value === '' || i8.value === '') {
-            oplata.style.display = 'none'
+            // oplata.style.display = 'none'
             // i1.style.border = '1px solid red'
             // i2.style.border = '1px solid red'
             // i3.style.border = '1px solid red'
@@ -25,7 +25,7 @@ function RegisterCourse() {
             // i7.style.border = '1px solid red'
             // i8.style.border = '1px solid red'
         } else {
-            oplata.style.display = 'block'
+            // oplata.style.display = 'block'
             // i1.style.border = '1px solid white'
             // i2.style.border = '1px solid white'
             // i3.style.border = '1px solid white'
@@ -34,10 +34,10 @@ function RegisterCourse() {
             // i6.style.border = '1px solid white'
             // i7.style.border = '1px solid white'
             // i8.style.border = '1px solid white'
-            window.setTimeout(() => {
-                oplata.style.display = 'none'
-
-            }, 3000)
+            // window.setTimeout(() => {
+            //     oplata.style.display = 'none'
+            //
+            // }, 3000)
         }
     }
 

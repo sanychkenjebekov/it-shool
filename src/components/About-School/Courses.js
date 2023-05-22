@@ -24,7 +24,7 @@ function Courses() {
                             с большим функционалом. Профессия отлично <br/>
                             подойдет тем, кто хочет фрилансить и постоянно
                             разрабатывать новые проекты</p>
-                        <a href="">Подробнее<AiOutlineArrowRight/></a>
+                        <Link to={'/bkCurse'}>Подробнее<AiOutlineArrowRight/></Link>
                     </div>
                     <div className="courses3">
                         <h1>UX / UI Дизайнер</h1>
@@ -33,7 +33,7 @@ function Courses() {
                             с большим функционалом. Профессия отлично <br/>
                             подойдет тем, кто хочет фрилансить и постоянно
                             разрабатывать новые проекты</p>
-                        <a href="">Подробнее<AiOutlineArrowRight/></a>
+                        <Link to={'/uxuiCurse'}>Подробнее<AiOutlineArrowRight/></Link>
                     </div>
                 </div>
                 <center>

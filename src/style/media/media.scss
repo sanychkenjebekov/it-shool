@@ -677,6 +677,8 @@ text-align: center !important;
   }
   #frBuy .skils--obuchenie__all {
     justify-content: flex-start !important;
+    align-items: flex-start !important;
+    flex-direction: column !important;
     gap: 65px !important;
   }
   #frBuy .skils--obuchenie__all--card:nth-child(2n+2){
