@@ -1,8 +1,10 @@
 import React from 'react';
-import {BsCreditCard} from "react-icons/bs";
 import {Link} from "react-router-dom";
+import {BsCreditCard} from "react-icons/bs";
 
-function RegisterCourse() {
+
+
+function IosSend () {
     const oplata = (e) => {
         const oplata = document.querySelector('.oplata')
         const i1 = document.querySelector('.i1')
@@ -15,7 +17,7 @@ function RegisterCourse() {
         const i8 = document.querySelector('.i8')
         // e.preventDefault()
         if (i1.value === '' || i2.value === '' || i3.value === '' || i4.value === '' || i5.value === '' || i6.value === '' || i7.value === '' || i8.value === '') {
-            // oplata.style.display = 'none'
+            oplata.style.display = 'none'
             // i1.style.border = '1px solid red'
             // i2.style.border = '1px solid red'
             // i3.style.border = '1px solid red'
@@ -25,7 +27,7 @@ function RegisterCourse() {
             // i7.style.border = '1px solid red'
             // i8.style.border = '1px solid red'
         } else {
-            // oplata.style.display = 'block'
+            oplata.style.display = 'block'
             // i1.style.border = '1px solid white'
             // i2.style.border = '1px solid white'
             // i3.style.border = '1px solid white'
@@ -34,10 +36,10 @@ function RegisterCourse() {
             // i6.style.border = '1px solid white'
             // i7.style.border = '1px solid white'
             // i8.style.border = '1px solid white'
-            // window.setTimeout(() => {
-            //     oplata.style.display = 'none'
-            //
-            // }, 3000)
+            window.setTimeout(() => {
+                oplata.style.display = 'none'
+
+            }, 3000)
         }
     }
 
@@ -50,12 +52,12 @@ function RegisterCourse() {
                     <div className="god--banner">
                         <div className="god--banner__action">
                             <p1>Курс</p1> <br/><br/>
-                            <h1>Frontend-разработчик</h1>
+                            <h1>Ios-разработчик</h1>
                             <p>Идея реактивного программирования
                                 <br/>появилась сравнительно недавно, лет 10 назад. </p>
                             <p1>Лектор</p1> <br/><br/>
-                            <h1>Евгений Александрович</h1>
-                            <p>Frontend разработчик</p>
+                            <h1>Дмитрий Александрович</h1>
+                            <p>Ios разработчик</p>
                             <h5>3 модулей 60материалов В курс входит </h5>
                             <rem>* - материалы включают уроки, тесты и задания. <br/>
                                 Некоторые материалы могут быть недоступны <br/>
@@ -117,7 +119,9 @@ function RegisterCourse() {
                 </div>
             </div>
         </div>
-    );
-}
 
-export default RegisterCourse;
+    );
+};
+
+
+export default IosSend;

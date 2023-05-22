@@ -103,7 +103,24 @@
         padding: 15px 0;
       }
 
+
       &__accordion {
+
+    &__accordion{
+      margin: 10px 0;
+      &--title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 10px;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        width: 400px;
+        background: rgba(3, 5, 129, 0.81);
+        border-radius: 3px;
+
         margin: 10px 0;
 
         &--title {

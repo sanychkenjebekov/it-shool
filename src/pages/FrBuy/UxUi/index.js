@@ -27,7 +27,7 @@ const UxUi = () => {
                                 <h3>3 модулей 60материалов</h3>
                             </div>
                         </div>
-                        <Link to={'/frRegistration'}>
+                        <Link to={'/uxuiRegistration'}>
                             <button>Купить курс за 50 $</button>
                         </Link>
                     </div>

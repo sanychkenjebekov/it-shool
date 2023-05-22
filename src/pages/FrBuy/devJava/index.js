@@ -25,7 +25,7 @@ const DevJava = () => {
                                 <h3>3 модулей 60материалов</h3>
                             </div>
                         </div>
-                        <Link to={'/frRegistration'}>
+                        <Link to={'/javaRegistration'}>
                             <button>Купить курс за 35 $</button>
                         </Link>
                     </div>

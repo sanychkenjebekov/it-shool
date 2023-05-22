@@ -139,6 +139,7 @@ const Program = () => {
                         </div>
                         <div className="program--vid__accordion" style={{cursor:'pointer'}}>
                             {accordionData.map((item, index) => (
+
                                 <div
                                     key={index}
                                     className={`accordion-item ${activeIndex === index ?
@@ -152,6 +153,22 @@ const Program = () => {
                                         <div className="program--vid__accordion--title__content">
 
                                             <div onClick={()=>programVideoClick(item.video,index)}
+
+                                <div key={index}
+                                    className={`accordion-item ${activeIndex === index ? 
+                                        <TfiArrowCircleUp/> : <TfiArrowCircleDown/>}`}
+                                        onClick={() => handleClick(index)}>
+
+
+                                        <div className="program--vid__accordion--title">{item.title }
+                                            <span>{activeIndex === index ? <TfiArrowCircleUp/> : <TfiArrowCircleDown/>}</span>
+                                    </div>
+
+
+                                    {index === activeIndex && (
+                                        <div className="program--vid__accordion--title__content">
+                                            <div onClick={()=>setYoutube(item.video)}
+
                                                  className="program--vid__accordion--title__content--videos">
                                                 <img src={item.image} alt=""/>
 
@@ -162,14 +179,18 @@ const Program = () => {
 
 
                                             </div>
+
                                             <div onClick={()=>programVideoClick(item.video2,index)}
+
+
+                                            <div onClick={()=>setYoutube(item.video2)}
+
                                                  className="program--vid__accordion--title__content--videos">
                                                 <img src={item.image1} alt=""/>
                                                 <div>
                                                     <p>{item.text2}</p>
                                                     <span>{item.study}</span>
                                                 </div>
-
 
                                             </div>
                                             <div onClick={()=>programVideoClick(item.video3,index)}
