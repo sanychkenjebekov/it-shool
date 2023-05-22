@@ -27,7 +27,7 @@ const Android = () => {
                                 <h3>3 модулей 60материалов</h3>
                             </div>
                         </div>
-                        <Link to={'/frRegistration'}>
+                        <Link to={'/androidRegistration'}>
                             <button>Купить курс за 45 $</button>
                         </Link>
                     </div>

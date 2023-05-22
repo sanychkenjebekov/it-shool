@@ -15,9 +15,6 @@ const Latest = () => {
                     </div>
 
                  <div className="latest--title">
-
-
-
                          <div className="latest--title__text">
                          <h5>Статьи</h5>
                          <h1>Мы подготовили подборку  самых

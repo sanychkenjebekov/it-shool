@@ -26,7 +26,7 @@ const CDev = () => {
                                 <h3>3 модулей 60материалов</h3>
                             </div>
                         </div>
-                        <Link to={'/frRegistration'}>
+                        <Link to={'/c++Registration'}>
                             <button>Купить курс за 60 $</button>
                         </Link>
                     </div>

@@ -1,8 +1,10 @@
 import React from 'react';
-import {BsCreditCard} from "react-icons/bs";
 import {Link} from "react-router-dom";
+import {BsCreditCard} from "react-icons/bs";
 
-function RegisterCourse() {
+
+
+function AndroSend () {
     const oplata = (e) => {
         const oplata = document.querySelector('.oplata')
         const i1 = document.querySelector('.i1')
@@ -50,12 +52,12 @@ function RegisterCourse() {
                     <div className="god--banner">
                         <div className="god--banner__action">
                             <p1>Курс</p1> <br/><br/>
-                            <h1>Frontend-разработчик</h1>
+                            <h1>Android-разработчик</h1>
                             <p>Идея реактивного программирования
                                 <br/>появилась сравнительно недавно, лет 10 назад. </p>
                             <p1>Лектор</p1> <br/><br/>
-                            <h1>Евгений Александрович</h1>
-                            <p>Frontend разработчик</p>
+                            <h1>Давид Александрович</h1>
+                            <p>Android разработчик</p>
                             <h5>3 модулей 60материалов В курс входит </h5>
                             <rem>* - материалы включают уроки, тесты и задания. <br/>
                                 Некоторые материалы могут быть недоступны <br/>
@@ -117,7 +119,9 @@ function RegisterCourse() {
                 </div>
             </div>
         </div>
-    );
-}
 
-export default RegisterCourse;
+    );
+};
+
+
+export default AndroSend;

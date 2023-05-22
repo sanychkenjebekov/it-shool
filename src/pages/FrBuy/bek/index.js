@@ -28,7 +28,7 @@ const BackEnd = () => {
                                 <h3>3 модулей 60материалов</h3>
                             </div>
                         </div>
-                        <Link to={'/frRegistration'}>
+                        <Link to={'/bkRegistration'}>
                             <button>Купить курс за 48 $</button>
                         </Link>
                     </div>
