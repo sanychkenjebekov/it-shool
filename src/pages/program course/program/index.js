@@ -18,6 +18,7 @@ import avg from '../../../img/avg.png'
 import li from '../../../img/li.png'
 import uni from '../../../img/unu.png'
 
+
 const accordionData = [
 
     {
@@ -98,12 +99,27 @@ const accordionData = [
 
 
 const Program = () => {
-    const [youtube, setYoutube] = useState(`OQEfujHhtNw`)
-    const [activeIndex, setActiveIndex] = useState(null)
+    const [youtube, setYoutube] = useState(accordionData[0].video)
+    const [activeIndex, setActiveIndex] = useState(0)
+    const [currentIndex, setCurrentIndex] = useState(0);
 
-    const handleClick = (index) => {
-        setActiveIndex(index === activeIndex ? null : index);
+
+    const programClick = (index) => {
+        // const a = document.querySelector('.accordion-item')
+        if(index <= currentIndex){
+            // a.style.opacity='1'
+            setActiveIndex(index === activeIndex ? null : index)
+        }
     };
+
+    const programVideoClick = (video,index)=>{
+        if (index === activeIndex) {
+            setYoutube(video);
+            setActiveIndex(null);
+            // setCurrentIndex(currentIndex + 1);
+            setCurrentIndex(index + 1)
+        }
+    }
 
     return (
         <div id="program">
@@ -121,20 +137,21 @@ const Program = () => {
                                     allowFullScreen>
                             </iframe>
                         </div>
-                        <div className="program--vid__accordion">
+                        <div className="program--vid__accordion" style={{cursor:'pointer'}}>
                             {accordionData.map((item, index) => (
                                 <div
                                     key={index}
                                     className={`accordion-item ${activeIndex === index ?
+                                        
                                         <TfiArrowCircleUp/> : <TfiArrowCircleDown/>}`}
-                                    onClick={() => handleClick(index)}>
+                                    onClick={() => programClick(index)}>
 
 
-                                    <div className="program--vid__accordion--title">{item.title }</div>
+                                    <div onClick={() => programClick(index)} className="program--vid__accordion--title">{item.title }</div>
                                     {index === activeIndex && (
                                         <div className="program--vid__accordion--title__content">
 
-                                            <div onClick={()=>setYoutube(item.video)}
+                                            <div onClick={()=>programVideoClick(item.video,index)}
                                                  className="program--vid__accordion--title__content--videos">
                                                 <img src={item.image} alt=""/>
 
@@ -145,7 +162,7 @@ const Program = () => {
 
 
                                             </div>
-                                            <div onClick={()=>setYoutube(item.video2)}
+                                            <div onClick={()=>programVideoClick(item.video2,index)}
                                                  className="program--vid__accordion--title__content--videos">
                                                 <img src={item.image1} alt=""/>
                                                 <div>
@@ -155,7 +172,7 @@ const Program = () => {
 
 
                                             </div>
-                                            <div onClick={()=>setYoutube(item.video3)}
+                                            <div onClick={()=>programVideoClick(item.video3,index)}
                                                  className="program--vid__accordion--title__content--videos">
                                                 <img src={item.image2} alt=""/>
                                                 <div>
