@@ -10,7 +10,9 @@ import user from '../../../img/user.svg'
 const Dashboard = () => {
     const vyhod=()=>{
         const vyhod = document.querySelector('.vyhod')
+        const bgProf = document.querySelector('.bgProf')
         vyhod.style.display='block'
+        bgProf.style.display='block'
     }
     const home=()=>{
         const profil2 = document.querySelector('.burger--menu__voitiAll')
@@ -24,7 +26,9 @@ const Dashboard = () => {
     }
     const closeVyhod=()=>{
         const vyhod = document.querySelector('.vyhod')
+        const bgProf = document.querySelector('.bgProf')
         vyhod.style.display='none'
+        bgProf.style.display='none'
     }
     const foto=()=>{
         const users = document.querySelector('.users')
@@ -137,14 +141,14 @@ const Dashboard = () => {
             </div>
                 </div>
             </div>
-            <div className="vyhod" style={{position:'absolute',left:'12.5%',top:'75%',textAlign:'center',color:'white',background:'rgb(11 22 57)',padding:'30px 76px',borderRadius:'10px',display:'none'}}>
+            <div className="vyhod" style={{position:'absolute',margin:'-152px 0 0 189px',textAlign:'center',color:'white',background:'rgb(11 22 57)',padding:'30px 76px',borderRadius:'10px',display:'none',zIndex:1}}>
                 <h3 style={{fontSize:'15px',width:'170px',padding:'0 0 17px 0',fontWeight:'500'}}>Действительно хотите выйти или нет?</h3>
                 <div className="vyhod--btn">
                     <Link onClick={home} to={'/'} ><button style={{background:'#044076',color:'white',padding:'10px 35px',borderRadius:'10px',margin:'0 20px 0 0'}}>Да</button></Link>
                     <button onClick={closeVyhod} style={{background:'#044076',color:'white',padding:'10px 35px',borderRadius:'10px'}}>Нет</button>
                 </div>
             </div>
-
+            <div style={{position:'fixed',top:0,left:0,right:0,bottom:0, background:'rgb(10 17 40 / 80%)',display:'none'}} className="bgProf"></div>
         </div>
     );
 };

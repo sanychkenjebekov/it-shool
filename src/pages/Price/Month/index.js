@@ -5,6 +5,9 @@ import {LoginContext} from "../../../Context";
 
 const Month = () => {
     const {setNotification} = useContext(LoginContext)
+    const {setNotific} = useContext(LoginContext)
+    const {setNotific2} = useContext(LoginContext)
+    const {setNotificRed} = useContext(LoginContext)
     const oplata = (e) => {
         const oplata = document.querySelector('.oplata')
         const bg = document.querySelector('.bg')
@@ -46,9 +49,12 @@ const Month = () => {
             i9.parentNode.style.border = '1px solid white'
             i10.parentNode.style.border = '1px solid white'
             window.setTimeout(()=>{
+                setNotificRed(true)
                 oplata.style.display='none'
                 bg.style.display='none'
             },3000)
+            setNotific('Месяц +')
+            setNotific2('105.00')
             setNotification('Вы оформили подписку пакет “Месяц+”')
         }
         i1.value = ''

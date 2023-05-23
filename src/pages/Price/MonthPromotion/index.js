@@ -5,6 +5,9 @@ import {LoginContext} from "../../../Context";
 
 const MonthPromotion = () => {
     const {setNotification} = useContext(LoginContext)
+    const {setNotific} = useContext(LoginContext)
+    const {setNotific2} = useContext(LoginContext)
+    const {setNotificRed} = useContext(LoginContext)
     const oplata = (e) => {
         const oplata = document.querySelector('.oplata')
         const bg = document.querySelector('.bg')
@@ -49,6 +52,9 @@ const MonthPromotion = () => {
                 oplata.style.display='none'
                 bg.style.display='none'
             },3000)
+            setNotificRed(true)
+            setNotific('Месяц')
+            setNotific2('19.00')
             setNotification('Вы оформили подписку пакет “Месяц”')
         }
         i1.value = ''

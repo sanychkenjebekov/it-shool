@@ -12,6 +12,7 @@ import ReactComent from "./ReactComent";
 
 const Reactivity = () => {
     const [youTube,setYouTube] = useState('TGPPPFczOj0')
+    const [nexts,setNexts] = useState(0)
     // const [id,setId] = useState(1)
     const youFr = [
         {
@@ -45,14 +46,26 @@ const Reactivity = () => {
     ]
 
     const prev=()=>{
-youFr.map((el,inx)=>{})
+        const btn = document.querySelector('.youTubeBtn1')
+        const btn2 = document.querySelector('.youTubeBtn2')
+        btn2.style.color = 'black'
+       if(nexts > 0){
+           setNexts(nexts - 1)
+       }else {
+               btn.style.color = '#A5A5A5'
+       }
     }
     const next=()=>{
-        youFr.map((el,inx)=>{
-            // setId(inx + 1)
-            setYouTube(el.video)
-        })
+        const btn = document.querySelector('.youTubeBtn1')
+        const btn2 = document.querySelector('.youTubeBtn2')
+        btn.style.color = 'black'
+        if (nexts < youFr.length - 1) {
+            setNexts(nexts +1)
+        }else {
+            btn2.style.color = '#A5A5A5'
+        }
     }
+    const nex = youFr[nexts]
     return (
         <>
         <div id='reactivity'>
@@ -74,14 +87,14 @@ youFr.map((el,inx)=>{})
                        </div>
                    </div>
                     <div className="reactivity--youtube">
-                        <iframe  src={`https://www.youtube.com/embed/${youTube}`}
+                        <iframe  src={`https://www.youtube.com/embed/${nex.video}`}
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowFullScreen></iframe>
                         <div className="reactivity--youtube__videoAll">
                                 {
                                     youFr.map((el)=>(
-                                        <div onClick={()=>setYouTube(el.video)} className="reactivity--youtube__videoAll--video">
+                                        <div onClick={()=>setNexts(el.id - 1)} className={`reactivity--youtube__videoAll--video ${nex.id === el.id ? `active` : ''}`}>
                                             <img src={el.img} alt=""/>
                                             <div className="reactivity--youtube__videoAll--video__title">
                                                 <h3>{el.name}</h3>

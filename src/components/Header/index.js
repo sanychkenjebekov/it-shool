@@ -1,11 +1,14 @@
-import React from 'react';
+import React, {useContext, useEffect} from 'react';
 import logo from '../../img/логотип.svg'
 import {Link, NavLink} from "react-router-dom";
 import {IoIosNotificationsOutline} from "react-icons/io";
+import {LoginContext} from "../../Context";
 
 
 
 const Header = () => {
+    const {notificRed} = useContext(LoginContext)
+    const {setNotificRed} = useContext(LoginContext)
     const spans = (e) => {
         const p1 = document.querySelector('.p1')
         const p2 = document.querySelector('.p2')
@@ -31,6 +34,18 @@ const Header = () => {
         }
     }
 
+
+useEffect(()=>{
+    const red = document.querySelector('.p11')
+    const red2 = document.querySelector('.p12')
+    if(notificRed === true){
+        red.style.display = 'block'
+        red2.style.display = 'block'
+    }else {
+        red.style.display = 'none'
+        red2.style.display = 'none'
+    }
+},[notificRed,spans])
     return (
         <div id='header'>
             <div className="container">
@@ -51,7 +66,8 @@ const Header = () => {
                     </div>
                     <div className="header--voitiAll">
                         <div className="header--voitiAll__voiti">
-                            <NavLink className='notific' to={'/уведомление'}><IoIosNotificationsOutline className='voitiIcon'/></NavLink>
+                            <NavLink onClick={() => setNotificRed(false)} to={'/уведомление'}><IoIosNotificationsOutline className='voitiIcon'/></NavLink>
+                            <p className='p11'>1</p>
                             <NavLink to={'/профиль'}>
                                 <button>Профиль</button>
                             </NavLink>
@@ -78,8 +94,9 @@ const Header = () => {
                         </div>
                         <div className="burger--menu__voitiAll">
                             <div className="burger--menu__voitiAll--voiti">
-                                <NavLink className='notific' to={'/уведомление'}><IoIosNotificationsOutline
+                                <NavLink onClick={() => setNotificRed(false)} to={'/уведомление'}><IoIosNotificationsOutline
                                     className='voitiIcon'/></NavLink>
+                                <p className='p12'>1</p>
                                 <NavLink to={'/профиль'}>
                                     <button>Профиль</button>
                                 </NavLink>

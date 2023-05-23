@@ -1,7 +1,6 @@
 @media (max-width: 1140px) {
   .container{
     width: 90%;
-    padding: 0 10px;
   }
   #karty .karty--saydBar{
     width: 300px !important;
@@ -30,12 +29,6 @@
 
     width: 66%;
   }
-  #karty .vyhod{
-    left: 5% !important;
-    top: 90% !important;
-    padding: 30px 51px !important;
-  }
-
   #karty .karty--visul__visa{
     flex-direction: column;
   }
@@ -45,14 +38,7 @@
 
 }
 @media (max-width: 992px) {
-  #karty .vyhod {
-    left: 30% !important;
-    top: 90% !important;
-    padding: 30px 52px !important;
-    h3{
-      width: 196px !important;
-    }
-  }
+
 
 
   #karty{
@@ -91,10 +77,6 @@
 
 }
 @media (max-width: 768px) {
-  #karty .vyhod {
-    left: 26% !important;
-    padding: 30px 53px !important;
-  }
   #karty{
     .karty{
       &--visul{
@@ -249,20 +231,11 @@
 
 
 @media (max-width: 640px) {
-  #karty .vyhod {
-    left: 22% !important;
-    padding: 30px 53px !important;
-  }
+
 }
 @media (max-width: 540px) {
-  #karty .vyhod {
-    left: 18% !important;
-    padding: 30px 53px !important;
-  }
+
 }
 @media (max-width: 480px) {
-  #karty .vyhod {
-    left: 3% !important;
-    padding: 30px 53px !important;
-  }
+
 }
