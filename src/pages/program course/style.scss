@@ -68,14 +68,13 @@
             line-height: 24px;
             color: #FFFFFF;
             text-align: center;
-
           }
         }
       }
     }
-
   }
 }
+
 
 #program {
   padding: 70px 0;
@@ -103,27 +102,13 @@
         padding: 15px 0;
       }
 
-
       &__accordion {
-
-    &__accordion{
-      margin: 10px 0;
-      &--title{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px 10px;
-        font-weight: 500;
-        font-size: 16px;
-        text-transform: capitalize;
-        color: #FFFFFF;
-        width: 400px;
-        background: rgba(3, 5, 129, 0.81);
-        border-radius: 3px;
-
         margin: 10px 0;
 
         &--title {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
           padding: 10px 10px;
           font-weight: 500;
           font-size: 16px;
@@ -173,75 +158,11 @@
             }
           }
         }
-
-        //.accordion-item {
-        //  opacity: 0.5;
-        //}
-        //.accordion-item:active{
-        //  opacity: 1;
-        //}
       }
     }
   }
 }
 
-//qwertyu
-//#toDoList {
-//  padding: 70px 0;
-//
-//  .comment {
-//    font-weight: 700;
-//    font-size: 30px;
-//    color: #FFFFFF;
-//    padding: 20px 0;
-//  }
-//
-//  .toDoList {
-//    //width: 50%;
-//    //height: 200px;
-//    //background: #050C22;
-//    //border-radius: 10px;
-//    textarea {
-//      padding-left: 15px;
-//      color: #FFFFFF;
-//      width: 45%;
-//      height: 120px;
-//      border: none;
-//      background: rgba(27, 41, 89, 0.4);
-//      border-radius: 7px;
-//
-//    }
-//
-//    button {
-//      margin-top: 15px;
-//      padding: 10px 20px;
-//      background: rgba(27, 41, 89, 0.4);
-//      border-radius: 7.35897px;
-//      color: white;
-//      font-size: 16px;
-//    }
-//
-//    &--ul {
-//      margin-left: 20px;
-//
-//      button {
-//        width: 100px;
-//        margin-left: 20px;
-//      }
-//
-//      ul {
-//
-//        font-weight: 500;
-//        font-size: 16px;
-//        color: #FFFFFF;
-//
-//        .btn {
-//          margin-left: 30%;
-//        }
-//      }
-//    }
-//  }
-//}
 
 #asks {
   padding: 70px 0;
@@ -304,8 +225,6 @@
           }
         }
       }
-
     }
   }
 }
-

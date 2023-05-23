@@ -96,8 +96,6 @@ const accordionData = [
 ];
 
 
-
-
 const Program = () => {
     const [youtube, setYoutube] = useState(accordionData[0].video)
     const [activeIndex, setActiveIndex] = useState(0)
@@ -106,13 +104,13 @@ const Program = () => {
 
     const programClick = (index) => {
         // const a = document.querySelector('.accordion-item')
-        if(index <= currentIndex){
+        if (index <= currentIndex) {
             // a.style.opacity='1'
             setActiveIndex(index === activeIndex ? null : index)
         }
     };
 
-    const programVideoClick = (video,index)=>{
+    const programVideoClick = (video, index) => {
         if (index === activeIndex) {
             setYoutube(video);
             setActiveIndex(null);
@@ -133,82 +131,47 @@ const Program = () => {
                             <iframe width="560" height="315" src={`https://www.youtube.com/embed/${youtube}`}
                                     title="YouTube video player" frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write;
-                                 encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowFullScreen>
-                            </iframe>
+                                                           encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen></iframe>
                         </div>
                         <div className="program--vid__accordion" style={{cursor:'pointer'}}>
                             {accordionData.map((item, index) => (
-
-                                <div
-                                    key={index}
-                                    className={`accordion-item ${activeIndex === index ?
-                                        
-                                        <TfiArrowCircleUp/> : <TfiArrowCircleDown/>}`}
-                                    onClick={() => programClick(index)}>
-
-
-                                    <div onClick={() => programClick(index)} className="program--vid__accordion--title">{item.title }</div>
-                                    {index === activeIndex && (
-                                        <div className="program--vid__accordion--title__content">
-
-                                            <div onClick={()=>programVideoClick(item.video,index)}
-
-                                <div key={index}
-                                    className={`accordion-item ${activeIndex === index ? 
-                                        <TfiArrowCircleUp/> : <TfiArrowCircleDown/>}`}
-                                        onClick={() => handleClick(index)}>
-
-
-                                        <div className="program--vid__accordion--title">{item.title }
-                                            <span>{activeIndex === index ? <TfiArrowCircleUp/> : <TfiArrowCircleDown/>}</span>
-                                    </div>
-
-
-                                    {index === activeIndex && (
-                                        <div className="program--vid__accordion--title__content">
-                                            <div onClick={()=>setYoutube(item.video)}
-
+                                <div key={index} className={`accordion-item ${activeIndex === index ?
+                                    <TfiArrowCircleUp/> : <TfiArrowCircleDown/>}`}
+                                     onClick={() => programClick(index)}>
+                                    <div className="program--vid__accordion--title">{item.title}
+                                        <span>{activeIndex === index ? <TfiArrowCircleUp/> :
+                                            <TfiArrowCircleDown/>}</span></div>
+                                    {index === activeIndex && (<div className="program--vid__accordion--title__content">
+                                            <div onClick={() => programVideoClick(item.video,index)}
                                                  className="program--vid__accordion--title__content--videos">
                                                 <img src={item.image} alt=""/>
-
                                                 <div>
                                                     <p>{item.text}</p>
                                                     <span>{item.study}</span>
                                                 </div>
-
-
                                             </div>
-
-                                            <div onClick={()=>programVideoClick(item.video2,index)}
-
-
-                                            <div onClick={()=>setYoutube(item.video2)}
-
+                                            <div onClick={() => programVideoClick(item.video2,index)}
                                                  className="program--vid__accordion--title__content--videos">
                                                 <img src={item.image1} alt=""/>
                                                 <div>
                                                     <p>{item.text2}</p>
                                                     <span>{item.study}</span>
                                                 </div>
-
                                             </div>
-                                            <div onClick={()=>programVideoClick(item.video3,index)}
+                                            <div onClick={() => programVideoClick(item.video3,index)}
                                                  className="program--vid__accordion--title__content--videos">
                                                 <img src={item.image2} alt=""/>
                                                 <div>
                                                     <p>{item.text3}</p>
                                                     <span>{item.study}</span>
                                                 </div>
-
-
                                             </div>
                                         </div>
                                     )}
                                 </div>
                             ))}
                         </div>
-
                     </div>
                 </div>
             </div>
