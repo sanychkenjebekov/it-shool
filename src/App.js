@@ -42,6 +42,7 @@ import CSend from "./components/About-School/ All-Maps/c++send";
 import IosSend from "./components/About-School/iossend";
 import PythonSend from "./components/About-School/ All-Maps/pythonsend";
 import Program from "./pages/program course/program";
+import Comments from "./pages/person/comments/Comments";
 
 
 
@@ -49,10 +50,10 @@ import Program from "./pages/program course/program";
 
 
 function App() {
-  const {pathname} = useLocation()
-  useEffect(()=>{
-    window.scroll(0,0)
-  },[pathname])
+  // const {pathname} = useLocation()
+  // useEffect(()=>{
+  //   window.scroll(0,0)
+  // },[pathname])
   return (
       <div className="App">
         <Header/>
@@ -71,6 +72,7 @@ function App() {
           <Route path={'/cards'} element={<Cards/>}/>
           <Route path={'/личныеДанные'} element={<Dashboard/>}/>
           <Route path={'/follows'} element={<Follows/>}/>
+          <Route path={'/comments'} element={<Comments/>}/>
           <Route path={'/frCurse'} element={<FrBuy/>}/>
           <Route path={'/bkCurse'} element={<BackEnd/>}/>
           <Route path={'/uxuiCurse'} element={<UxUi/>}/>

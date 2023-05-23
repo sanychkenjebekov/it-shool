@@ -1,0 +1,102 @@
+#comment{
+  padding: 72px 0;
+  .comment{
+    &--text{
+      //padding: 25px 0;
+      a{
+        display: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #e7e4e4;
+
+        span{
+
+        }
+      }
+
+    }
+    &--every{
+      padding: 8px 0;
+      display: flex;
+      &__saydBar{
+        padding-top: 30px;
+        width: 350px;
+        height: 480px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img{
+          width: 92px;
+          height: 92px;
+        }
+        &--btn{
+          color: #FFFFFF;
+          background: #0272CE;
+          border-radius: 10px;
+          padding: 10px 22px;
+          width: 170px;
+          margin: 25px 0;
+        }
+        &--link{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          gap: 25px;
+          a{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 0.5px solid #9A9A9A ;
+            color: #000;
+          }
+
+        }
+      }
+
+      &__right{
+        padding: 0 40px;
+      }
+      &__one{
+        h1{
+          font-weight: 700;
+          font-size: 36px;
+          color: #FFFFFF;
+          padding-bottom: 30px;
+        }
+      }
+      &__status{
+        margin: 0 -3px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 40px;
+        &--card{
+          background: rgba(27, 41, 89, 0.4);
+          border-radius: 10px;
+          width: 700px;
+          height: 160px;
+          h2{
+            font-weight: 400;
+            font-size: 18px;
+            color: #FFFFFF;
+            text-align: left;
+            //padding: 15px 90px;
+            padding: 10px 20px;
+          }
+          h4{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: #626063;
+            text-align: left;
+            padding: 15px 20px;
+          }
+        }
+      }
+    }
+  }
+}
