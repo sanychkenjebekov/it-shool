@@ -37,7 +37,8 @@ const Follows = () => {
                 <input onChange={foto} className='file' type="file" style={{position:'absolute',margin:'154px 0 0 24px',opacity:'0'}}/>
                 <div className="follows">
                     <div className="follows--text">
-                        <a className='follows--text__color' href="#">Главная / </a>
+                        <a className='follows--text__color' href="#">
+                            Главная / </a>
                         <a href="#">Профиль /</a>
                         <a href="#"> Подписки</a>
                     </div>
@@ -51,11 +52,14 @@ const Follows = () => {
                                 <Link style={{color:'rgb(0 58 250)'}} to={'/follows'}><BsCreditCard2Back/>Подписки</Link>
                                 <Link to={'/comments'}><FaRegComment/>Комментарии</Link>
                                 <Link to={'#'}><BsBasket2/>Мои покупки</Link>
+                                <Link to={'#'}><FaRegComment/>Комментарии</Link>
+                                <Link to={'/mine'}><BsBasket2/>Мои покупки</Link>
                                 <Link to={'#'} onClick={vyhod}><AiOutlineExport/>Выйти</Link></div>
                         </div>
 
                         <div className="follows--every__right">
-                            <div className='follows--every__one'><h1>Подписки</h1></div>
+                            <div className='follows--every__one'>
+                                <h1>Подписки</h1></div>
 
                             <div className='follows--every__status'>
                                 <div className='follows--every__status--card'>
