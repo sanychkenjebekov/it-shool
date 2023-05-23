@@ -43,6 +43,8 @@ const Dashboard = () => {
                     <Link style={{color:'rgb(0 58 250)'}} to={'/личныеДанные'}><AiOutlineUser/>Личные данные</Link>
                     <Link to={'/cards'}><BsWallet2/>Платежные карты</Link>
                     <Link to={'/follows'}><BsCreditCard2Back/>Подписки</Link>
+                    <Link to={'/comments'}><FaRegComment/>Комментарии</Link>
+                    <Link to={'#'}><BsBasket2/>Мои покупки</Link>
                     <Link to={'#'}><FaRegComment/>Комментарии</Link>
                     <Link to={'/mine'}><BsBasket2/>Мои покупки</Link>
                     <Link to={'#'} onClick={vyhod}><AiOutlineExport/>Выйти</Link></div>

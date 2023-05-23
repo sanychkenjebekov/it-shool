@@ -73,6 +73,7 @@ function App() {
           <Route path={'/cards'} element={<Cards/>}/>
           <Route path={'/личныеДанные'} element={<Dashboard/>}/>
           <Route path={'/follows'} element={<Follows/>}/>
+          <Route path={'/comments'} element={<Comments/>}/>
           <Route path={'/mine'} element={<Mine/>}/>
           <Route path={'/comments'} element={<Comments/>}/>
 
