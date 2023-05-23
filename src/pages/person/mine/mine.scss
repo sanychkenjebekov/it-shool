@@ -1,0 +1,87 @@
+#mine{
+  padding: 72px 0;
+  .mine{
+    &--text{
+      //padding: 25px 0;
+      a{
+        display: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #e7e4e4;
+
+        span{
+
+        }
+      }
+
+    }
+    &--every{
+      padding: 8px 0;
+      display: flex;
+      &__saydBar{
+        padding-top: 30px;
+        width: 350px;
+        height: 480px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img{
+          width: 92px;
+          height: 92px;
+        }
+        &--btn{
+          color: #FFFFFF;
+          background: #0272CE;
+          border-radius: 10px;
+          padding: 10px 22px;
+          width: 170px;
+          margin: 25px 0;
+        }
+        &--link{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          gap: 25px;
+          a{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 0.5px solid #9A9A9A ;
+            color: #000;
+          }
+
+        }
+      }
+
+      &__right{
+        padding: 0 40px;
+      }
+      &__one{
+        h1{
+          font-weight: 700;
+          font-size: 36px;
+          color: #FFFFFF;
+          padding-bottom: 30px;
+        }
+      }
+      &__status{
+        margin: 0 -3px;
+        display: flex;
+        align-items: center;
+        //width: 600px;
+        justify-content: space-between;
+        &--card{
+          h2
+          {font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+            padding: 15px 90px;
+          }
+        }
+      }
+    }
+  }
+}

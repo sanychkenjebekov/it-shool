@@ -137,7 +137,7 @@ const Program = () => {
                         <div className="program--vid__accordion" style={{cursor:'pointer'}}>
                             {accordionData.map((item, index) => (
                                 <div key={index} className={`accordion-item ${activeIndex === index ?
-                                    <TfiArrowCircleUp/> : <TfiArrowCircleDown/>}`}
+                                   "active": ""}`}
                                      onClick={() => programClick(index)}>
                                     <div className="program--vid__accordion--title">{item.title}
                                         <span>{activeIndex === index ? <TfiArrowCircleUp/> :
