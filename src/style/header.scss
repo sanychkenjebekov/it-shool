@@ -1,4 +1,4 @@
-#header{
+#header {
   background: rgb(10, 17, 40);
   backdrop-filter: blur(22px);
   position: sticky;
@@ -8,42 +8,64 @@
   right: 0;
   bottom: 0;
   z-index: 5;
-  .header{
+
+  .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    .active{
-     color: #0272CE;
+
+    .active {
+      color: #0272CE;
     }
-    &--voitiAll{
+
+    &--voitiAll {
       display: none;
-    &__voiti{
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      .voitiIcon{
-        font-size: 30px;
-        color: #FFFFFF;
-      }
-      button{
-        border: 2px solid #034078;
-        border-radius: 10px;
-        padding: 10px 35px;
-        color: #FFFFFF;
-        font-family: 'Montserrat',sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        background: none;
+
+      &__voiti {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .voitiIcon {
+          font-size: 30px;
+          color: #FFFFFF;
+        }
+
+        button {
+          border: 2px solid #034078;
+          border-radius: 10px;
+          padding: 10px 35px;
+          color: #FFFFFF;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          background: none;
+        }
+        //.notific{
+        // display: flex;
+        //  color: #FFFFFF;
+        //  .p1{
+        //    position: absolute;
+        //    background: rgba(255, 0, 0, 0.8);
+        //    border-radius: 50%;
+        //    padding: 0 5px;
+        //    font-size: 12px;
+        //    margin: -5px 0 0 15px;
+        //    z-index: 0;
+        //  }
+        //}
       }
     }
-    }
-    &--logo{
+
+    &--logo {
       display: flex;
       align-items: center;
-      &__menu{
+
+      &__menu {
         margin-left: 80px;
-        a{
+
+        a {
           font-weight: 500;
           font-size: 17px;
           line-height: 20px;
@@ -52,14 +74,16 @@
         }
       }
     }
-    &--podpis{
-      a{
+
+    &--podpis {
+      a {
         font-weight: 500;
         font-size: 17px;
         line-height: 20px;
         color: #FFFFFF;
       }
-      button{
+
+      button {
         background: #034078;
         border-radius: 5px;
         font-weight: 500;
@@ -72,26 +96,30 @@
       }
     }
   }
-  .spans{
+
+  .spans {
     display: none;
     position: absolute;
     top: 28%;
     left: 90%;
     z-index: 9;
-    .p1{
+
+    .p1 {
       width: 35px;
       height: 3px;
       background: rgba(255, 255, 255, 0.85);
       margin: 5px 0;
       transition: .3s;
     }
-    .p2{
+
+    .p2 {
       width: 35px;
       height: 3px;
       background: rgba(255, 255, 255, 0.85);
       margin: 5px 0;
     }
-    .p3{
+
+    .p3 {
       width: 35px;
       height: 3px;
       background: rgba(255, 255, 255, 0.85);
@@ -99,52 +127,72 @@
       transition: .3s;
     }
   }
-  .burger{
+
+  .burger {
     display: none;
     position: fixed;
     top: 0;
     right: 0;
-border-radius: 10px 0 0 10px;
+    border-radius: 10px 0 0 10px;
     padding: 80px 40px;
     background: #002649;
-    &--menu{
+
+    &--menu {
       display: flex;
       flex-direction: column;
       gap: 15px;
-      a{
+
+      a {
         color: #FFFFFF;
         font-size: 16px;
         font-weight: 600;
       }
-      &__podpisAll{
-        &--podpis{
-        display: flex;
-        flex-direction: column;
-        button{
-          background: #034078;
-          border-radius: 5px;
-          color: #FFFFFF;
-          padding: 8px;
-          margin-top: 20px;
+
+      &__podpisAll {
+        &--podpis {
+          display: flex;
+          flex-direction: column;
+
+          button {
+            background: #034078;
+            border-radius: 5px;
+            color: #FFFFFF;
+            padding: 8px;
+            margin-top: 20px;
+          }
         }
-      }}
-      &__voitiAll{
+      }
+
+      &__voitiAll {
         display: none;
-        &--voiti{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        button{
-          background: #034078;
-          border-radius: 5px;
-          color: #FFFFFF;
-          padding: 8px;
-          margin-top: 20px;
+        &--voiti {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          button {
+            background: #034078;
+            border-radius: 5px;
+            color: #FFFFFF;
+            padding: 8px;
+            margin-top: 20px;
+          }
+
+          .voitiIcon {
+            font-size: 23px;
+          }
+          .notific::after{
+            display: none;
+            content: "1";
+            background: red;
+            color: #FFFFFF;
+            border-radius: 50%;
+            padding: 0 5px;
+            text-align: center;
+            font-size: 12px;
+            margin: 0 0 0 -5px;
+          }
         }
-        .voitiIcon{
-          font-size: 23px;
-        }
-      }}
+      }
     }
   }
 }
