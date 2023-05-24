@@ -2,19 +2,9 @@
   .container{
     width: 90%;
   }
-  #follows .vyhod {
-    left: 5% !important;
-    top: 86% !important;
-    padding: 30px 51px !important;
-    h3{
-      width: 194px !important;
-    }
-  }
+
   #follows .follows--saydBar{
     width: 300px;
-  }
-  #follows .follows--every__status{
-    margin: 0 -70px;
   }
 }
 
@@ -23,8 +13,8 @@
     width: 300px;
     //height: 480px;
   }
-  #follows .follows--every__right{
-    padding: 0 0;
+  #follows .follows--every__status {
+    gap: 210px;
   }
 }
 @media (max-width: 992px) {
@@ -35,11 +25,6 @@
   #follows .follows--every__right{
     padding: 50px 0;
   }
-  #follows .vyhod {
-    left: 30% !important;
-    top: 85% !important;
-    padding: 30px 52px !important;
-  }
   #follows .follows--every__one h1{
     text-align: center;
     padding: 15px 0;
@@ -49,29 +34,28 @@
   #follows .follows--big__about--cards{
     padding: 40px 32px 40px 30px;
   }
-  #follows .vyhod {
-    left: 26% !important;
-    top: 85% !important;
-    padding: 30px 53px !important;
-  }
 }
 @media (max-width: 644px) {
   #follows .follows--big__about{
     flex-direction: column;
     align-items: center;
   }
-  #follows .vyhod {
-    left: 22% !important;
-    top: 85% !important;
-    padding: 30px 53px !important;
+  #follows .file {
+    margin: 164px 0 0 138px !important;
+  }
+  #follows .follows--every__status--card h2 {
+    font-size: 16px;
+  }
+  #follows .follows--every__status {
+    gap: 200px;
   }
   #follows .follows--big__about--cards{
     margin: 20px 0;
   }
 }
 @media (max-width: 540px) {
-  #follows .follows--every__status{
-    width: 465px;
+  #follows .follows--every__status {
+    gap: 30px;
   }
   #follows .follows--every__one h1{
     font-size: 24px;
@@ -82,8 +66,6 @@
   #follows .follows--big__about--plus h3{
     font-size: 30px;
   }
-  #follows .vyhod {
-    left: 18% !important;}
   #follows .follows--every__status--card h2{
     padding: 15px 20px;
   }
@@ -95,15 +77,20 @@
   #follows .follows--every{
     align-items: center;
   }
-  #follows .vyhod {
-    left: 3% !important;
-    padding: 30px 52px !important;
+  #follows .file {
+    margin: 164px 0 0 46px !important;
+  }
+  #follows .follows--every__status {
+    gap: 38px;
+  }
+  #follows .follows--every__status--card h2 {
+    font-size: 14px;
+  }
+  #follows .follows--every__status--card h2 {
+    padding: 15px 0;
   }
   #follows .follows--saydBar{
     width: 300px;
-  }
-  #follows .follows--every__status{
-    width: 240px;
   }
   #follows .follows--big__about--cards{
     width: 190px;

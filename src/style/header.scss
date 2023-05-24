@@ -42,19 +42,16 @@
           line-height: 20px;
           background: none;
         }
-        //.notific{
-        // display: flex;
-        //  color: #FFFFFF;
-        //  .p1{
-        //    position: absolute;
-        //    background: rgba(255, 0, 0, 0.8);
-        //    border-radius: 50%;
-        //    padding: 0 5px;
-        //    font-size: 12px;
-        //    margin: -5px 0 0 15px;
-        //    z-index: 0;
-        //  }
-        //}
+        .p11{
+          color: #FFFFFF;
+          position: absolute;
+          background: rgba(255, 0, 0, 0.85);
+          border-radius: 50%;
+          padding: 0 5px;
+          font-size: 12px;
+          margin: -23px 0 0 13px;
+          display: none;
+        }
       }
     }
 
@@ -190,6 +187,16 @@
             text-align: center;
             font-size: 12px;
             margin: 0 0 0 -5px;
+          }
+          .p12{
+            color: #FFFFFF;
+            position: absolute;
+            background: rgba(255, 0, 0, 0.85);
+            border-radius: 50%;
+            padding: 0 4px;
+            font-size: 8px;
+            margin: -3px 0 0 13px;
+            display: none;
           }
         }
       }

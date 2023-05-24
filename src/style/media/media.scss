@@ -3,13 +3,18 @@
     width: 90%;
   }
   #karty .vyhod{
-    left: 5% !important;
-    top: 86% !important;
-    padding: 30px 51px !important;
+    margin: -781px 0px 0px 50px !important;
+    padding: 30px 52px !important;
+    h3{
+      width: 195px !important;
+    }
   }
-  #karty .vyhod {
-    top: 90% !important;
-    padding: 30px 51px !important;
+  #follows .vyhod{
+    margin: -689px 0px 0px 50px !important;
+    padding: 30px 52px !important;
+    h3{
+      width: 195px !important;
+    }
   }
   #packages .container .packages--packagesTop__packagesTop3 {
     width: 30%;
@@ -43,9 +48,11 @@
   }
   #dashboard{
     .vyhod{
-      left: 5% !important;
-      top: 86% !important;
+      margin: -152px 0px 0px 50px !important;
       padding: 30px 52px !important;
+      h3{
+        width: 195px !important;
+      }
     }
   }
   #dashboard .dashboard--saydBar {
@@ -100,6 +107,15 @@
   }
 }
 @media (max-width: 1024px) {
+  #dashboard .vyhod {
+    margin: -152px 0px 0px 48px !important;
+  }
+  #karty .vyhod {
+    margin: -152px 0px 0px 48px !important;
+  }
+  #follows .vyhod{
+    margin: -689px 0px 0px 48px !important;
+  }
   #packages .container .packages--packagesTop__packagesTop3 h1{
     font-size: 45px;
   }
@@ -138,6 +154,9 @@
 @media (max-width: 1024px) {
   #god .oplata{
     left: 35% !important;
+  }
+  #karty .vyhod {
+    margin: -782px 0px 0px 48px !important;
   }
   #Accor .accorFaq span{
     font-size: 16px !important;
@@ -181,11 +200,17 @@
   #packages .container .packages--packagesTop__packagesTop3 {
     width: 33%;
   }
+  #follows .vyhod {
+    margin: -1156px 0px 0px 233px !important;
+  }
+  #karty .vyhod {
+    margin: -1353px 0px 0px 232px !important;
+  }
   #karty .file{
-    margin: 154px 0 0 228px !important;
+    margin: 154px 0 0 273px !important;
   }
   #follows .file{
-    margin: 164px 0 0 227px !important;
+    margin: 164px 0 0 272px !important;
   }
   #packages .container .packages--packagesTop__packagesTop2 {
     width: 33%;
@@ -320,11 +345,12 @@
   }
   #dashboard{
     .file{
-      margin: 154px 0 0 238px !important;
+      margin: 154px 0 0 278px !important;
     }
   }
   #dashboard .vyhod {
-    left: 30% !important;}
+    margin: -624px 0px 0px 232px !important;
+  }
   #dashboard .dashboard {
     flex-direction: column;
     align-items: center;
@@ -534,6 +560,15 @@
   #header .header--voitiAll{
     display: none !important;
   }
+  #karty .file {
+    margin: 154px 0 0 214px !important;
+  }
+  #follows .vyhod {
+    margin: -1687px 0px 0px 169px !important;
+  }
+  #karty .vyhod {
+    margin: -1273px 0px 0px 169px !important;
+  }
   #packages .container .packages--packagesTop__packagesTop1 {
     width: 45% !important;
   }
@@ -572,11 +607,10 @@
     padding: 10px 40px !important;
   }
   #dashboard .file {
-    margin: 154px 0 0 181px !important;
+    margin: 154px 0 0 207px !important;
   }
   #dashboard .vyhod {
-    left: 26% !important;
-    padding: 30px 53px !important;
+    margin: -624px 0px 0px 168px !important;
   }
   #Home {
     padding: 10px 0 !important;
@@ -782,6 +816,12 @@ text-align: center !important;
     width: 90%;
     padding: 45px 50px 45px 10px;
   }
+  #follows .vyhod {
+    margin: -1687px 0px 0px 119px !important;
+  }
+  #karty .vyhod {
+    margin: -1266px 0px 0px 119px !important;
+  }
   #karty .file {
     margin: 154px 0 0 135px !important;
   }
@@ -845,10 +885,10 @@ text-align: center !important;
     height: 215px !important;
   }
   #dashboard .file {
-    margin: 154px 0 0 135px !important;
+    margin: 154px 0 0 160px !important;
   }
   #dashboard .vyhod {
-    left: 22% !important;
+    margin: -985px 0px 0px 119px !important;
   }
   #dashboard .personaldata .wrapper {
     flex-direction: column !important;
@@ -886,6 +926,12 @@ text-align: center !important;
     font-size: 25px !important;
     padding: 40px 0 30px 0 !important;
   }
+  #follows .vyhod {
+    margin: -1666px 0px 0px 89px !important;
+  }
+  #karty .vyhod {
+    margin: -1256px 0px 0px 89px !important;
+  }
   #follows .file {
     margin: 164px 0 0 108px !important;
   }
@@ -912,7 +958,7 @@ text-align: center !important;
     margin: 154px 0 0 109px !important;
   }
   #dashboard .vyhod {
-    left: 18% !important;
+    margin: -985px 0px 0px 89px !important;
   }
   #god .oplata {
     left: 20% !important;
@@ -993,11 +1039,17 @@ text-align: center !important;
   #courses .container .courses a {
     width: 35%;
   }
+  #follows .vyhod {
+    margin: -1667px 0px 0px 9px !important;
+  }
+  #karty .vyhod {
+    margin: -1195px 0px 0px 9px !important;
+  }
   #karty .file {
-    margin: 154px 0 0 40px !important;
+    margin: 154px 0 0 67px !important;
   }
   #follows .file {
-    margin: 164px 0 0 31px !important;
+    margin: 164px 0 0 67px !important;
   }
   #courses .container h2 {
     font-size: 28px !important;
@@ -1080,11 +1132,10 @@ text-align: center !important;
     font-size: 10px;
   }
   #dashboard .file {
-    margin: 154px 0 0 37px !important;
+    margin: 154px 0 0 61px !important;
   }
   #dashboard .vyhod {
-    left: 3% !important;
-    padding: 30px 51px !important;
+    margin: -985px 0px 0px 9px !important;
   }
   #uvedomlenie .uvedomlenie p {
     font-size: 13px !important;
@@ -1097,6 +1148,10 @@ text-align: center !important;
   }
   #uvedomlenie .uvedomlenie--card h4 {
     font-size: 14px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 13px;
   }
   #uvedomlenie .uvedomlenie--card {
     margin: 40px 0 30px 0;

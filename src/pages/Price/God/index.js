@@ -6,6 +6,8 @@ import {LoginContext} from "../../../Context";
 const God = () => {
     const {setNotification} = useContext(LoginContext)
     const {setNotific} = useContext(LoginContext)
+    const {setNotific2} = useContext(LoginContext)
+    const {setNotificRed} = useContext(LoginContext)
     const oplata = (e) => {
         const oplata = document.querySelector('.oplata')
         const bg = document.querySelector('.bg')
@@ -50,7 +52,9 @@ const God = () => {
                 oplata.style.display='none'
                 bg.style.display='none'
             },3000)
-            setNotific(true)
+            setNotificRed(true)
+            setNotific('Год')
+            setNotific2('220.00')
             setNotification('Вы оформили подписку пакет “год”')
         }
         i1.value = ''
