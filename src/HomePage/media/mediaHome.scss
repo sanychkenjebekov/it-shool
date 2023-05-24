@@ -58,6 +58,9 @@
   #Article .article--blocks {
     gap: 50px !important;
   }
+  #Application .application {
+    align-items: center !important;
+  }
   #Accor .accor{
     flex-direction: column;
     align-items: center !important;
@@ -117,6 +120,9 @@
 @media (max-width: 768px) {
   #Article .article--btn button {
     font-size: 16px !important;
+  }
+  #Article .article--blocks {
+    gap: 10px !important;
   }
   #Article .article--follow__left p {
     width: 376px !important;
