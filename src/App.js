@@ -1,7 +1,7 @@
 import './App.scss';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import {Route, Routes, useLocation} from "react-router-dom";
+import {Route, Router, Routes, useLocation} from "react-router-dom";
 import God from "./pages/Price/God";
 import Page from "./pages/Courses/page/Page";
 import Month from "./pages/Price/Month";
@@ -41,7 +41,7 @@ import JavaSend from "./components/About-School/javasend/imdex";
 import CSend from "./components/About-School/ All-Maps/c++send";
 import IosSend from "./components/About-School/iossend";
 import PythonSend from "./components/About-School/ All-Maps/pythonsend";
-import Program from "./pages/program course/program";
+
 
 
 
@@ -80,20 +80,12 @@ function App() {
           <Route path={'/c++Curse'} element={<CDev/>}/>
           <Route path={'/iosCurse'} element={<Ios/>}/>
           <Route path={'/pythonCurse'} element={<Python/>}/>
-
-
-
-
-
-
           <Route path={'/allCard'} element={<AllMaps/>}/>
           <Route path={'/register'} element={<RegisterCourse/>}/>
             <Route path={'/more'} element={<More/>}/>
             <Route path={'/reactiv'} element={<JavaRu/>}/>
             <Route path={'/reactiv/details'} element={<Reactivity/>}/>
             <Route path={'/master'} element={<Master2/>}/>
-
-
             <Route path={'/frRegistration'} element={<RegisterCourse/>}/>
           <Route path={'/bkRegistration'} element={<BackSend/>}/>
           <Route path={'/uxuiRegistration'} element={<UxUiSend/>}/>
@@ -103,8 +95,6 @@ function App() {
           <Route path={'/c++Registration'} element={<CSend/>}/>
           <Route path={'/iosRegistration'} element={<IosSend/>}/>
           <Route path={'/pythonRegistration'} element={<PythonSend/>}/>
-
-
           <Route path={'/оНас'} element={<AboutUs/>}/>
             <Route path={'/нашиКурсы'} element={<AllMaps/>}/>
             <Route path={'/front'} element={<Front/>}/>

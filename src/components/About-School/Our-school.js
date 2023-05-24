@@ -3,7 +3,6 @@ import Android from "../../img/Android.png"
 import Courses from "./Courses";
 import MasterClasses from "./Master-classes";
 import Packages from "./Packages";
-import ReviewsSchool from "./Reviews-school";
 import Swiper from "./Swiper";
 import Otzyvy from "../../pages/aboutUs/otzyvy";
 

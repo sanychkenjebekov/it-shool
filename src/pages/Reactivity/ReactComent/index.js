@@ -1,12 +1,15 @@
-import React, {useContext} from 'react';
+import React, {useContext, useEffect} from 'react';
 import {LoginContext} from "../../../Context";
 
 
 const ReactComent = () => {
+    const {smsValue} = useContext(LoginContext)
+    const {setSmsValue} = useContext(LoginContext)
     const {login} = useContext(LoginContext)
     const textarea = () => {
         const tx = document.querySelector('textarea')
         const sms = document.querySelector('.reactComent--sms')
+        setSmsValue(tx.value)
         sms.innerHTML += `<div class="reactComent--sms__card">
 <h3>${login}</h3>
 <p>${tx.value}</p>
@@ -35,7 +38,9 @@ const ReactComent = () => {
         })
     }
 
+    useEffect(()=>{
 
+    },[smsValue])
     return (
         <div id='reactComent'>
             <div className="container">
