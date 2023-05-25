@@ -560,6 +560,9 @@
   #header .header--voitiAll{
     display: none !important;
   }
+  #header .header--podpis{
+    display: none !important;
+  }
   #karty .file {
     margin: 154px 0 0 214px !important;
   }
@@ -1039,6 +1042,10 @@ text-align: center !important;
   #courses .container .courses a {
     width: 35%;
   }
+  #frBuy .skils--result__btn {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
   #follows .vyhod {
     margin: -1667px 0px 0px 9px !important;
   }
@@ -1271,6 +1278,7 @@ text-align: center !important;
   }
   #frBuy .skils--obuchenie__all {
     justify-content: center !important;
+    align-items: center !important;
     gap: 60px !important;
   }
   #frBuy .skils--otzyv h1 {
